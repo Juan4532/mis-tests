@@ -15,6 +15,8 @@ const FORMAT_ID = 'tests-stack';
 const MAX_VERSION = 1;     // versión máxima del formato que entendemos
 const MAX_ROUNDS = 10;     // tope de seguridad de rondas de repaso
 const SCHEMA_VERSION = 1;  // versión de la estructura interna de almacenamiento
+const CATALOG_DIR = 'tests/';                       // carpeta del repo con stacks listos
+const CATALOG_MANIFEST = CATALOG_DIR + 'manifest.json';
 
 const app = document.getElementById('app');
 
@@ -215,6 +217,66 @@ function validateStack(obj) {
   return { ok: true, stack: stack, warnings: warnings };
 }
 
+/* ---------- Catálogo (stacks de la carpeta tests/ del repo) ---------- */
+// id estable por archivo: recargar actualiza en vez de duplicar, y conserva su historial.
+function catalogId(file) { return 'cat-' + slugify(String(file).replace(/\.json$/i, '')); }
+
+function fetchCatalogStack(file) {
+  return fetch(CATALOG_DIR + encodeURIComponent(file), { cache: 'no-store' }).then(res => {
+    if (!res.ok) throw new Error('No se pudo descargar (HTTP ' + res.status + ')');
+    return res.text();
+  }).then(text => {
+    const parsed = parseAndValidate(text);
+    if (!parsed.ok) throw new Error(parsed.error || 'Stack inválido.');
+    parsed.stack.id = catalogId(file);
+    parsed.stack.source = 'catalog';
+    parsed.stack.file = file;
+    return parsed.stack;
+  });
+}
+
+function loadCatalogStack(file, then) {
+  fetchCatalogStack(file).then(stack => {
+    const stacks = getStacks();
+    stacks[stack.id] = stack;
+    if (!setStacks(stacks)) return;
+    if (then === 'start') startQuiz(stack.id); else showHome();
+  }).catch(e => alert('No se pudo cargar del catálogo: ' + e.message));
+}
+
+// Rellena (async) la sección de catálogo en el inicio. Si no hay manifest (p.ej. abierto
+// con file://) simplemente no se muestra nada: el resto de la app funciona igual.
+function renderCatalog() {
+  const sec = document.getElementById('catalog-section');
+  if (!sec) return;
+  if (typeof fetch === 'undefined') { sec.innerHTML = ''; return; }
+  fetch(CATALOG_MANIFEST, { cache: 'no-store' })
+    .then(r => (r.ok ? r.json() : null))
+    .then(man => {
+      if (!man || !Array.isArray(man.stacks) || man.stacks.length === 0) { sec.innerHTML = ''; return; }
+      const stacks = getStacks();
+      let html = '<h3 class="section-title">Catálogo <span class="muted" style="font-weight:400">· carpeta tests/</span></h3><div class="cards">';
+      man.stacks.forEach(s => {
+        const loaded = !!stacks[catalogId(s.file)];
+        html += '<div class="card">' +
+          '<h3>' + escapeHtml(s.title || s.file) + ' <span class="chip">catálogo</span></h3>' +
+          (s.description ? '<p class="muted">' + escapeHtml(s.description) + '</p>' : '') +
+          '<p class="meta">' + (s.count != null ? s.count : '?') + ' preguntas' + (loaded ? ' · ya cargado' : '') + '</p>' +
+          '<div class="card-actions">' +
+            (loaded
+              ? '<button class="btn primary" data-cat-start="' + escapeHtml(s.file) + '" type="button">Comenzar</button>' +
+                '<button class="btn" data-cat-load="' + escapeHtml(s.file) + '" type="button">Recargar</button>'
+              : '<button class="btn primary" data-cat-load="' + escapeHtml(s.file) + '" type="button">Cargar</button>') +
+          '</div></div>';
+      });
+      html += '</div>';
+      sec.innerHTML = html;
+      sec.querySelectorAll('[data-cat-load]').forEach(b => b.onclick = () => loadCatalogStack(b.getAttribute('data-cat-load'), 'home'));
+      sec.querySelectorAll('[data-cat-start]').forEach(b => b.onclick = () => startQuiz(catalogId(b.getAttribute('data-cat-start'))));
+    })
+    .catch(() => { sec.innerHTML = ''; });
+}
+
 /* ---------- Vista: Inicio (lista de stacks) ---------- */
 function showHome() {
   session = null;
@@ -223,12 +285,14 @@ function showHome() {
   const ids = Object.keys(stacks).sort((a, b) => (stacks[b].importedAt || 0) - (stacks[a].importedAt || 0));
 
   let html = '<section class="view">';
-  html += '<div class="view-head"><h2>Mis tests</h2>' +
+  html += '<div class="view-head"><h2>Inicio</h2>' +
           '<button class="btn primary" id="btn-import" type="button">+ Importar stack</button></div>';
+  html += '<div id="catalog-section"></div>';
+  html += '<h3 class="section-title">Mis tests</h3>';
 
   if (ids.length === 0) {
-    html += '<div class="empty">No hay tests todavía. Pulsa <strong>Importar stack</strong> para añadir uno ' +
-            '(o prueba con <code>ejemplo.json</code>).</div>';
+    html += '<div class="empty">Aún no has guardado ningún test aquí. Cárgalos desde el <strong>Catálogo</strong>, ' +
+            'pulsa <strong>Importar stack</strong>, o prueba con <code>ejemplo.json</code>.</div>';
   } else {
     html += '<div class="cards">';
     ids.forEach(id => {
@@ -236,7 +300,7 @@ function showHome() {
       const attempts = history[id] || [];
       const best = attempts.reduce((m, a) => Math.max(m, a.pct || 0), 0);
       html += '<div class="card">' +
-        '<h3>' + escapeHtml(s.title) + '</h3>' +
+        '<h3>' + escapeHtml(s.title) + (s.source === 'catalog' ? ' <span class="chip">catálogo</span>' : '') + '</h3>' +
         (s.description ? '<p class="muted">' + escapeHtml(s.description) + '</p>' : '') +
         '<p class="meta">' + s.questionCount + ' preguntas · ' + attempts.length + ' intento(s)' +
           (attempts.length ? ' · mejor ' + best + '%' : '') + '</p>' +
@@ -257,6 +321,8 @@ function showHome() {
   app.querySelectorAll('[data-detail]').forEach(b => b.onclick = () => showStackDetail(b.getAttribute('data-detail')));
   app.querySelectorAll('[data-export]').forEach(b => b.onclick = () => exportStack(b.getAttribute('data-export')));
   app.querySelectorAll('[data-delete]').forEach(b => b.onclick = () => deleteStack(b.getAttribute('data-delete')));
+
+  renderCatalog();
 }
 
 /* ---------- Vista: Importar ---------- */

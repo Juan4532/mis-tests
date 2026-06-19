@@ -24,6 +24,33 @@ Pensada para alojarse tal cual en **GitHub Pages**. Todo se guarda en `localStor
 2. Pulsa **+ Importar stack** y pega el JSON (o sube un `.json`). Puedes probar con `ejemplo.json`.
 3. Pulsa **Comenzar** y responde. Al final verás los resultados; desde ahí puedes **Repetir test**.
 
+## Catálogo: tests dentro de la carpeta `tests/`
+
+Además de importar a mano, puedes dejar tus `.json` en la carpeta **`tests/`** del repositorio
+y aparecerán en la web en la sección **Catálogo**, listos para cargar con un clic (cada uno guarda
+su propio historial).
+
+Flujo para añadir un test al catálogo:
+
+1. Genera el JSON con la IA (ver el prompt más abajo) y guárdalo en `tests/mi-test.json`.
+2. Súbelo:
+   ```bash
+   git add tests/
+   git commit -m "Nuevo test"
+   git push
+   ```
+3. Una GitHub Action (`.github/workflows/manifest.yml`) regenera `tests/manifest.json` automáticamente
+   y, en ~1 min, el test aparece en la web.
+
+¿Prefieres no esperar a la Action? Regenera el índice tú mismo antes de subir:
+```bash
+node scripts/build-manifest.js
+```
+
+> El catálogo se lee con `fetch`, así que se ve en la web (GitHub Pages) o sirviendo la carpeta con un
+> servidor local (`python3 -m http.server`). Abriendo el `index.html` directamente con `file://` el
+> navegador bloquea esas peticiones: ahí usa **Importar stack**. La importación manual funciona siempre.
+
 ## Desplegar en GitHub Pages
 
 1. Crea un repositorio en GitHub y sube estos archivos (`index.html`, `style.css`, `app.js`, `.nojekyll`, y opcionalmente `ejemplo.json` y este `README.md`) a la raíz.

@@ -1,0 +1,12 @@
+{
+  "format": "tests-manifest",
+  "version": 1,
+  "stacks": [
+    {
+      "file": "tests_tema3_generos_liricos.json",
+      "title": "Géneros literarios líricos (tema 3)",
+      "description": "Test de repaso del tema 3: teoría del poema, métrica y panorama histórico de los géneros líricos.",
+      "count": 20
+    }
+  ]
+}

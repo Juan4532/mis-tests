@@ -1,0 +1,225 @@
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Géneros literarios líricos (tema 3)",
+  "description": "Test de repaso del tema 3: teoría del poema, métrica y panorama histórico de los géneros líricos.",
+  "questions": [
+    {
+      "text": "Decir hoy «poesía lírica» es una redundancia porque…",
+      "category": "teoria",
+      "options": [
+        { "text": "la lírica se escribe siempre en verso", "correct": false },
+        { "text": "el término «poesía» quedó reducido a la lírica", "correct": true },
+        { "text": "toda poesía es necesariamente ficción", "correct": false },
+        { "text": "la lírica es el género más antiguo", "correct": false }
+      ],
+      "explanation": "Con el tiempo «poesía» pasó a equivaler a literatura y luego quedó restringido a la poesía lírica."
+    },
+    {
+      "text": "Según Kurt Spang, la lírica es también una ficción, como la narrativa y la dramática.",
+      "category": "teoria",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Spang define la lírica como arte verbal y ficción que expresa estéticamente una interpretación del hombre y el mundo."
+    },
+    {
+      "text": "¿Cuál de estas NO es una de las tres dimensiones de Morris con las que se analiza el poema?",
+      "category": "teoria",
+      "options": [
+        { "text": "pragmática", "correct": false },
+        { "text": "semántica", "correct": false },
+        { "text": "retórica", "correct": true },
+        { "text": "sintáctica", "correct": false }
+      ],
+      "explanation": "Morris distingue las dimensiones pragmática (comunicativa), semántica y sintáctica."
+    },
+    {
+      "text": "En el poema, el sujeto que habla…",
+      "category": "teoria",
+      "options": [
+        { "text": "es siempre el autor biográfico que firma el texto", "correct": false },
+        { "text": "no existe, porque la lírica no comunica", "correct": false },
+        { "text": "es una voz construida por el autor, no su yo biográfico", "correct": true },
+        { "text": "coincide siempre con el lector", "correct": false }
+      ],
+      "explanation": "El yo del poema es una voz creada por el autor, que no debe identificarse con el sujeto biográfico."
+    },
+    {
+      "text": "¿Cuáles de estos rasgos de la lírica tienen que ver con la actitud poética y no con la manifestación textual? (varias respuestas)",
+      "category": "teoria",
+      "options": [
+        { "text": "la interiorización o subjetivación del discurso", "correct": true },
+        { "text": "la ausencia de una historia o trama", "correct": true },
+        { "text": "el ritmo y la musicalidad del verso", "correct": false },
+        { "text": "la profundización en un solo aspecto", "correct": true },
+        { "text": "la versificación", "correct": false }
+      ],
+      "explanation": "Los tres primeros rasgos de Spang corresponden a la actitud poética; ritmo, musicalidad y versificación son ya manifestación textual."
+    },
+    {
+      "text": "Según Tomachevski, la poesía lírica es una obra…",
+      "category": "teoria",
+      "options": [
+        { "text": "con fábula, como el cuento y la novela", "correct": false },
+        { "text": "sin fábula, sin nexo causal-temporal entre sus elementos", "correct": true },
+        { "text": "de uso repetido", "correct": false },
+        { "text": "exclusivamente dramática", "correct": false }
+      ],
+      "explanation": "Las obras sin fábula (lírica, descriptiva) carecen del nexo causal-temporal propio del cuento, la novela o la épica."
+    },
+    {
+      "text": "Dentro de la métrica, ¿qué es el metro?",
+      "category": "metrica",
+      "options": [
+        { "text": "cualquier repetición de sonidos en un texto", "correct": false },
+        { "text": "la pauta o código cultural con que percibimos y regulamos el ritmo", "correct": true },
+        { "text": "un sinónimo exacto de ritmo", "correct": false },
+        { "text": "un fenómeno exclusivo de la música", "correct": false }
+      ],
+      "explanation": "El ritmo es la secuenciación de impresiones; el metro es el sistema convencional con que se percibe y regula en el lenguaje."
+    },
+    {
+      "text": "El sistema de versificación del español se basa fundamentalmente en…",
+      "category": "metrica",
+      "options": [
+        { "text": "la duración de vocales largas y breves, como el latín", "correct": false },
+        { "text": "el tono, como el chino", "correct": false },
+        { "text": "el acento de intensidad y el número de sílabas", "correct": true },
+        { "text": "únicamente la rima", "correct": false }
+      ],
+      "explanation": "En español cuentan el acento de intensidad, el número de sílabas, la entonación y la rima."
+    },
+    {
+      "text": "¿Cuáles de los siguientes son licencias métricas que alteran el cómputo de sílabas? (varias respuestas)",
+      "category": "metrica",
+      "options": [
+        { "text": "sinalefa", "correct": true },
+        { "text": "sinéresis", "correct": true },
+        { "text": "cesura", "correct": false },
+        { "text": "diéresis", "correct": true },
+        { "text": "encabalgamiento", "correct": false }
+      ],
+      "explanation": "Sinalefa, sinéresis, diéresis e hiato modifican el cómputo silábico; cesura y encabalgamiento son fenómenos del verso, no licencias silábicas."
+    },
+    {
+      "text": "La sinalefa consiste en…",
+      "category": "metrica",
+      "options": [
+        { "text": "contar como una sola sílaba la vocal final de una palabra y la inicial de la siguiente", "correct": true },
+        { "text": "separar en dos sílabas un diptongo interior", "correct": false },
+        { "text": "no enlazar dos vocales contiguas entre palabras", "correct": false },
+        { "text": "añadir una sílaba cuando el verso acaba en palabra aguda", "correct": false }
+      ],
+      "explanation": "La sinalefa funde en una sílaba la vocal final de una palabra con la inicial de la siguiente; separar un diptongo es la diéresis."
+    },
+    {
+      "text": "Cuando un verso español termina en palabra aguda, se cuenta una sílaba menos.",
+      "category": "metrica",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "El verso que acaba en aguda cuenta una sílaba más; el que acaba en esdrújula, una menos."
+    },
+    {
+      "text": "El encabalgamiento se produce cuando…",
+      "category": "metrica",
+      "options": [
+        { "text": "dos versos consecutivos riman en consonante", "correct": false },
+        { "text": "no coinciden la pausa sintáctica y la pausa métrica", "correct": true },
+        { "text": "el verso supera las once sílabas", "correct": false },
+        { "text": "se desplaza un acento léxico para servir al ritmo", "correct": false }
+      ],
+      "explanation": "La unidad sintáctica se prolonga más allá del final del verso; puede ser suave o abrupto."
+    },
+    {
+      "text": "Que el soneto sea ante todo un «género métrico» significa que…",
+      "category": "metrica",
+      "options": [
+        { "text": "solo puede tratar el tema amoroso", "correct": false },
+        { "text": "su rasgo decisivo es la estructura métrica y puede servir a varios géneros poéticos", "correct": true },
+        { "text": "no puede emplearse en la poesía culta", "correct": false },
+        { "text": "equivale a un poema en prosa", "correct": false }
+      ],
+      "explanation": "Un género métrico puede servir a varios géneros poéticos, y un género poético puede usar varios géneros métricos."
+    },
+    {
+      "text": "La jarcha se caracteriza por…",
+      "category": "historia",
+      "options": [
+        { "text": "una voz masculina de amor cortés", "correct": false },
+        { "text": "ser un poema narrativo de origen germánico", "correct": false },
+        { "text": "una voz femenina amorosa, escrita como remate de la moaxaja", "correct": true },
+        { "text": "un tono satírico y burlesco", "correct": false }
+      ],
+      "explanation": "La jarcha es una breve composición de voz femenina, situada al final de la moaxaja entre los siglos X y XI."
+    },
+    {
+      "text": "La elegía es una composición lírica caracterizada sobre todo por…",
+      "category": "historia",
+      "options": [
+        { "text": "el lamento y la melancolía, a menudo por la muerte de un ser querido", "correct": true },
+        { "text": "la alabanza solemne a una divinidad", "correct": false },
+        { "text": "el ingenio breve y el cierre sorprendente", "correct": false },
+        { "text": "el diálogo entre pastores en un ambiente campestre", "correct": false }
+      ],
+      "explanation": "Más que un tema fijo, define la elegía el sentimiento de dolor y melancolía; las otras opciones describen himno, epigrama y égloga."
+    },
+    {
+      "text": "El epigrama alcanzó su forma más característica con…",
+      "category": "historia",
+      "options": [
+        { "text": "Píndaro", "correct": false },
+        { "text": "Virgilio", "correct": false },
+        { "text": "Marcial", "correct": true },
+        { "text": "Anacreonte", "correct": false }
+      ],
+      "explanation": "El hispanorromano Marcial cultivó el epigrama en exclusiva y fijó sus rasgos: brevedad, ingenio y cierre sorprendente."
+    },
+    {
+      "text": "En la historia del poema en prosa, la figura que le da estatuto definitivo es…",
+      "category": "historia",
+      "options": [
+        { "text": "Guillaume Apollinaire", "correct": false },
+        { "text": "Charles Baudelaire", "correct": true },
+        { "text": "Novalis", "correct": false },
+        { "text": "Gutierre de Cetina", "correct": false }
+      ],
+      "explanation": "Con sus «Pequeños poemas en prosa» Baudelaire consolida el género, ligado al mundo urbano; Apollinaire se asocia al caligrama."
+    },
+    {
+      "text": "¿Cuáles de estos géneros líricos son de origen árabe o andalusí? (varias respuestas)",
+      "category": "historia",
+      "options": [
+        { "text": "casida", "correct": true },
+        { "text": "madrigal", "correct": false },
+        { "text": "gacela", "correct": true },
+        { "text": "zéjel", "correct": true },
+        { "text": "epigrama", "correct": false }
+      ],
+      "explanation": "Casida y gacela son árabe-persas, y la moaxaja y el zéjel nacen en Al-Ándalus; el madrigal es italiano y el epigrama, grecolatino."
+    },
+    {
+      "text": "La cantiga de amigo es…",
+      "category": "historia",
+      "options": [
+        { "text": "una composición provenzal de voz masculina cortés", "correct": false },
+        { "text": "una composición gallego-portuguesa de voz femenina y base tradicional", "correct": true },
+        { "text": "un poema satírico latino", "correct": false },
+        { "text": "un género métrico de origen italiano", "correct": false }
+      ],
+      "explanation": "La cantiga de amigo es lírica gallego-portuguesa de base tradicional, con estribillo y voz femenina enamorada."
+    },
+    {
+      "text": "El soneto se considera únicamente un género métrico y nunca un género poético.",
+      "category": "historia",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "El soneto es a la vez un género métrico y, en cierto modo, un género poético, por las temáticas y el desarrollo que suele presentar."
+    }
+  ]
+}

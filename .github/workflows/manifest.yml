@@ -1,0 +1,42 @@
+name: Regenerar catálogo
+
+# Cada vez que cambian los archivos de tests/, regenera tests/manifest.json
+# (la lista que lee la web) y lo vuelve a commitear. Así basta con añadir un
+# .json a la carpeta y hacer push: el catálogo se actualiza solo.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tests/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manifest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  manifest:
+    # Evita el bucle: ignora los commits que hace el propio bot.
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Generar manifest
+        run: node scripts/build-manifest.js
+      - name: Commit si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- tests/manifest.json; then
+            git add tests/manifest.json
+            git commit -m "Regenerar manifest del catálogo [skip ci]"
+            git push
+          else
+            echo "El manifest ya estaba al día."
+          fi

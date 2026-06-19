@@ -1,0 +1,81 @@
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Cultura general (ejemplo)",
+  "description": "Stack de ejemplo para probar la app: incluye respuesta única, varias respuestas y verdadero/falso.",
+  "questions": [
+    {
+      "text": "¿Cuál es la capital de Australia?",
+      "category": "geografia",
+      "options": [
+        { "text": "Sídney", "correct": false },
+        { "text": "Canberra", "correct": true },
+        { "text": "Melbourne", "correct": false },
+        { "text": "Perth", "correct": false }
+      ],
+      "explanation": "Aunque Sídney y Melbourne son más conocidas, la capital de Australia es Canberra."
+    },
+    {
+      "text": "¿Qué planeta es el más grande del sistema solar?",
+      "category": "ciencia",
+      "options": [
+        { "text": "Saturno", "correct": false },
+        { "text": "Júpiter", "correct": true },
+        { "text": "La Tierra", "correct": false },
+        { "text": "Neptuno", "correct": false }
+      ],
+      "explanation": "Júpiter es el planeta de mayor masa y diámetro del sistema solar."
+    },
+    {
+      "text": "¿Cuáles de los siguientes países están en Sudamérica? (varias respuestas)",
+      "category": "geografia",
+      "options": [
+        { "text": "Perú", "correct": true },
+        { "text": "Colombia", "correct": true },
+        { "text": "México", "correct": false },
+        { "text": "España", "correct": false }
+      ],
+      "explanation": "Perú y Colombia están en Sudamérica; México está en Norteamérica y España en Europa."
+    },
+    {
+      "text": "El agua hierve a 100 °C a nivel del mar.",
+      "category": "ciencia",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "A presión de 1 atmósfera (nivel del mar) el agua hierve a 100 °C."
+    },
+    {
+      "text": "¿En qué año pisó el ser humano la Luna por primera vez?",
+      "category": "historia",
+      "options": [
+        { "text": "1959", "correct": false },
+        { "text": "1965", "correct": false },
+        { "text": "1969", "correct": true },
+        { "text": "1972", "correct": false }
+      ],
+      "explanation": "La misión Apolo 11 alunizó el 20 de julio de 1969."
+    },
+    {
+      "text": "¿Cuáles de estos elementos son gases nobles? (varias respuestas)",
+      "category": "ciencia",
+      "options": [
+        { "text": "Helio", "correct": true },
+        { "text": "Neón", "correct": true },
+        { "text": "Oxígeno", "correct": false },
+        { "text": "Hidrógeno", "correct": false }
+      ],
+      "explanation": "El helio y el neón son gases nobles; el oxígeno y el hidrógeno no lo son."
+    },
+    {
+      "text": "La Segunda Guerra Mundial terminó en 1945.",
+      "category": "historia",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "La guerra terminó en 1945, con la rendición de Alemania en mayo y la de Japón en septiembre."
+    }
+  ]
+}

@@ -120,6 +120,31 @@ code { background: #eef0f3; padding: 1px 5px; border-radius: 5px; font-size: 13p
 }
 
 /* ----- Importar ----- */
+.ai-help {
+  background: #f0f4ff;
+  border: 1px solid #d6e0ff;
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-top: 16px;
+}
+.ai-help-head { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: space-between; }
+.ai-help-head span { font-size: 14px; flex: 1; min-width: 220px; }
+.ai-help-head .btn { flex: none; }
+.ai-prompt-details { margin-top: 12px; }
+.ai-prompt-details summary { cursor: pointer; font-size: 14px; font-weight: 600; color: var(--primary); }
+.ai-prompt-details pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  max-height: 320px;
+  overflow: auto;
+}
 .import-box { display: flex; flex-direction: column; gap: 16px; margin-top: 16px; }
 .field { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 14px; }
 .field input[type=file] { font-weight: 400; }

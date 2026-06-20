@@ -18,6 +18,55 @@ const SCHEMA_VERSION = 1;  // versión de la estructura interna de almacenamient
 const CATALOG_DIR = 'tests/';                       // carpeta del repo con stacks listos
 const CATALOG_MANIFEST = CATALOG_DIR + 'manifest.json';
 
+/* Prompt listo para pegar en otro chat de IA y que genere un stack en el formato correcto. */
+const AI_PROMPT = `Necesito que generes un "stack" de preguntas tipo test en formato JSON. Sigue EXACTAMENTE estas reglas y devuelve ÚNICAMENTE el JSON, sin texto antes ni después, sin bloques de código markdown y sin comentarios.
+
+TEMA: [ESCRIBE AQUÍ EL TEMA, p.ej. "Historia de Roma: república y primeros emperadores"]
+NÚMERO DE PREGUNTAS: [ESCRIBE AQUÍ, p.ej. 20]
+IDIOMA: español
+
+ESTRUCTURA OBLIGATORIA (copia esta forma EXACTA):
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Título corto del tema",
+  "description": "Una frase describiendo el stack.",
+  "questions": [
+    {
+      "text": "¿Enunciado de la pregunta?",
+      "category": "categoria-corta",
+      "options": [
+        { "text": "Opción A", "correct": false },
+        { "text": "Opción B", "correct": true },
+        { "text": "Opción C", "correct": false },
+        { "text": "Opción D", "correct": false }
+      ],
+      "explanation": "Breve explicación de por qué la respuesta correcta lo es."
+    }
+  ]
+}
+
+REGLAS ESTRICTAS (cúmplelas TODAS):
+1. "format" debe ser literalmente "tests-stack" y "version" debe ser el número 1 (sin comillas).
+2. La respuesta correcta se indica SOLO con "correct": true dentro de la propia opción. NO uses índices, ni letras (A, B, C), ni un campo "answer" aparte. NUNCA escribas cuál es la correcta fuera de la opción. Esto es lo más importante: así nunca te equivocas contando.
+3. En cada pregunta debe haber AL MENOS una opción con "correct": true:
+   - Una sola respuesta: EXACTAMENTE una opción con "correct": true; las demás false.
+   - Varias respuestas: DOS O MÁS opciones con "correct": true; además añade " (varias respuestas)" al final del enunciado.
+   - Verdadero/Falso: usa exactamente dos opciones con "text": "Verdadero" y "text": "Falso", una con "correct": true.
+4. "correct" es SIEMPRE un booleano sin comillas: true o false. Nunca "true" entre comillas, nunca 1/0, nunca sí/no.
+5. Cada pregunta tiene entre 2 y 5 opciones (texto plano, sin HTML).
+6. "category" es un string corto en minúsculas que agrupa la pregunta por tema para las estadísticas (p.ej. "protocolos"). Si no aplica, pon "".
+7. "explanation" es opcional pero recomendable: una sola frase clara.
+8. NO incluyas el campo "id" ni ningún otro campo fuera de la estructura: se generan automáticamente.
+9. Reglas de JSON que DEBES respetar para que sea válido:
+   - Comillas dobles en TODAS las claves y strings; nunca comillas simples.
+   - NO pongas coma después del último elemento de un array u objeto (nada de comas finales).
+   - Escapa las comillas dobles dentro de un texto como \\" y las barras invertidas como \\\\.
+   - No uses saltos de línea reales dentro de un string; usa una sola frase.
+10. Varía el tema entre preguntas, evita repetir enunciados y mezcla el orden para que la opción correcta no caiga siempre en la misma posición. Reparte las preguntas en 2-3 categorías y mezcla los tres tipos (una respuesta, varias respuestas y verdadero/falso).
+
+Antes de responder, revisa mentalmente que el JSON parsea sin errores y que cada pregunta tiene al menos un "correct": true. Devuelve solo el JSON válido.`;
+
 const app = document.getElementById('app');
 
 /* ---------- Utilidades ---------- */
@@ -359,8 +408,20 @@ function showImport() {
   let html = '<section class="view">';
   html += '<div class="view-head"><h2>Importar stack</h2>' +
           '<button class="btn" id="btn-back" type="button">← Volver</button></div>';
-  html += '<p class="muted">Pega el JSON que te generó la IA, o sube un archivo <code>.json</code>. ' +
-          'El formato y el prompt para la IA están en el <code>README</code>.</p>';
+  html += '<p class="muted">Pega el JSON que te generó la IA, o sube un archivo <code>.json</code>.</p>';
+
+  // Bloque: indicaciones para la IA (prompt copiable)
+  html += '<div class="ai-help">' +
+    '<div class="ai-help-head">' +
+      '<span><strong>¿No tienes el JSON todavía?</strong> Copia este prompt y pégalo en otro chat de IA ' +
+      '(ChatGPT, Gemini, Claude…) con tu tema; te devolverá el test listo para pegar aquí.</span>' +
+      '<button class="btn primary small" id="btn-copy-prompt" type="button">📋 Copiar prompt para la IA</button>' +
+    '</div>' +
+    '<details class="ai-prompt-details"><summary>Ver el prompt</summary>' +
+      '<pre id="ai-prompt-text">' + escapeHtml(AI_PROMPT) + '</pre>' +
+    '</details>' +
+  '</div>';
+
   html += '<div class="import-box">' +
     '<label class="field"><span>Subir archivo .json</span>' +
       '<input type="file" id="file-input" accept=".json,application/json"></label>' +
@@ -382,6 +443,24 @@ function showImport() {
     reader.readAsText(file);
   };
   document.getElementById('btn-do-import').onclick = doImport;
+  document.getElementById('btn-copy-prompt').onclick = copyAiPrompt;
+}
+
+function copyAiPrompt(e) {
+  const btn = e && e.currentTarget;
+  const done = (ok) => {
+    if (!btn) return;
+    const prev = btn.textContent;
+    btn.textContent = ok ? '✓ Copiado' : 'Cópialo a mano ↓';
+    if (!ok) { const d = document.querySelector('.ai-prompt-details'); if (d) d.open = true; }
+    setTimeout(() => { btn.textContent = prev; }, 1800);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(AI_PROMPT).then(() => done(true), () => done(false));
+  } else {
+    // Fallback: seleccionar el texto del <pre> para copiarlo a mano.
+    done(false);
+  }
 }
 
 function doImport() {

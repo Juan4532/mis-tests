@@ -1,0 +1,1094 @@
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Panorama histórico de las teorías sobre los géneros (tema 2)",
+  "description": "100 preguntas de repaso del tema 2: la Antigüedad (Platón, Aristóteles, helenismo, Roma), la Edad Media, el clasicismo, el Romanticismo y la crisis del género, y el siglo XX, más la evolución de la idea de género.",
+  "questions": [
+    {
+      "text": "Según el tema, una verdadera teoría de los géneros literarios no aparece hasta…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "Mesopotamia y Egipto, en el tercer milenio a. C.", "correct": false },
+        { "text": "los últimos siglos antes de Cristo, en Grecia", "correct": true },
+        { "text": "la Roma imperial", "correct": false },
+        { "text": "la Edad Media", "correct": false }
+      ],
+      "explanation": "Hay manifestaciones literarias antes en Mesopotamia y Egipto, pero la teoría de los géneros no surge hasta los últimos siglos a. C. en Grecia."
+    },
+    {
+      "text": "Lo que Platón y los antiguos llamaban «poesía» equivale aproximadamente a lo que desde el siglo XVIII llamamos…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "retórica", "correct": false },
+        { "text": "filología", "correct": false },
+        { "text": "literatura", "correct": true },
+        { "text": "estética", "correct": false }
+      ],
+      "explanation": "«Poesía» en sentido clásico equivale a lo que hoy llamamos literatura; el término poesía quedó luego más restringido."
+    },
+    {
+      "text": "Según el tema, ¿cuál fue el orden de aparición de los grandes géneros en Grecia?",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "primero la lírica, luego la épica y por último el drama", "correct": false },
+        { "text": "primero el drama, luego la épica y la lírica", "correct": false },
+        { "text": "primero la épica, luego la lírica y por último la tragedia y la comedia", "correct": true },
+        { "text": "todos a la vez en el siglo V a. C.", "correct": false }
+      ],
+      "explanation": "Primero la épica (Ilíada, Odisea), luego la lírica, y en época de Platón empiezan a destacar tragedia y comedia."
+    },
+    {
+      "text": "Las ideas más claras de Platón sobre la poesía y sus géneros se encuentran en…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "Ion", "correct": false },
+        { "text": "Las leyes", "correct": false },
+        { "text": "La república", "correct": true },
+        { "text": "la Poética", "correct": false }
+      ],
+      "explanation": "Ion trata de la recitación y Las leyes de los géneros músico-literarios, pero las ideas más claras sobre poesía y géneros están en La república."
+    },
+    {
+      "text": "El término «poiesis», del que procede «poesía», deriva de «poiein», que significaba…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "«cantar»", "correct": false },
+        { "text": "«hacer»", "correct": true },
+        { "text": "«imitar»", "correct": false },
+        { "text": "«decir»", "correct": false }
+      ],
+      "explanation": "Poiein significa «hacer»; la poesía restringe ese significado al de un hacer imitativo mediante imágenes (mímesis)."
+    },
+    {
+      "text": "Platón tiene una opinión negativa de la poesía mimética porque, como imitación, copia imágenes corrompidas de las ideas y añade falsedad a la falsedad.",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Por eso considera a los poetas perniciosos para la república; en el teatro, además, se representa a dioses y héroes con actitudes inapropiadas."
+    },
+    {
+      "text": "Según el tema, solo si se considera la poesía como… se puede concebir un arte (regulación) y una diferenciación en géneros.",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "inspiración de las musas", "correct": false },
+        { "text": "contemplación pura", "correct": false },
+        { "text": "verdad revelada", "correct": false },
+        { "text": "mímesis", "correct": true }
+      ],
+      "explanation": "Concebir la poesía como mímesis permite un arte (técnica) y la diferenciación en géneros; la inspiración tiende a negar reglas y géneros."
+    },
+    {
+      "text": "La tripartición de géneros de Platón en La república (mimético/dramático, expositivo/narrativo y mixto) es de naturaleza…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "modal y atenta a la relación literatura-realidad (la mímesis)", "correct": true },
+        { "text": "métrica", "correct": false },
+        { "text": "temática y moral", "correct": false },
+        { "text": "sociológica", "correct": false }
+      ],
+      "explanation": "Es una tripartición teórico-discursiva, modal y atenta a la mímesis (relación literatura-realidad)."
+    },
+    {
+      "text": "En la tripartición de La república, ¿qué géneros corresponden a cada modo? (varias respuestas)",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "mimético o dramático: tragedia y comedia", "correct": true },
+        { "text": "expositivo o narrativo: ditirambo, nomo y, seguramente, la lírica", "correct": true },
+        { "text": "mixto: la epopeya", "correct": true },
+        { "text": "mixto: la elegía y el epigrama", "correct": false }
+      ],
+      "explanation": "Mimético/dramático (tragedia, comedia), expositivo/narrativo (ditirambo, nomo, lírica) y mixto (epopeya)."
+    },
+    {
+      "text": "Platón cruza la tripartición modal con otra clasificación basada en el contenido, que distingue entre…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "verso y prosa", "correct": false },
+        { "text": "género serio y género cómico (la tragedia y la epopeya frente a la comedia)", "correct": true },
+        { "text": "lírica coral y monódica", "correct": false },
+        { "text": "estilo alto y estilo bajo", "correct": false }
+      ],
+      "explanation": "Por contenido distingue serio/cómico: tragedia y epopeya (serio) frente a comedia."
+    },
+    {
+      "text": "En Las leyes, Platón clasifica géneros músico-literarios distinguiendo entre lírica coral y monódica según…",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "traten temas serios o cómicos", "correct": false },
+        { "text": "usen verso o prosa", "correct": false },
+        { "text": "se canten por un grupo de voces o por una sola voz", "correct": true },
+        { "text": "sean miméticos o narrativos", "correct": false }
+      ],
+      "explanation": "Lírica coral (varias voces: himnos, trenos, peán, ditirambo) y monódica (una voz: nomo)."
+    },
+    {
+      "text": "Según Las leyes, ¿de qué composición de la lírica coral, dedicada originariamente a Dionisos, surge la tragedia?",
+      "category": "antiguedad-platon",
+      "options": [
+        { "text": "el peán", "correct": false },
+        { "text": "el treno", "correct": false },
+        { "text": "el himno", "correct": false },
+        { "text": "el ditirambo", "correct": true }
+      ],
+      "explanation": "El ditirambo, dirigido a Dionisos y a veces dialogado, es el origen de la tragedia."
+    },
+    {
+      "text": "La reflexión más decisiva de la Antigüedad sobre los géneros está en la «Poética» de Aristóteles, obra que nos ha llegado…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "completa y sin problemas de transmisión", "correct": false },
+        { "text": "incompleta: falta la parte dedicada a la comedia", "correct": true },
+        { "text": "solo en traducción árabe", "correct": false },
+        { "text": "perdida por entero", "correct": false }
+      ],
+      "explanation": "La Poética tuvo transmisión problemática y nos ha llegado incompleta; falta la parte de la comedia."
+    },
+    {
+      "text": "A diferencia de Platón, para Aristóteles la mímesis es…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "algo negativo que añade falsedad", "correct": false },
+        { "text": "irrelevante para definir la poesía", "correct": false },
+        { "text": "el objeto exclusivo de su interés y aprecio", "correct": true },
+        { "text": "sinónimo de inspiración", "correct": false }
+      ],
+      "explanation": "Lo que para Platón es negativo, para Aristóteles es central: la representación de acciones humanas mediante la palabra es la poesía."
+    },
+    {
+      "text": "Según el tema, la Poética recoge los tres aspectos importantes para definir el género. ¿Cuáles? (varias respuestas)",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "su origen", "correct": true },
+        { "text": "su constitución formal", "correct": true },
+        { "text": "su contenido temático e ideológico", "correct": true },
+        { "text": "su valor de mercado", "correct": false }
+      ],
+      "explanation": "Origen, constitución formal y contenido temático e ideológico."
+    },
+    {
+      "text": "Para Aristóteles, la poesía es la representación, mediante la palabra, de…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "la apariencia visual de las cosas", "correct": false },
+        { "text": "las ideas puras", "correct": false },
+        { "text": "los sentimientos del poeta", "correct": false },
+        { "text": "las acciones humanas", "correct": true }
+      ],
+      "explanation": "La apariencia visual se representa con dibujo y color; las acciones humanas, mediante la palabra: eso es la poesía."
+    },
+    {
+      "text": "En la clasificación formal de Aristóteles, ¿qué arte se corresponde con cada medio? (varias respuestas)",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "la música: arte hecho de armonía", "correct": true },
+        { "text": "la danza: arte hecho de ritmo", "correct": true },
+        { "text": "el ditirambo, la tragedia y la comedia: arte de armonía, ritmo y palabra", "correct": true },
+        { "text": "la elegía: arte hecho solo de ritmo", "correct": false }
+      ],
+      "explanation": "Música (armonía), danza (ritmo), poesía cantada (armonía y palabra) y composiciones cantadas y danzadas (armonía, ritmo y palabra)."
+    },
+    {
+      "text": "Aristóteles clasifica los géneros combinando tres criterios:",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "origen, estilo y finalidad", "correct": false },
+        { "text": "objeto (alto/bajo), medio (simple/mixto) y modo (narrativo/dramático)", "correct": true },
+        { "text": "verso, prosa y canto", "correct": false },
+        { "text": "verdad, belleza y moral", "correct": false }
+      ],
+      "explanation": "Objeto alto/bajo, medio simple/mixto y modo narrativo/dramático."
+    },
+    {
+      "text": "Según la combinación aristotélica, la tragedia es…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "objeto alto, medio simple, modo narrativo", "correct": false },
+        { "text": "objeto bajo, medio mixto, modo dramático", "correct": false },
+        { "text": "objeto alto, medio mixto, modo dramático", "correct": true },
+        { "text": "objeto bajo, medio simple, modo narrativo", "correct": false }
+      ],
+      "explanation": "Tragedia: objeto alto, medio mixto, modo dramático; la comedia comparte medio y modo pero con objeto bajo."
+    },
+    {
+      "text": "El poema épico, según Aristóteles, se define como…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "objeto alto, medio simple, modo narrativo", "correct": true },
+        { "text": "objeto alto, medio mixto, modo dramático", "correct": false },
+        { "text": "objeto bajo, medio simple, modo narrativo", "correct": false },
+        { "text": "objeto bajo, medio mixto, modo dramático", "correct": false }
+      ],
+      "explanation": "Poema épico: objeto alto, medio simple, modo narrativo; la cuarta combinación, solo aludida, sería el poema épico burlesco (objeto bajo, medio simple, modo narrativo)."
+    },
+    {
+      "text": "La comedia, en la combinación aristotélica, se caracteriza por…",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "objeto alto, medio mixto, modo dramático", "correct": false },
+        { "text": "objeto bajo, medio mixto, modo dramático", "correct": true },
+        { "text": "objeto bajo, medio simple, modo narrativo", "correct": false },
+        { "text": "objeto alto, medio simple, modo narrativo", "correct": false }
+      ],
+      "explanation": "Comedia: objeto bajo, medio mixto, modo dramático."
+    },
+    {
+      "text": "Según el tema, ¿por qué Aristóteles apenas alude a la lírica?",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "porque la consideraba el género más perfecto", "correct": false },
+        { "text": "porque al centrarse en la mímesis solo tiene en cuenta los géneros total o parcialmente miméticos (épica y drama)", "correct": true },
+        { "text": "porque aún no existía en su época", "correct": false },
+        { "text": "porque la incluía dentro de la comedia", "correct": false }
+      ],
+      "explanation": "Si la poesía se define por la mímesis, solo entran los géneros miméticos (épica y drama); de ahí la omisión de la lírica."
+    },
+    {
+      "text": "Según el tema, Aristóteles identificaba sin reservas la poesía con el lenguaje versificado.",
+      "category": "antiguedad-aristoteles",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "Al contrario: Aristóteles critica esa identificación; lo definitorio de la poesía es la mímesis, no el verso."
+    },
+    {
+      "text": "La época alejandrina se sitúa entre…",
+      "category": "helenismo",
+      "options": [
+        { "text": "el siglo V y el IV a. C.", "correct": false },
+        { "text": "el 146 a. C. y el final del Imperio Romano", "correct": false },
+        { "text": "el 323 a. C. (muerte de Alejandro Magno) y el 146 a. C. (conquista de Grecia por Roma)", "correct": true },
+        { "text": "los siglos II y IV d. C.", "correct": false }
+      ],
+      "explanation": "Del 323 a. C. al 146 a. C.; ampliada, se llama helenismo (casi ocho siglos), con centros en Pérgamo y Alejandría."
+    },
+    {
+      "text": "Es preferible llamar «helenismo» al periodo amplio porque…",
+      "category": "helenismo",
+      "options": [
+        { "text": "el cosmopolitismo griego persiste como hecho cultural incluso bajo el dominio romano", "correct": true },
+        { "text": "fue una época sin cultura griega", "correct": false },
+        { "text": "lo inventaron los romanos", "correct": false },
+        { "text": "solo afectó a la filosofía", "correct": false }
+      ],
+      "explanation": "El cosmopolitismo iniciado por Alejandro persiste durante el dominio romano (helenismo alejandrino y del Imperio)."
+    },
+    {
+      "text": "Culturalmente, el helenismo se destaca no tanto por la filosofía como por…",
+      "category": "helenismo",
+      "options": [
+        { "text": "el rechazo de toda clasificación", "correct": false },
+        { "text": "su afán erudito y clasificador, que da lugar a la filología", "correct": true },
+        { "text": "la invención del teatro", "correct": false },
+        { "text": "la negación de los géneros", "correct": false }
+      ],
+      "explanation": "Afán erudito y clasificador (matemáticas, medicina, geografía…) y, en las letras, retórica, gramática y crítica: la filología."
+    },
+    {
+      "text": "Según el tema, «gramática» significa literalmente «ciencia de las gramma» (de las letras), lo mismo que en latín significa…",
+      "category": "helenismo",
+      "options": [
+        { "text": "«retórica»", "correct": false },
+        { "text": "«poética»", "correct": false },
+        { "text": "«filosofía»", "correct": false },
+        { "text": "«literatura»", "correct": true }
+      ],
+      "explanation": "Gramática (ciencia de las letras) equivale a lo que en latín significa «literatura»."
+    },
+    {
+      "text": "La afirmación «sólo en la época alejandrina madura una doctrina precisa de los géneros» se atribuye en el tema a…",
+      "category": "helenismo",
+      "options": [
+        { "text": "Cesare Segre", "correct": true },
+        { "text": "Gérard Genette", "correct": false },
+        { "text": "García Berrio", "correct": false },
+        { "text": "Quintiliano", "correct": false }
+      ],
+      "explanation": "Es de Cesare Segre, en «Principios de análisis del texto literario»."
+    },
+    {
+      "text": "El reconocimiento del género mélico o lírico (el olvidado por Aristóteles) se remonta, según el tema, al gramático…",
+      "category": "helenismo",
+      "options": [
+        { "text": "Diómedes", "correct": false },
+        { "text": "Dionisio de Tracia", "correct": true },
+        { "text": "Aelio Donato", "correct": false },
+        { "text": "Terpandro", "correct": false }
+      ],
+      "explanation": "Dionisio de Tracia (170-90 a. C.) reconoce el género mélico/lírico, aunque no en pie de igualdad con tragedia, comedia y épica."
+    },
+    {
+      "text": "Según el tema, el canon de Dionisio de Tracia situó la lírica en pie de igualdad con la tragedia, la comedia y la épica.",
+      "category": "helenismo",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "No la sitúa en pie de igualdad; es un canon abierto, y lo que prevalece es la prioridad platónico-aristotélica de épica y teatro."
+    },
+    {
+      "text": "En la época helenística, «lírica» pasó a significar…",
+      "category": "helenismo",
+      "options": [
+        { "text": "solo la poesía acompañada de lira", "correct": false },
+        { "text": "la poesía satírica", "correct": false },
+        { "text": "toda composición cantada (equivalente a mélica, de melos, «música»)", "correct": true },
+        { "text": "la poesía narrativa", "correct": false }
+      ],
+      "explanation": "Aunque al inicio designaba lo acompañado de lira, pasó a equivaler a mélica: toda composición cantada."
+    },
+    {
+      "text": "Entre los subgéneros de la mélica «dedicados a los humanos», el tema cita… (varias respuestas)",
+      "category": "helenismo",
+      "options": [
+        { "text": "el encomio", "correct": true },
+        { "text": "el epitalamio", "correct": true },
+        { "text": "el epinicio", "correct": true },
+        { "text": "el ditirambo", "correct": false }
+      ],
+      "explanation": "A los humanos: encomio, epinicio, escolio, canto amoroso, epitalamio, himeneo, sillo, treno, epicedio; el ditirambo se dedicaba a los dioses."
+    },
+    {
+      "text": "Los alejandrinos relacionaron los géneros teatrales con los estilos retóricos así:",
+      "category": "helenismo",
+      "options": [
+        { "text": "tragedia (estilo sublime), drama satírico (estilo medio), comedia (estilo humilde)", "correct": true },
+        { "text": "tragedia (humilde), comedia (sublime), drama satírico (medio)", "correct": false },
+        { "text": "los tres con estilo sublime", "correct": false },
+        { "text": "comedia (medio), tragedia (humilde)", "correct": false }
+      ],
+      "explanation": "Tragedia → sublime; drama satírico → medio; comedia → humilde."
+    },
+    {
+      "text": "En Roma la reflexión literaria la llevan a cabo, sobre todo, creadores con intereses prácticos, como…",
+      "category": "roma",
+      "options": [
+        { "text": "Platón y Aristóteles", "correct": false },
+        { "text": "Cicerón y Horacio", "correct": true },
+        { "text": "Dionisio de Tracia y Segre", "correct": false },
+        { "text": "Dante y Petrarca", "correct": false }
+      ],
+      "explanation": "Cicerón y Horacio; salvo los estoicos, la reflexión no está circunscrita a la filosofía."
+    },
+    {
+      "text": "Según el tema, hacia el final del Imperio romano…",
+      "category": "roma",
+      "options": [
+        { "text": "la poética desplaza por completo a la retórica", "correct": false },
+        { "text": "casi se olvida la poética y la retórica acapara el protagonismo", "correct": true },
+        { "text": "desaparecen ambas disciplinas", "correct": false },
+        { "text": "se recupera la Poética de Aristóteles", "correct": false }
+      ],
+      "explanation": "La retórica tiene tal influjo que al final del Imperio casi se olvida el legado de la poética."
+    },
+    {
+      "text": "La aportación de Horacio a la teoría de los géneros está en…",
+      "category": "roma",
+      "options": [
+        { "text": "la «Poética»", "correct": false },
+        { "text": "la «Rethorica ad Herennium»", "correct": false },
+        { "text": "la «Epistola ad Pisones» o «Arte poética»", "correct": true },
+        { "text": "las «Institutiones oratoriae»", "correct": false }
+      ],
+      "explanation": "En la Epistola ad Pisones (Arte poética); Horacio no conoció directamente la Poética, pero recibió influencia aristotélica."
+    },
+    {
+      "text": "Horacio se centra sobre todo en la forma del discurso (estilo, léxico, ritmo) y deja en segundo plano la preocupación por los géneros.",
+      "category": "roma",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Su atención es fundamentalmente retórica; de los géneros atiende sobre todo a los dramáticos (tragedia, comedia, drama satírico)."
+    },
+    {
+      "text": "El concepto con que Horacio denomina la correspondencia entre la forma del discurso y los temas tratados es…",
+      "category": "roma",
+      "options": [
+        { "text": "la «mímesis»", "correct": false },
+        { "text": "el «epos»", "correct": false },
+        { "text": "el «decoro»", "correct": true },
+        { "text": "la «catarsis»", "correct": false }
+      ],
+      "explanation": "El «decoro»: bajo él subyace la imitación, pero tiene que ver con la adecuación y lo apropiado retórico."
+    },
+    {
+      "text": "Según el tema, ¿por qué vías aporta la retórica a la teoría de los géneros? (varias respuestas)",
+      "category": "roma",
+      "options": [
+        { "text": "distingue géneros del discurso (deliberativo, judicial, epidíctico)", "correct": true },
+        { "text": "distingue estilos, que conllevan distinciones de género", "correct": true },
+        { "text": "hace consideraciones sobre los géneros propiamente literarios", "correct": true },
+        { "text": "fija la métrica de la lírica", "correct": false }
+      ],
+      "explanation": "Géneros del discurso, distinción de estilos y consideraciones sobre los géneros literarios (el orador se forma leyendo autores modélicos)."
+    },
+    {
+      "text": "La primera aportación romana sobre los estilos (sublime, mediocre y tenue) es la «Rethorica ad Herennium», basada en la retórica griega de…",
+      "category": "roma",
+      "options": [
+        { "text": "Teofrasto", "correct": true },
+        { "text": "Aristóteles", "correct": false },
+        { "text": "Platón", "correct": false },
+        { "text": "Quintiliano", "correct": false }
+      ],
+      "explanation": "La Rethorica ad Herennium, basada en Teofrasto, distingue estilo sublime, mediocre y tenue."
+    },
+    {
+      "text": "Los estilos sublime, mediocre y tenue se relacionan con las tres funciones del orador:",
+      "category": "roma",
+      "options": [
+        { "text": "narrare, describere, argumentari", "correct": false },
+        { "text": "movere, delectare, docere (conmover, deleitar, enseñar)", "correct": true },
+        { "text": "inventio, dispositio, elocutio", "correct": false },
+        { "text": "ethos, pathos, logos", "correct": false }
+      ],
+      "explanation": "Movere, delectare, docere; de ahí el tópico horaciano de que la poesía debe enseñar deleitando."
+    },
+    {
+      "text": "La síntesis del pensamiento retórico romano con fines pedagógicos la elabora Quintiliano en…",
+      "category": "roma",
+      "options": [
+        { "text": "la «Epistola ad Pisones»", "correct": false },
+        { "text": "la «Parisiana Poetria»", "correct": false },
+        { "text": "el libro X de las «Institutiones oratoriae»", "correct": true },
+        { "text": "el «De inventione»", "correct": false }
+      ],
+      "explanation": "En el libro X de las Institutiones oratoriae distingue géneros y señala autores modélicos."
+    },
+    {
+      "text": "Al señalar autores modélicos, Quintiliano diferencia, entre otros… (varias respuestas)",
+      "category": "roma",
+      "options": [
+        { "text": "épicos y líricos", "correct": true },
+        { "text": "trágicos y cómicos", "correct": true },
+        { "text": "historiadores, oradores y filósofos", "correct": true },
+        { "text": "novelistas y dramaturgos del Barroco", "correct": false }
+      ],
+      "explanation": "Épicos, líricos, trágicos, cómicos, historiadores, oradores y filósofos: abre el camino a una teoría cuatripartita."
+    },
+    {
+      "text": "Quintiliano abre el camino a una teoría cuatripartita que añade a épica, lírica y dramática un cuarto tipo:",
+      "category": "roma",
+      "options": [
+        { "text": "el satírico", "correct": false },
+        { "text": "el epistolar", "correct": false },
+        { "text": "el didáctico (discursos jurídicos, historiografía, filosofía, ensayo)", "correct": true },
+        { "text": "el bucólico", "correct": false }
+      ],
+      "explanation": "El cuarto tipo, didáctico, incluiría discursos jurídicos o políticos, historiografía, filosofía, ensayo, etc."
+    },
+    {
+      "text": "Según el tema, se suele tener por Edad Media propiamente el tramo que empieza con…",
+      "category": "edad-media",
+      "options": [
+        { "text": "la caída de Roma en el siglo V", "correct": false },
+        { "text": "el Imperio Carolingio (entre los siglos VIII y IX)", "correct": true },
+        { "text": "el Renacimiento", "correct": false },
+        { "text": "la conquista de Grecia por Roma", "correct": false }
+      ],
+      "explanation": "Tras los siglos de transición, la Edad Media propiamente arranca con el Imperio Carolingio y se subdivide en Alta y Baja Edad Media."
+    },
+    {
+      "text": "El nombre «Edad Media» fue dado…",
+      "category": "edad-media",
+      "options": [
+        { "text": "por los propios autores medievales", "correct": false },
+        { "text": "por los romanos", "correct": false },
+        { "text": "a posteriori, por los europeos del Renacimiento que creyeron superar un periodo intermedio", "correct": true },
+        { "text": "en el siglo XIX por los románticos", "correct": false }
+      ],
+      "explanation": "Los hombres del Renacimiento, al creer entroncar con lo grecorromano, llamaron «media» a la edad intermedia."
+    },
+    {
+      "text": "Según el tema, durante la Edad Media la relación entre creación y teoría de los géneros es que…",
+      "category": "edad-media",
+      "options": [
+        { "text": "a una práctica rica en nuevos moldes corresponde una pobre teorización", "correct": true },
+        { "text": "tanto la teoría como la creación son muy pobres", "correct": false },
+        { "text": "la teoría es muy rica y la creación escasa", "correct": false },
+        { "text": "ambas alcanzan su máximo esplendor", "correct": false }
+      ],
+      "explanation": "La creación es rica (cantar de gesta, novela cortés, Divina Comedia…), pero la teoría, continuadora de retórica y poética, es pobre."
+    },
+    {
+      "text": "Según el tema, en la Edad Media el teatro desaparece como género y reaparece con un nuevo sentido religioso y, más tarde, profano, alejado de los modelos clásicos.",
+      "category": "edad-media",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "El teatro grecolatino desaparece y reaparece bajo un sentido religioso y luego profano, lejos de los modelos clásicos."
+    },
+    {
+      "text": "En la teoría medieval, las obras que más influyen son…",
+      "category": "edad-media",
+      "options": [
+        { "text": "la «Poética» de Aristóteles", "correct": false },
+        { "text": "la «Rethorica ad Herennium», el «De inventione» de Cicerón y la «Epistola ad Pisones» de Horacio", "correct": true },
+        { "text": "las «Lecciones de estética» de Hegel", "correct": false },
+        { "text": "los «Principios de una ciencia nueva» de Vico", "correct": false }
+      ],
+      "explanation": "Influyen sobre todo la Rethorica ad Herennium, el De inventione y la Epistola ad Pisones; la poética no revive hasta el siglo XII."
+    },
+    {
+      "text": "Según el tema, los tratados llamados «ars poetriae» (siglos XII-XIII) eran, más que poéticas…",
+      "category": "edad-media",
+      "options": [
+        { "text": "tratados de filosofía moral", "correct": false },
+        { "text": "ediciones de la Poética de Aristóteles", "correct": false },
+        { "text": "tratados de retórica especializados en métrica o estilo", "correct": true },
+        { "text": "colecciones de cantares de gesta", "correct": false }
+      ],
+      "explanation": "Más que poéticas, son tratados de retórica especializados en cuestiones como la métrica o el estilo."
+    },
+    {
+      "text": "La influyente distinción de géneros en genus activum, enarrativum y commune se debe a…",
+      "category": "edad-media",
+      "options": [
+        { "text": "Diómedes, a finales del siglo IV", "correct": true },
+        { "text": "Isidoro de Sevilla", "correct": false },
+        { "text": "Jean Bodel", "correct": false },
+        { "text": "Aelio Donato", "correct": false }
+      ],
+      "explanation": "Diómedes (finales del s. IV) propone una división de gran proyección medieval, de planteamiento retórico."
+    },
+    {
+      "text": "En la división de Diómedes, ¿qué incluye cada género? (varias respuestas)",
+      "category": "edad-media",
+      "options": [
+        { "text": "genus activum: tragedia, comedia, sátira, mímica", "correct": true },
+        { "text": "genus enarrativum (exegético): angélica, historia, didascalia", "correct": true },
+        { "text": "genus commune: épica (heroica species) y lírica (lyrica species)", "correct": true },
+        { "text": "genus mixtum: la novela cortés", "correct": false }
+      ],
+      "explanation": "Activo (mímesis pura), enarrativo (narración pura) y común (mezcla), siguiendo las posibilidades de enunciación de Platón."
+    },
+    {
+      "text": "La división de Diómedes responde a un planteamiento retórico que recoge las posibilidades de enunciación ya señaladas por…",
+      "category": "edad-media",
+      "options": [
+        { "text": "Aristóteles (objeto / medio / modo)", "correct": false },
+        { "text": "Platón (mímesis pura / narración pura / mezcla)", "correct": true },
+        { "text": "Horacio (el decoro)", "correct": false },
+        { "text": "Quintiliano (los cuatro géneros)", "correct": false }
+      ],
+      "explanation": "Recoge la tripartición platónica de mímesis pura, narración pura y mezcla."
+    },
+    {
+      "text": "Isidoro de Sevilla es un buen ejemplo de la teoría altomedieval porque…",
+      "category": "edad-media",
+      "options": [
+        { "text": "recupera y comenta directamente la Poética de Aristóteles", "correct": false },
+        { "text": "sigue esquemas grecorromanos (los de Diómedes) y resalta la primacía de la Biblia, sin conocer directamente géneros como la comedia o la tragedia", "correct": true },
+        { "text": "rechaza por completo la cultura clásica", "correct": false },
+        { "text": "crea la teoría de los tres estilos", "correct": false }
+      ],
+      "explanation": "Sigue a Diómedes, resalta la Biblia y muestra no conocer de primera mano géneros como comedia y tragedia por falta de desarrollo contemporáneo."
+    },
+    {
+      "text": "Según el tema, Averroes constituye un caso excepcional porque…",
+      "category": "edad-media",
+      "options": [
+        { "text": "tradujo la Divina Comedia", "correct": false },
+        { "text": "creó la rueda de Virgilio", "correct": false },
+        { "text": "usa directamente los textos de Aristóteles, aunque no trata los géneros que los árabes desconocían (comedia, tragedia) y vierte consideraciones morales", "correct": true },
+        { "text": "negó la existencia de los géneros", "correct": false }
+      ],
+      "explanation": "Utiliza directamente a Aristóteles, pero no trata comedia, tragedia ni el relato épico homérico, y hace consideraciones morales."
+    },
+    {
+      "text": "Jean Bodel clasificó los temas legendarios y cíclicos en tres «materias». ¿Cuáles? (varias respuestas)",
+      "category": "edad-media",
+      "options": [
+        { "text": "la materia de Francia (Carlomagno y sus paladines)", "correct": true },
+        { "text": "la materia de Roma (la antigüedad clásica)", "correct": true },
+        { "text": "la materia de Bretaña (tema artúrico)", "correct": true },
+        { "text": "la materia de Hispania (la Reconquista)", "correct": false }
+      ],
+      "explanation": "Materia de Francia, de Roma y de Bretaña (esta última, los cuentos y novelas artúricos)."
+    },
+    {
+      "text": "Según la cita de García Berrio, en la Edad Media «la doctrina sobre los géneros poéticos tiende a confundirse con…",
+      "category": "edad-media",
+      "options": [
+        { "text": "la métrica latina»", "correct": false },
+        { "text": "una teoría de las modalidades del discurso»", "correct": true },
+        { "text": "la filosofía moral»", "correct": false },
+        { "text": "la teología»", "correct": false }
+      ],
+      "explanation": "Por influjo de la retórica, los géneros poéticos se confunden con las modalidades del discurso (la tripartición Platón→Diómedes)."
+    },
+    {
+      "text": "La «rueda de Virgilio», que fija la doctrina de los tres estilos, fue establecida en el siglo IV por el gramático…",
+      "category": "edad-media",
+      "options": [
+        { "text": "Diómedes", "correct": false },
+        { "text": "Dionisio de Tracia", "correct": false },
+        { "text": "Aelio Donato", "correct": true },
+        { "text": "Jean de Garlande", "correct": false }
+      ],
+      "explanation": "Aelio Donato, comentarista de Virgilio, asoció un conjunto de temas y un estilo a cada una de sus obras."
+    },
+    {
+      "text": "En la rueda de Virgilio, ¿qué estilo corresponde a cada obra? (varias respuestas)",
+      "category": "edad-media",
+      "options": [
+        { "text": "la Eneida: estilo gravis (grave)", "correct": true },
+        { "text": "las Geórgicas: estilo mediocris (medio)", "correct": true },
+        { "text": "las Bucólicas: estilo humilis (humilde)", "correct": true },
+        { "text": "la Divina Comedia: estilo trágico", "correct": false }
+      ],
+      "explanation": "Eneida (gravis), Geórgicas (mediocris), Bucólicas (humilis); la dignidad del estilo queda supeditada a la dignidad social del personaje."
+    },
+    {
+      "text": "En «De vulgari eloquentia», Dante distingue tres estilos; al estilo elevado o trágico le corresponde…",
+      "category": "edad-media",
+      "options": [
+        { "text": "la lengua vulgar media y la tonada", "correct": false },
+        { "text": "la lengua vulgar ilustre, y se manifiesta en la canción", "correct": true },
+        { "text": "la lengua vulgar humilde", "correct": false },
+        { "text": "el latín", "correct": false }
+      ],
+      "explanation": "Estilo elevado/trágico (vulgar ilustre, canción), cómico (vulgar media, tonada) y elegíaco (vulgar humilde); solo desarrolló el primero."
+    },
+    {
+      "text": "La teoría de los géneros de los siglos XVI y XVII se sitúa de nuevo en la órbita de…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "la filosofía hegeliana", "correct": false },
+        { "text": "el formalismo ruso", "correct": false },
+        { "text": "la poética grecolatina (Aristóteles u Horacio)", "correct": true },
+        { "text": "la semiótica", "correct": false }
+      ],
+      "explanation": "Vuelve a la poética grecolatina; pervive lo platónico (para reivindicar la inspiración) y lo retórico."
+    },
+    {
+      "text": "En el siglo XVI, al recuperarse y comentarse el texto de la Poética, proliferan tratados que presentan como gran novedad…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "el intento de incluir la lírica en pie de igualdad con la épica y la dramática", "correct": true },
+        { "text": "la negación de los géneros", "correct": false },
+        { "text": "la creación de la novela", "correct": false },
+        { "text": "la rueda de Virgilio", "correct": false }
+      ],
+      "explanation": "La novedad es incorporar la lírica junto a los otros dos géneros, dada la desconsideración aristotélica hacia ella."
+    },
+    {
+      "text": "El tratado «L'arte poetica» (1556) que distingue épica, escénica y mélica o lírica es de…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "Boileau", "correct": false },
+        { "text": "Minturno", "correct": true },
+        { "text": "Ignacio de Luzán", "correct": false },
+        { "text": "Lope de Vega", "correct": false }
+      ],
+      "explanation": "Minturno distingue épica, escénica y mélica/lírica; en España lo seguirá Francisco Cascales."
+    },
+    {
+      "text": "Quien sigue en España el intento de incorporar la lírica, a principios del siglo XVII, es…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "Ignacio de Luzán", "correct": false },
+        { "text": "Lope de Vega", "correct": false },
+        { "text": "Francisco Cascales", "correct": true },
+        { "text": "Boileau", "correct": false }
+      ],
+      "explanation": "Cascales sigue a Minturno, aunque la configuración del género lírico siguió siendo confusa y sirvió de «cajón de sastre»."
+    },
+    {
+      "text": "Aunque la poética renacentista es normativa, es una época de grandes innovaciones en la creación (la novela con Cervantes, el ensayo con Montaigne, los teatros nacionales…).",
+      "category": "clasicismo",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "La preceptiva es normativa, pero la creación innova: novela, ensayo (Montaigne), teatros nacionales de Inglaterra y España."
+    },
+    {
+      "text": "El «Arte nuevo de hacer comedias» (1609) de Lope de Vega…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "es un riguroso tratado neoaristotélico", "correct": false },
+        { "text": "defiende el nuevo teatro («comedia»), mezcla lo trágico y lo cómico y rompe las unidades clásicas, y está en el origen del drama moderno", "correct": true },
+        { "text": "rechaza la comedia", "correct": false },
+        { "text": "fue escrito en prosa latina", "correct": false }
+      ],
+      "explanation": "Escapa a la ortodoxia neoaristotélica, mezcla lo trágico y lo cómico y rompe las unidades: en esa fórmula está el origen del drama moderno."
+    },
+    {
+      "text": "En el siglo XVII, el codificador de las reglas de la poesía sobre un fundamento racionalista (reglas universales) es…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "Minturno", "correct": false },
+        { "text": "Ignacio de Luzán", "correct": false },
+        { "text": "Quintiliano", "correct": false },
+        { "text": "Boileau, con su «Arte poética»", "correct": true }
+      ],
+      "explanation": "Boileau codifica las reglas con fundamento racionalista; ya no por autoridad de Aristóteles y Horacio, sino por la razón."
+    },
+    {
+      "text": "En España, ejemplo de seguimiento de la preceptiva del siglo XVIII, con atención a formas españolas, es la «Poética» de…",
+      "category": "clasicismo",
+      "options": [
+        { "text": "Lope de Vega", "correct": false },
+        { "text": "Ignacio de Luzán", "correct": true },
+        { "text": "Francisco Cascales", "correct": false },
+        { "text": "Boileau", "correct": false }
+      ],
+      "explanation": "La Poética de Ignacio de Luzán sigue la preceptiva racionalista y atiende a formas propias de la tradición española."
+    },
+    {
+      "text": "La «crisis del género» del Romanticismo consiste en…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la desaparición de toda la literatura", "correct": false },
+        { "text": "un cuestionamiento de la idea de género que lleva a su replanteamiento o, en casos extremos, a su negación", "correct": true },
+        { "text": "la imposición de reglas más estrictas", "correct": false },
+        { "text": "la vuelta a la preceptiva clásica", "correct": false }
+      ],
+      "explanation": "El Romanticismo cuestiona la idea de género (realidad universal regulada por la razón) y la replantea o niega."
+    },
+    {
+      "text": "Según el tema, el Romanticismo expresa un cambio social ligado a…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "el racionalismo inmutable de la Ilustración", "correct": false },
+        { "text": "la ideología estamental del feudalismo", "correct": false },
+        { "text": "una visión relativista e historicista y la apoteosis de la subjetividad y la originalidad", "correct": true },
+        { "text": "el cosmopolitismo helenístico", "correct": false }
+      ],
+      "explanation": "Frente al absolutismo y el racionalismo ilustrado, surgen el relativismo, la filosofía de la historia y la defensa de la subjetividad y la originalidad."
+    },
+    {
+      "text": "El historicismo romántico lleva a…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "relacionar los géneros con los estadios históricos de la humanidad", "correct": true },
+        { "text": "negar toda relación entre géneros e historia", "correct": false },
+        { "text": "fijar para siempre la tríada de géneros", "correct": false },
+        { "text": "reducir todos los géneros a la lírica", "correct": false }
+      ],
+      "explanation": "Como el arte cambia según los estadios históricos, se busca relacionar los géneros con esas etapas."
+    },
+    {
+      "text": "En el «Prefacio a Cromwell» (1827), Victor Hugo asocia los géneros a fases de la humanidad así:",
+      "category": "romanticismo",
+      "options": [
+        { "text": "épica = primigenia, lírica = madurez", "correct": false },
+        { "text": "drama = primigenia, épica = madurez", "correct": false },
+        { "text": "lírica = fase primigenia, épica = segunda más desarrollada, dramática = madurez", "correct": true },
+        { "text": "lírica = madurez, drama = primigenia", "correct": false }
+      ],
+      "explanation": "Lírica (primigenia), épica (más desarrollada) y literatura dramática (madurez)."
+    },
+    {
+      "text": "Un siglo antes que Victor Hugo, G. Vico sostuvo en «Principios de una ciencia nueva» (1725) que el lenguaje originario de los humanos era…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la prosa argumentativa", "correct": false },
+        { "text": "la poesía (lenguaje de la imaginación)", "correct": true },
+        { "text": "el drama", "correct": false },
+        { "text": "la filosofía", "correct": false }
+      ],
+      "explanation": "Para Vico, el lenguaje originario era la poesía en cuanto lenguaje de la imaginación."
+    },
+    {
+      "text": "Según el tema, ¿qué género consideran «culminación» estos autores? (varias respuestas)",
+      "category": "romanticismo",
+      "options": [
+        { "text": "Lessing: el drama, propio de la modernidad romántica", "correct": true },
+        { "text": "Friedrich Schlegel: la novela, género de la última fase", "correct": true },
+        { "text": "Schiller: la lírica como forma más desarrollada", "correct": true },
+        { "text": "Vico: la tragedia neoclásica", "correct": false }
+      ],
+      "explanation": "Lessing (drama), F. Schlegel (novela), Schiller (lírica); Vico habla del origen poético del lenguaje, no de una culminación."
+    },
+    {
+      "text": "Schiller distingue entre «poesía ingenua» y «poesía sentimental», relacionándolas respectivamente con…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la épica y la lírica", "correct": false },
+        { "text": "el periodo clasicista y el romanticismo", "correct": true },
+        { "text": "el verso y la prosa", "correct": false },
+        { "text": "lo serio y lo cómico", "correct": false }
+      ],
+      "explanation": "Poesía ingenua (clasicista) y sentimental (romántica); para Schiller la forma más desarrollada sería la lírica."
+    },
+    {
+      "text": "Johann Paul Richter distingue, en su poética, entre…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la épica objetiva y la lírica subjetiva", "correct": false },
+        { "text": "lo ingenuo y lo sentimental", "correct": false },
+        { "text": "la poesía griega o plástica y la romántica moderna o musical", "correct": true },
+        { "text": "la tesis, la antítesis y la síntesis", "correct": false }
+      ],
+      "explanation": "Richter opone la poesía griega/plástica a la romántica moderna/musical, y establece un paralelismo poesía-música."
+    },
+    {
+      "text": "Según el tema, los géneros que se imponen sobre otros por mezcla o síntesis, propios de las últimas etapas, son sobre todo…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "el himno y la oda", "correct": false },
+        { "text": "la elegía y el epigrama", "correct": false },
+        { "text": "el drama (síntesis de épica y lírica) y la novela", "correct": true },
+        { "text": "el ditirambo y el nomo", "correct": false }
+      ],
+      "explanation": "El drama (síntesis de épica y lírica) y la novela; incluso el drama confluye con la música en el «drama musical»."
+    },
+    {
+      "text": "A partir del Romanticismo, actitudes y categorías estéticas como «lo romántico», «lo sentimental», «lo irónico»…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "adquieren importancia al mismo nivel que los géneros", "correct": true },
+        { "text": "desaparecen por completo", "correct": false },
+        { "text": "se reducen a la métrica", "correct": false },
+        { "text": "se identifican con los géneros clásicos", "correct": false }
+      ],
+      "explanation": "Estas categorías cobran importancia al nivel de los géneros; para J. Richter «lo romántico» se superpone a los géneros."
+    },
+    {
+      "text": "Victor Hugo destaca la importancia de la parodia como «género» de síntesis para el nacimiento de nuevos géneros (como la novela), adelantándose a ideas de…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "Aristóteles y Horacio", "correct": false },
+        { "text": "los formalistas rusos y Bajtin", "correct": true },
+        { "text": "Croce y Jakobson", "correct": false },
+        { "text": "Boileau y Luzán", "correct": false }
+      ],
+      "explanation": "Con la parodia como vía de nuevos géneros, Hugo se adelanta a los formalistas rusos y a Bajtin."
+    },
+    {
+      "text": "El cambio sustancial del Romanticismo sustituye la concepción modal y tecnicista de los géneros por una concepción…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "puramente métrica", "correct": false },
+        { "text": "estrictamente sociológica", "correct": false },
+        { "text": "exclusivamente retórica", "correct": false },
+        { "text": "más psicologista, atenta a los resortes anímicos", "correct": true }
+      ],
+      "explanation": "El poeta introyecta la realidad y proyecta su interioridad; la concepción se vuelve psicologista, y cristaliza la tríada épica/lírica/drama en pie de igualdad."
+    },
+    {
+      "text": "En la cristalización de los tres géneros fundamentales, ¿qué asociación es correcta? (varias respuestas)",
+      "category": "romanticismo",
+      "options": [
+        { "text": "Hegel: épica (objetividad), lírica (subjetividad), drama (objetividad-subjetividad)", "correct": true },
+        { "text": "Schiller: teatro (causalidad), épica (sustancialidad), lírica (síntesis épico-trágica)", "correct": true },
+        { "text": "Goethe: la que narra claramente, la inflamada por el entusiasmo y la que actúa personalmente", "correct": true },
+        { "text": "Croce: épica, lírica y drama como intuiciones puras", "correct": false }
+      ],
+      "explanation": "Hegel, Schiller y Goethe ofrecen sus versiones de la tríada; Croce, en cambio, niega los géneros."
+    },
+    {
+      "text": "Hegel ordena los tres géneros según el proceso dialéctico, de modo que…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la lírica es la tesis y la épica la síntesis", "correct": false },
+        { "text": "el drama es la tesis y la épica la síntesis", "correct": false },
+        { "text": "la épica es la tesis (lo objetivo), la lírica la antítesis (lo subjetivo) y el drama la síntesis (objetivo-subjetivo)", "correct": true },
+        { "text": "los tres son tesis simultáneas", "correct": false }
+      ],
+      "explanation": "Épica = tesis (objetivo), lírica = antítesis (subjetivo), drama = síntesis (objetivo-subjetivo)."
+    },
+    {
+      "text": "Según Genette, la teorización de la tríada épica-lírica-drama tuvo tanto éxito con Hegel que…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "después se ha retrotraído y atribuido esa distinción a tratadistas anteriores que no la formularon así", "correct": true },
+        { "text": "fue rechazada por todos los románticos", "correct": false },
+        { "text": "se perdió hasta el siglo XX", "correct": false },
+        { "text": "la inventó realmente Aristóteles", "correct": false }
+      ],
+      "explanation": "Genette señala que tras Hegel hemos atribuido la tríada a autores anteriores que no la formularon o no tan convencidamente."
+    },
+    {
+      "text": "Para salvar el salto entre los géneros teóricos y las manifestaciones históricas, Hegel introduce el término…",
+      "category": "romanticismo",
+      "options": [
+        { "text": "«modo»", "correct": false },
+        { "text": "«decoro»", "correct": false },
+        { "text": "«tono» (por ejemplo, el romance como poema épico con tonalidad lírica)", "correct": true },
+        { "text": "«procedimiento»", "correct": false }
+      ],
+      "explanation": "El «tono» (tono lírico, etc.) le permite, por ejemplo, ver el romance como poema épico de tonalidad lírica."
+    },
+    {
+      "text": "A lo largo del siglo XIX, ¿qué posición sobre los géneros se asocia con Brunetière?",
+      "category": "romanticismo",
+      "options": [
+        { "text": "la negación intuicionista del género", "correct": false },
+        { "text": "una concepción naturalista y evolucionista", "correct": true },
+        { "text": "la teoría de los tres estilos", "correct": false },
+        { "text": "el formalismo de los procedimientos", "correct": false }
+      ],
+      "explanation": "Brunetière sostiene una concepción naturalista y evolucionista; el impresionismo crítico, en cambio, rechaza el género, y la negación culmina en Croce."
+    },
+    {
+      "text": "Para Benedetto Croce, el arte y la poesía son una forma de conocimiento…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "por intuición (intuición-expresión), distinta del conocimiento lógico-conceptual", "correct": true },
+        { "text": "por abstracción conceptual", "correct": false },
+        { "text": "puramente sensorial", "correct": false },
+        { "text": "de carácter histórico-social", "correct": false }
+      ],
+      "explanation": "El conocimiento intuitivo es de las cosas singulares y productor de imágenes; la intuición es a la vez intuición y expresión."
+    },
+    {
+      "text": "Croce rechaza la idea de género porque…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "los géneros son demasiado numerosos", "correct": false },
+        { "text": "si la poesía es una y se da íntegra y única en cada obra, no cabe anteponer distinciones de géneros a la creación y la crítica", "correct": true },
+        { "text": "los géneros son una invención romántica", "correct": false },
+        { "text": "prefiere la teoría de los tres estilos", "correct": false }
+      ],
+      "explanation": "Cada obra realiza la poesía plena y única; el crítico debe captarla sin descomponerla por géneros."
+    },
+    {
+      "text": "Croce admite que, a posteriori y con fines prácticos clasificatorios, podamos reconocer obras con rasgos comunes y hablar de «canción», «elegía», etc.",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Lo admite como descripción a posteriori, no como condicionante de la intuición-expresión ni de la valoración crítica."
+    },
+    {
+      "text": "Según el tema, Croce rechaza el género no por considerarlo inútil para el estudio, sino porque quiere evitar…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "la influencia de Aristóteles", "correct": false },
+        { "text": "la mezcla de géneros", "correct": false },
+        { "text": "el condicionamiento que el género ejercía sobre la creación y la valoración crítica", "correct": true },
+        { "text": "la existencia de subgéneros", "correct": false }
+      ],
+      "explanation": "Quiere evitar que el género condicione la creación y la crítica, como venía ocurriendo."
+    },
+    {
+      "text": "Frente a Croce, lo que predomina entre los estudiosos es la utilidad del concepto de género, que se revaloriza con…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "el impresionismo crítico", "correct": false },
+        { "text": "las teorías formalistas y estructuralistas", "correct": true },
+        { "text": "la filosofía hegeliana", "correct": false },
+        { "text": "el naturalismo de Brunetière", "correct": false }
+      ],
+      "explanation": "Formalistas y estructuralistas superan el subjetivismo: la obra es comprensible porque sigue reglas compartidas por escritores y lectores."
+    },
+    {
+      "text": "Según el tema, ¿en qué se diferencian el enfoque sociológico y el semiótico de los géneros?",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "el sociológico relaciona las reglas con clases y grupos sociales; la semiótica las relaciona con las de otros discursos", "correct": true },
+        { "text": "ambos niegan la existencia de los géneros", "correct": false },
+        { "text": "el semiótico es idéntico al formalismo ruso", "correct": false },
+        { "text": "el sociológico se ocupa solo de la métrica", "correct": false }
+      ],
+      "explanation": "El sociológico subraya la dimensión comunitaria (clases, grupos); la semiótica conecta las reglas del género con las de otros discursos."
+    },
+    {
+      "text": "Para los formalistas rusos, el arte es un conjunto de procedimientos que producen una visión extrañada; cuando esos procedimientos se automatizan…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "el género desaparece para siempre", "correct": false },
+        { "text": "la obra deja de ser literaria", "correct": false },
+        { "text": "se necesita renovarlos para producir una nueva extrañeza y renovar el interés estético", "correct": true },
+        { "text": "se vuelve a la mímesis clásica", "correct": false }
+      ],
+      "explanation": "La evolución literaria es una lucha de escuelas y géneros por renovar el arte mediante nuevos procedimientos."
+    },
+    {
+      "text": "Para los formalistas rusos, lo decisivo para la existencia de un género no son los procedimientos en sí, sino…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "la biografía del autor", "correct": false },
+        { "text": "cómo se jerarquizan (cuáles son dominantes y cuáles sometidos) en cada momento histórico", "correct": true },
+        { "text": "el número de versos", "correct": false },
+        { "text": "la inspiración divina", "correct": false }
+      ],
+      "explanation": "Como los procedimientos suelen ser los mismos, lo decisivo es su jerarquización (dominantes/sometidos) en cada momento."
+    },
+    {
+      "text": "Los formalistas explican que la parodia contribuye a la evolución de la literatura; el ejemplo del tema es…",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "la parodia de la épica por Homero", "correct": false },
+        { "text": "la parodia de las novelas de caballerías por Cervantes, que contribuye al nuevo género de la novela", "correct": true },
+        { "text": "la parodia del drama por Lope", "correct": false },
+        { "text": "la parodia de la lírica por Petrarca", "correct": false }
+      ],
+      "explanation": "La parodia cervantina de los libros de caballerías contribuye al género novela y, con él, a un cambio del sistema literario."
+    },
+    {
+      "text": "Según Jakobson, cada género fundamental intensifica una función del lenguaje y parte de una persona gramatical. ¿Qué asociaciones son correctas? (varias respuestas)",
+      "category": "siglo-xx",
+      "options": [
+        { "text": "épico: función referencial, tercera persona", "correct": true },
+        { "text": "lírico: función emotiva, primera persona", "correct": true },
+        { "text": "dramático: función apelativa, segunda persona", "correct": true },
+        { "text": "épico: función poética, primera persona del presente", "correct": false }
+      ],
+      "explanation": "Épico (referencial, 3.ª persona, pasado), lírico (emotiva, 1.ª persona del presente), dramático (apelativa, 2.ª persona); Jakobson parte de la tríada hegeliana sin cuestionarla."
+    },
+    {
+      "text": "Según Schaeffer, ¿qué tres lógicas genéricas aparecen ya en la Poética de Aristóteles? (varias respuestas)",
+      "category": "evolucion-idea",
+      "options": [
+        { "text": "una actitud esencialista (los géneros como seres naturales)", "correct": true },
+        { "text": "una función de conminación (prescribir reglas al escritor)", "correct": true },
+        { "text": "una lógica de descripción (analizar la diversidad de las obras)", "correct": true },
+        { "text": "una lógica intuitiva (negar los géneros)", "correct": false }
+      ],
+      "explanation": "Esencialista, de conminación (normativa) y de descripción; Jauss las reformula como ante rem, post rem e in re."
+    },
+    {
+      "text": "La tripartición de Jauss en acercamiento «ante rem», «post rem» e «in re» corresponde, respectivamente, a un enfoque…",
+      "category": "evolucion-idea",
+      "options": [
+        { "text": "histórico, normativo y taxonómico", "correct": false },
+        { "text": "normativo, taxonómico e histórico", "correct": true },
+        { "text": "esencialista, intuitivo y formal", "correct": false },
+        { "text": "retórico, estilístico y modal", "correct": false }
+      ],
+      "explanation": "Ante rem (normativo), post rem (taxonómico) e in re (histórico): insiste en la historicidad de los géneros."
+    },
+    {
+      "text": "Según el texto de Macé, la última actitud teórica en la historia de la idea de género, promovida por Fowler, Ryan o Schaeffer, es la…",
+      "category": "evolucion-idea",
+      "options": [
+        { "text": "normativa: imponer reglas universales", "correct": false },
+        { "text": "esencialista: ver los géneros como seres naturales", "correct": false },
+        { "text": "pragmática: observar las prácticas de género y sus transformaciones en contextos históricos", "correct": true },
+        { "text": "estructural: la narratología", "correct": false }
+      ],
+      "explanation": "La evolución va de la normativa al esencialismo, luego a lo estructural y por fin a la actitud pragmática."
+    },
+    {
+      "text": "Según Macé, se necesitaron casi veinte siglos (de Quintiliano a Batteux) para pasar de dos a tres géneros, es decir, para incorporar…",
+      "category": "evolucion-idea",
+      "options": [
+        { "text": "el ensayo junto a los demás", "correct": false },
+        { "text": "la lírica junto a los géneros narrativo y dramático", "correct": true },
+        { "text": "la épica junto a la lírica", "correct": false },
+        { "text": "la tragedia junto a la comedia", "correct": false }
+      ],
+      "explanation": "La lírica había quedado fuera por no responder al criterio de la mímesis; Genette habla de la «tríada romántica» y de una ilusión retrospectiva."
+    },
+    {
+      "text": "Según Macé, la dificultad de articular poética, retórica y lingüística estriba en que los géneros son objetos históricos, mientras que los modos son…",
+      "category": "evolucion-idea",
+      "options": [
+        { "text": "objetos históricos más concretos", "correct": false },
+        { "text": "estilos retóricos", "correct": false },
+        { "text": "categorías estéticas", "correct": false },
+        { "text": "universales del discurso (las situaciones de enunciación)", "correct": true }
+      ],
+      "explanation": "Los géneros son históricos; los modos (situaciones de enunciación) son universales del discurso; de ahí la confusión en prácticas como la rueda de Virgilio."
+    }
+  ]
+}

@@ -9,10 +9,22 @@
       "count": 100
     },
     {
+      "file": "tests_tema2_historia_teorias_generos.json",
+      "title": "Panorama histórico de las teorías sobre los géneros (tema 2)",
+      "description": "100 preguntas de repaso del tema 2: la Antigüedad (Platón, Aristóteles, helenismo, Roma), la Edad Media, el clasicismo, el Romanticismo y la crisis del género, y el siglo XX, más la evolución de la idea de género.",
+      "count": 100
+    },
+    {
       "file": "tests_tema3_generos_liricos.json",
       "title": "Géneros literarios líricos (tema 3)",
       "description": "Test de repaso del tema 3: teoría del poema, métrica y panorama histórico de los géneros líricos.",
       "count": 20
+    },
+    {
+      "file": "tests_tema3_generos_liricos_100.json",
+      "title": "Géneros líricos y vocalidad del poema (tema 3)",
+      "description": "100 preguntas de repaso del tema 3: la poesía y el poema, aspectos rítmicos y métricos, y el panorama histórico de los géneros líricos (Antigüedad, Edad Media, Edades Moderna y Contemporánea).",
+      "count": 100
     }
   ]
 }

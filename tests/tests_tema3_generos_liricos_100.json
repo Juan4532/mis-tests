@@ -1,0 +1,2252 @@
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Géneros líricos y vocalidad del poema (tema 3)",
+  "description": "100 preguntas de repaso del tema 3: la poesía y el poema, aspectos rítmicos y métricos, y el panorama histórico de los géneros líricos (Antigüedad, Edad Media, Edades Moderna y Contemporánea).",
+  "questions": [
+    {
+      "text": "Según el tema, hoy «poesía» y «lírica» son términos sinónimos.",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "Son sinónimos; por eso decir «poesía lírica» resulta hoy una redundancia."
+    },
+    {
+      "text": "La «definición» de poesía que concluye «poesía eres tú» pertenece a una rima de…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "Gustavo Adolfo Bécquer",
+          "correct": true
+        },
+        {
+          "text": "Garcilaso de la Vega",
+          "correct": false
+        },
+        {
+          "text": "Antonio Machado",
+          "correct": false
+        },
+        {
+          "text": "Juan Ramón Jiménez",
+          "correct": false
+        }
+      ],
+      "explanation": "Es la conocida rima de Bécquer, ejemplo de la conciencia amplia y poco delimitada de la poesía heredada del Romanticismo."
+    },
+    {
+      "text": "La idea de que todo arte o ciencia ejercido «gratuitamente» y con perfección máxima puede considerarse poesía aparece, en el tema, en el «Diálogo sobre la poesía» de…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "Benedetto Croce",
+          "correct": false
+        },
+        {
+          "text": "Friedrich Schlegel",
+          "correct": true
+        },
+        {
+          "text": "Kurt Spang",
+          "correct": false
+        },
+        {
+          "text": "Remo Ceserani",
+          "correct": false
+        }
+      ],
+      "explanation": "Es F. Schlegel, en su «Diálogo sobre la poesía» (Amalia, Lotario, Ludovico)."
+    },
+    {
+      "text": "El término «poesía» procede de «poiesis», de «poiein», que significaba…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "«cantar»",
+          "correct": false
+        },
+        {
+          "text": "«imitar»",
+          "correct": false
+        },
+        {
+          "text": "«hacer»",
+          "correct": true
+        },
+        {
+          "text": "«sentir»",
+          "correct": false
+        }
+      ],
+      "explanation": "La poesía restringe ese «hacer» al de un hacer imitativo mediante imágenes."
+    },
+    {
+      "text": "Según el tema, la idea de poesía presenta dos dimensiones:",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "una oral y otra escrita",
+          "correct": false
+        },
+        {
+          "text": "una culta y otra popular",
+          "correct": false
+        },
+        {
+          "text": "una narrativa y otra dramática",
+          "correct": false
+        },
+        {
+          "text": "una psicológica o estética y otra técnica (uso especial de las palabras)",
+          "correct": true
+        }
+      ],
+      "explanation": "Una dimensión estética (depende de un estado mental y una expresión especiales) y otra técnica (objetivable, el verso y las imágenes)."
+    },
+    {
+      "text": "Según el tema, ¿qué son índices claros (aunque no definitivos) de poesía?",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "el verso y las metáforas",
+          "correct": true
+        },
+        {
+          "text": "la rima y la longitud del poema",
+          "correct": false
+        },
+        {
+          "text": "el título y la firma del autor",
+          "correct": false
+        },
+        {
+          "text": "el tema amoroso",
+          "correct": false
+        }
+      ],
+      "explanation": "El verso y las metáforas son índices claros de poesía, aunque la poesía no se reduzca a ellos."
+    },
+    {
+      "text": "El Diccionario de la Lengua Española define la poesía como…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "«arte verbal que es siempre ficción»",
+          "correct": false
+        },
+        {
+          "text": "«manifestación de la belleza o del sentimiento estético por medio de la palabra, en verso o en prosa»",
+          "correct": true
+        },
+        {
+          "text": "«género literario exquisito»",
+          "correct": false
+        },
+        {
+          "text": "«discurso fuertemente subjetivizado»",
+          "correct": false
+        }
+      ],
+      "explanation": "Es la definición del DLE; la de «género literario exquisito» es de María Moliner."
+    },
+    {
+      "text": "La definición de poesía como «género literario exquisito» (por la materia, la forma y el lenguaje) es de…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "el Diccionario de la Lengua Española",
+          "correct": false
+        },
+        {
+          "text": "Kurt Spang",
+          "correct": false
+        },
+        {
+          "text": "el diccionario de María Moliner",
+          "correct": true
+        },
+        {
+          "text": "W. Kayser",
+          "correct": false
+        }
+      ],
+      "explanation": "Es la definición del diccionario de María Moliner."
+    },
+    {
+      "text": "Según W. Kayser, la disposición que caracteriza al autor lírico es…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "la objetividad narrativa",
+          "correct": false
+        },
+        {
+          "text": "la tensión dramática",
+          "correct": false
+        },
+        {
+          "text": "la explanación expositiva",
+          "correct": false
+        },
+        {
+          "text": "la «interiorización» (un discurso fuertemente subjetivizado)",
+          "correct": true
+        }
+      ],
+      "explanation": "Kayser habla de «interiorización»; esa tensión emocional conduce además a la brevedad."
+    },
+    {
+      "text": "Según los rasgos de la lírica recogidos por Spang, a diferencia del drama y la épica, la lírica…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "no presenta una historia: los elementos anecdóticos provocan emoción, no son nudos de una trama",
+          "correct": true
+        },
+        {
+          "text": "siempre cuenta una historia con planteamiento, nudo y desenlace",
+          "correct": false
+        },
+        {
+          "text": "carece de todo elemento anecdótico",
+          "correct": false
+        },
+        {
+          "text": "se basa en el diálogo entre personajes",
+          "correct": false
+        }
+      ],
+      "explanation": "La lírica no presenta una historia; lo anecdótico funciona como objeto que provoca emoción, no como nudo de trama."
+    },
+    {
+      "text": "Que la estructura lingüística de la lírica potencie su carácter «autotélico» significa que…",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "el texto remite siempre a una realidad exterior",
+          "correct": false
+        },
+        {
+          "text": "el texto llama la atención sobre sí mismo (recurrencias, paralelismos, juegos semánticos que potencian la connotación)",
+          "correct": true
+        },
+        {
+          "text": "el poema carece de forma",
+          "correct": false
+        },
+        {
+          "text": "el poema es siempre narrativo",
+          "correct": false
+        }
+      ],
+      "explanation": "Autotélico: el texto se vuelve sobre sí mismo mediante recurrencias y paralelismos que potencian la connotación."
+    },
+    {
+      "text": "Según Kurt Spang, ¿cuáles son las cualidades del texto poético? (varias respuestas)",
+      "category": "definicion-poesia",
+      "options": [
+        {
+          "text": "es manifestación de lo poético (experiencia estética)",
+          "correct": true
+        },
+        {
+          "text": "es una construcción verbal",
+          "correct": true
+        },
+        {
+          "text": "es una ficción",
+          "correct": true
+        },
+        {
+          "text": "es siempre un texto en verso rimado",
+          "correct": false
+        }
+      ],
+      "explanation": "Spang subraya que la lírica es arte verbal y ficción, como la narrativa y la dramática; la versificación no es imprescindible."
+    },
+    {
+      "text": "Para describir y comentar un poema, el tema toma de Morris la distinción entre las dimensiones…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "fónica, morfológica y léxica",
+          "correct": false
+        },
+        {
+          "text": "estética, ética y lógica",
+          "correct": false
+        },
+        {
+          "text": "comunicativa (pragmática), semántica y sintáctica",
+          "correct": true
+        },
+        {
+          "text": "épica, lírica y dramática",
+          "correct": false
+        }
+      ],
+      "explanation": "Se ordenan las comprobaciones según el nivel comunicativo o pragmático, el semántico y el sintáctico."
+    },
+    {
+      "text": "Según el tema, el sujeto que habla en el poema se identifica con el sujeto biográfico que firma la obra.",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": false
+        },
+        {
+          "text": "Falso",
+          "correct": true
+        }
+      ],
+      "explanation": "El sujeto del acto comunicativo poético es una voz construida por el autor, que no debe identificarse con el sujeto biográfico."
+    },
+    {
+      "text": "Según Ceserani, incluso un texto lírico brevísimo, concentrado en la vida interior del sujeto, contempla…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "una trama con varios personajes",
+          "correct": false
+        },
+        {
+          "text": "la ausencia total de destinatario",
+          "correct": false
+        },
+        {
+          "text": "un narrador omnisciente",
+          "correct": false
+        },
+        {
+          "text": "una situación de carácter dialógico (un sujeto que habla y uno o más que escuchan o leen)",
+          "correct": true
+        }
+      ],
+      "explanation": "Ceserani señala que incluso el texto lírico más interior supone una situación dialógica: un destinador y un destinatario."
+    },
+    {
+      "text": "En el nivel semántico del poema, el título puede funcionar como…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "un resumen del poema, o destacar su tonalidad, un tema parcial o el género",
+          "correct": true
+        },
+        {
+          "text": "una indicación métrica obligatoria",
+          "correct": false
+        },
+        {
+          "text": "la firma del autor",
+          "correct": false
+        },
+        {
+          "text": "una pausa estrófica",
+          "correct": false
+        }
+      ],
+      "explanation": "El título suele ser un resumen, pero también puede señalar la tonalidad, un tema parcial o aludir al género."
+    },
+    {
+      "text": "Según Tomachevski, la poesía lírica pertenece a las obras…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "con fábula, como el cuento y la novela",
+          "correct": false
+        },
+        {
+          "text": "sin fábula (sin nexo causal-temporal entre sus elementos)",
+          "correct": true
+        },
+        {
+          "text": "dramáticas",
+          "correct": false
+        },
+        {
+          "text": "de uso repetido",
+          "correct": false
+        }
+      ],
+      "explanation": "Tomachevski opone las obras con fábula (cuento, novela, poema épico) y las obras sin fábula o «descriptivas» (lírica, poesía descriptiva, viajes)."
+    },
+    {
+      "text": "Según la distinción de Tomachevski, ¿qué obras tienen fábula? (varias respuestas)",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "los cuentos",
+          "correct": true
+        },
+        {
+          "text": "las novelas",
+          "correct": true
+        },
+        {
+          "text": "los poemas épicos",
+          "correct": true
+        },
+        {
+          "text": "la poesía lírica",
+          "correct": false
+        }
+      ],
+      "explanation": "Con fábula: cuentos, novelas, poemas épicos; sin fábula: la lírica, la poesía descriptiva o «didáctica», los viajes, etc."
+    },
+    {
+      "text": "El nivel que otros denominan «expresión» o «forma externa» del poema es el…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "semántico",
+          "correct": false
+        },
+        {
+          "text": "pragmático",
+          "correct": false
+        },
+        {
+          "text": "sintáctico",
+          "correct": true
+        },
+        {
+          "text": "referencial",
+          "correct": false
+        }
+      ],
+      "explanation": "El nivel sintáctico es la manera en que se ensamblan los elementos; reúne los rasgos «visibles y audibles» (métrica, figuras, etc.)."
+    },
+    {
+      "text": "Además de la semántica interna (intensional), en el poema hay que tener en cuenta la semántica…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "métrica",
+          "correct": false
+        },
+        {
+          "text": "pragmática",
+          "correct": false
+        },
+        {
+          "text": "fónica",
+          "correct": false
+        },
+        {
+          "text": "referencial (extensional), y plantear su carácter ficcional",
+          "correct": true
+        }
+      ],
+      "explanation": "Junto a la semántica intensional hay que considerar la referencial (extensional) y el alcance ficcional del poema."
+    },
+    {
+      "text": "Según el tema, lo importante al analizar un poema es que las comprobaciones sintácticas, semánticas y pragmáticas…",
+      "category": "niveles-analisis",
+      "options": [
+        {
+          "text": "se pongan en relación, interpretando el poema a partir de esa relación",
+          "correct": true
+        },
+        {
+          "text": "se estudien de forma totalmente independiente",
+          "correct": false
+        },
+        {
+          "text": "se reduzcan a la métrica",
+          "correct": false
+        },
+        {
+          "text": "se limiten al nivel pragmático",
+          "correct": false
+        }
+      ],
+      "explanation": "Hay que poner en relación las tres comprobaciones e interpretar el poema a partir de esa puesta en relación."
+    },
+    {
+      "text": "Según el tema, el «ritmo» es…",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "la pauta convencional con que se mide el verso",
+          "correct": false
+        },
+        {
+          "text": "una secuenciación de elementos en el espacio-tiempo; restringido a lo temporal, una secuenciación regular de impresiones (sobre todo sonoras)",
+          "correct": true
+        },
+        {
+          "text": "la rima entre dos versos",
+          "correct": false
+        },
+        {
+          "text": "exclusivo de la música",
+          "correct": false
+        }
+      ],
+      "explanation": "El ritmo es una secuenciación regular de impresiones; decimos que una película o el lenguaje tienen ritmo, y es decisivo en la música."
+    },
+    {
+      "text": "El metro o la métrica es…",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "cualquier repetición de sonidos",
+          "correct": false
+        },
+        {
+          "text": "lo mismo que el ritmo",
+          "correct": false
+        },
+        {
+          "text": "la pauta o código cultural con que concitamos y percibimos el ritmo en las manifestaciones lingüísticas artísticas",
+          "correct": true
+        },
+        {
+          "text": "la igualdad de timbre al final del verso",
+          "correct": false
+        }
+      ],
+      "explanation": "El metro es la pauta convencional (códigos culturales) con que percibimos y regulamos el ritmo; puede variar según escuelas métricas."
+    },
+    {
+      "text": "La palabra «verso» procede del latín «vertere», que significa…",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "«cantar»",
+          "correct": false
+        },
+        {
+          "text": "«medir»",
+          "correct": false
+        },
+        {
+          "text": "«hacer»",
+          "correct": false
+        },
+        {
+          "text": "«volver hacia atrás»",
+          "correct": true
+        }
+      ],
+      "explanation": "Verso viene de «vertere» («volver hacia atrás»): es una secuencia que se reitera o repite de cierta forma."
+    },
+    {
+      "text": "Según el tema, la diferencia entre prosa y verso es que…",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "la prosa es secuencia continuada sin repeticiones previstas, y el verso una secuencia que se reitera",
+          "correct": true
+        },
+        {
+          "text": "la prosa carece por completo de ritmo",
+          "correct": false
+        },
+        {
+          "text": "el verso no puede tener métrica",
+          "correct": false
+        },
+        {
+          "text": "la prosa solo se usa en la lírica",
+          "correct": false
+        }
+      ],
+      "explanation": "Prosa = secuencia continuada sin repeticiones previstas; verso = secuencia reiterada; pero también hay una métrica de la prosa («prosa medida»)."
+    },
+    {
+      "text": "Según el tema, existe también una métrica de la prosa («prosa medida»), porque la prosa clásica sigue asimismo un ritmo.",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "Hay una métrica del verso (la versificación) y una métrica de la prosa; la prosa elaborada también sigue un ritmo."
+    },
+    {
+      "text": "Los versos se forman sometiendo a medida diversos rasgos fónicos de la cadena hablada. ¿Cuáles? (varias respuestas)",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "la intensidad",
+          "correct": true
+        },
+        {
+          "text": "la duración",
+          "correct": true
+        },
+        {
+          "text": "el tono y el timbre",
+          "correct": true
+        },
+        {
+          "text": "el significado",
+          "correct": false
+        }
+      ],
+      "explanation": "Intensidad, duración, tono y timbre; estos rasgos pueden ser o no relevantes fonológicamente en cada lengua."
+    },
+    {
+      "text": "En el sistema de versificación del español cuentan, sobre todo…",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "la distinción entre vocales largas y breves",
+          "correct": false
+        },
+        {
+          "text": "el acento de intensidad y el número de sílabas (con la entonación y la rima)",
+          "correct": true
+        },
+        {
+          "text": "el tono, como en chino",
+          "correct": false
+        },
+        {
+          "text": "solo la rima",
+          "correct": false
+        }
+      ],
+      "explanation": "En español: acento de intensidad, número de sílabas, entonación y rima; las vocales largas/breves son del latín, y el tono, del chino."
+    },
+    {
+      "text": "Según el tema, ¿qué rasgo usa cada lengua para su versificación?",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "todas las lenguas usan el acento de intensidad",
+          "correct": false
+        },
+        {
+          "text": "el inglés usa las vocales largas y breves en su versificación",
+          "correct": false
+        },
+        {
+          "text": "el latín, las vocales largas y breves; el chino, el tono; las lenguas con rima, el timbre",
+          "correct": true
+        },
+        {
+          "text": "el español usa el tono",
+          "correct": false
+        }
+      ],
+      "explanation": "Latín: vocales largas/breves; chino: tono; rima: semejanza de timbre; el inglés distingue vocales largas/breves pero no las usa para versificar."
+    },
+    {
+      "text": "Según José Domínguez Caparrós, los especialistas describen el sistema métrico español con tres orientaciones:",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "métrica silábica, acentual y rítmica",
+          "correct": false
+        },
+        {
+          "text": "métrica culta, popular y libre",
+          "correct": false
+        },
+        {
+          "text": "métrica fónica, semántica y pragmática",
+          "correct": false
+        },
+        {
+          "text": "métrica musical, métrica acústica y métrica lingüística",
+          "correct": true
+        }
+      ],
+      "explanation": "Domínguez Caparrós distingue la métrica musical, la acústica y la lingüística (complementaria de las anteriores)."
+    },
+    {
+      "text": "¿A qué orientación métrica corresponde cada especialista?",
+      "category": "ritmo-metrica",
+      "options": [
+        {
+          "text": "la métrica musical, a Tomás Navarro Tomás; la métrica acústica, a Balbín",
+          "correct": true
+        },
+        {
+          "text": "la métrica musical, a Balbín; la acústica, a Navarro Tomás",
+          "correct": false
+        },
+        {
+          "text": "ambas, a Domínguez Caparrós",
+          "correct": false
+        },
+        {
+          "text": "la métrica musical, a Bécquer",
+          "correct": false
+        }
+      ],
+      "explanation": "Navarro Tomás aplica la métrica musical (periodos de idéntica duración, como el compás); Balbín, la acústica (tono, timbre, intensidad, cantidad)."
+    },
+    {
+      "text": "La sinalefa consiste en…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "no cumplir el enlace de dos vocales contiguas",
+          "correct": false
+        },
+        {
+          "text": "computar como una sola sílaba la vocal final de una palabra con la inicial de la siguiente",
+          "correct": true
+        },
+        {
+          "text": "deshacer un diptongo interior en dos sílabas",
+          "correct": false
+        },
+        {
+          "text": "sumar una sílaba en verso agudo",
+          "correct": false
+        }
+      ],
+      "explanation": "Sinalefa: fusión en una sílaba de la vocal final de una palabra y la inicial de la siguiente."
+    },
+    {
+      "text": "La diéresis consiste en…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "computar como una sola sílaba dos vocales interiores que no forman diptongo",
+          "correct": false
+        },
+        {
+          "text": "fundir la vocal final con la inicial siguiente",
+          "correct": false
+        },
+        {
+          "text": "computar como dos sílabas dos vocales interiores que forman diptongo",
+          "correct": true
+        },
+        {
+          "text": "no cumplir la sinalefa",
+          "correct": false
+        }
+      ],
+      "explanation": "Diéresis: deshace un diptongo, contando como dos sílabas; la sinéresis hace lo contrario (une en una)."
+    },
+    {
+      "text": "La sinéresis consiste en…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "computar como dos sílabas un diptongo",
+          "correct": false
+        },
+        {
+          "text": "no enlazar la vocal final con la inicial siguiente",
+          "correct": false
+        },
+        {
+          "text": "quitar una sílaba en verso esdrújulo",
+          "correct": false
+        },
+        {
+          "text": "computar como una sola sílaba dos vocales contiguas interiores que no forman diptongo",
+          "correct": true
+        }
+      ],
+      "explanation": "Sinéresis: une en una sílaba dos vocales interiores que normalmente no formarían diptongo."
+    },
+    {
+      "text": "El hiato o dialefa consiste en…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "no cumplir el fenómeno de la sinalefa (no enlazar las vocales contiguas entre palabras)",
+          "correct": true
+        },
+        {
+          "text": "deshacer un diptongo interior",
+          "correct": false
+        },
+        {
+          "text": "unir dos vocales interiores que no forman diptongo",
+          "correct": false
+        },
+        {
+          "text": "fundir la vocal final con la inicial siguiente",
+          "correct": false
+        }
+      ],
+      "explanation": "Hiato o dialefa: el no cumplimiento de la sinalefa entre dos palabras."
+    },
+    {
+      "text": "Si un verso español acaba en palabra aguda…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "se cuenta una sílaba menos",
+          "correct": false
+        },
+        {
+          "text": "se cuenta una sílaba más",
+          "correct": true
+        },
+        {
+          "text": "no varía el cómputo",
+          "correct": false
+        },
+        {
+          "text": "se cuentan dos sílabas menos",
+          "correct": false
+        }
+      ],
+      "explanation": "El verso debe acabar a efectos métricos en palabra llana; si acaba en aguda se cuenta una sílaba más."
+    },
+    {
+      "text": "Si un verso español acaba en palabra esdrújula, se cuenta una sílaba menos.",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "El verso se computa como si acabara en llana; en esdrújula se cuenta una sílaba menos, y en aguda, una más."
+    },
+    {
+      "text": "La ordenación periódica de los acentos léxicos a lo largo del verso configura…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "la rima",
+          "correct": false
+        },
+        {
+          "text": "la cesura",
+          "correct": false
+        },
+        {
+          "text": "el ritmo de intensidad",
+          "correct": true
+        },
+        {
+          "text": "el encabalgamiento",
+          "correct": false
+        }
+      ],
+      "explanation": "El acento de intensidad léxico configura el ritmo de intensidad, importante en la métrica castellana aunque esta sea fundamentalmente silábica."
+    },
+    {
+      "text": "El modelo métrico de Navarro Tomás se basa en el «periodo rítmico» y deja fuera del cómputo, en «anacrusis»…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "todas las sílabas átonas del verso",
+          "correct": false
+        },
+        {
+          "text": "las sílabas finales tras la última pausa",
+          "correct": false
+        },
+        {
+          "text": "los diptongos interiores",
+          "correct": false
+        },
+        {
+          "text": "las sílabas que preceden a la primera acentuada (y la última acentuada)",
+          "correct": true
+        }
+      ],
+      "explanation": "El periodo rítmico va del primer acento al que precede al último; en anacrusis quedan la última acentuada y las que preceden a la primera acentuada."
+    },
+    {
+      "text": "Según el modelo de Balbín, el «eje rítmico» del verso se establece atendiendo a…",
+      "category": "silaba-acento",
+      "options": [
+        {
+          "text": "el signo par («yámbico») o impar («trocaico») del último acento del verso",
+          "correct": true
+        },
+        {
+          "text": "la cantidad de sílabas del primer hemistiquio",
+          "correct": false
+        },
+        {
+          "text": "el número de rimas consonantes",
+          "correct": false
+        },
+        {
+          "text": "la posición de la cesura",
+          "correct": false
+        }
+      ],
+      "explanation": "Balbín clasifica los acentos según su adecuación al eje rítmico (par/yámbico o impar/trocaico) que marca el último acento; los demás pueden ser «extrarrítmicos»."
+    },
+    {
+      "text": "Según el tema, los versos de arte menor y de arte mayor se distinguen así:",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "arte menor hasta once; arte mayor a partir de doce",
+          "correct": false
+        },
+        {
+          "text": "arte menor hasta ocho sílabas; arte mayor a partir de nueve",
+          "correct": true
+        },
+        {
+          "text": "arte menor los pares; arte mayor los impares",
+          "correct": false
+        },
+        {
+          "text": "arte menor sin rima; arte mayor con rima",
+          "correct": false
+        }
+      ],
+      "explanation": "A partir de tres o cuatro sílabas hay verso; hasta ocho es arte menor y desde nueve, arte mayor."
+    },
+    {
+      "text": "Según el tema, el verso se divide en dos partes por una cesura…",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "siempre que tiene rima asonante",
+          "correct": false
+        },
+        {
+          "text": "solo en el octosílabo",
+          "correct": false
+        },
+        {
+          "text": "de forma voluntaria en el decasílabo y siempre cuando sobrepasa las once sílabas",
+          "correct": true
+        },
+        {
+          "text": "nunca en español",
+          "correct": false
+        }
+      ],
+      "explanation": "Once sílabas es el límite del grupo fónico del español; al sobrepasarlo, el verso se divide en hemistiquios por una cesura."
+    },
+    {
+      "text": "El endecasílabo lleva acento obligatorio en la décima sílaba (ritmo yámbico).",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "Es el verso simple de arte mayor más empleado en español y lleva acento obligatorio en la 10.ª sílaba (ritmo yámbico)."
+    },
+    {
+      "text": "Según Navarro Tomás, ¿cuáles son tipos de endecasílabo? (varias respuestas)",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "enfático (acentos en 1.ª, 6.ª y 10.ª)",
+          "correct": true
+        },
+        {
+          "text": "heroico (en 2.ª, 6.ª y 10.ª)",
+          "correct": true
+        },
+        {
+          "text": "melódico (en 3.ª, 6.ª y 10.ª)",
+          "correct": true
+        },
+        {
+          "text": "alejandrino (en 7.ª y 14.ª)",
+          "correct": false
+        }
+      ],
+      "explanation": "Enfático, heroico, melódico y sáfico; el alejandrino es otro verso (de catorce sílabas con cesura)."
+    },
+    {
+      "text": "Según el tema, ¿qué verso es más propio de la poesía culta y cuál de la popular?",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "el octosílabo, de la culta; el endecasílabo, de la popular",
+          "correct": false
+        },
+        {
+          "text": "ambos, de la popular",
+          "correct": false
+        },
+        {
+          "text": "el alejandrino, de la popular",
+          "correct": false
+        },
+        {
+          "text": "el endecasílabo, de la culta; el octosílabo, de la popular",
+          "correct": true
+        }
+      ],
+      "explanation": "El endecasílabo es más propio de la poesía culta; el octosílabo, cuyo tamaño equivale al promedio del periodo fónico, de la popular."
+    },
+    {
+      "text": "Según cómo se sometan al cómputo, los versos que se agrupan pueden ser… (varias respuestas)",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "regulares o isosilábicos (mismo número de sílabas)",
+          "correct": true
+        },
+        {
+          "text": "anisosilábicos (con variaciones en el número de sílabas)",
+          "correct": true
+        },
+        {
+          "text": "libres (no sometidos al cómputo silábico)",
+          "correct": true
+        },
+        {
+          "text": "monorrimos (todos con la misma rima)",
+          "correct": false
+        }
+      ],
+      "explanation": "Regulares/isosilábicos, anisosilábicos y libres; los modernistas llaman «verso libre» a los que no tienen rima (sueltos o blancos)."
+    },
+    {
+      "text": "Las pausas que determinan el movimiento entonativo del poema son… (varias respuestas)",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "la pausa sintáctica",
+          "correct": true
+        },
+        {
+          "text": "la pausa de cesura",
+          "correct": true
+        },
+        {
+          "text": "la pausa versal (al final del verso) y la estrófica",
+          "correct": true
+        },
+        {
+          "text": "la pausa de intensidad",
+          "correct": false
+        }
+      ],
+      "explanation": "Son pausas las impuestas por la sintaxis, la cesura, el final de verso (versal) y el final de estrofa (estrófica)."
+    },
+    {
+      "text": "El encabalgamiento consiste en…",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "la falta de correspondencia entre la pausa sintáctica y la pausa métrica",
+          "correct": true
+        },
+        {
+          "text": "la igualdad de timbre al final de dos versos",
+          "correct": false
+        },
+        {
+          "text": "la división del verso por una cesura",
+          "correct": false
+        },
+        {
+          "text": "el desplazamiento de un acento",
+          "correct": false
+        }
+      ],
+      "explanation": "La pausa métrica rompe la unidad sintáctica, que se prolonga al verso siguiente; el recitador debe optar por respetarla o no."
+    },
+    {
+      "text": "Según el tema, ¿qué distingue el encabalgamiento suave del abrupto?",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "el suave afecta a una palabra y el abrupto a una oración",
+          "correct": false
+        },
+        {
+          "text": "en el suave la línea melódica se prolonga hacia el final del verso encabalgado; en el abrupto se corta",
+          "correct": true
+        },
+        {
+          "text": "el suave tiene rima y el abrupto no",
+          "correct": false
+        },
+        {
+          "text": "el suave se da en arte menor y el abrupto en arte mayor",
+          "correct": false
+        }
+      ],
+      "explanation": "Suave: la melodía del verso encabalgante se prolonga; abrupto: esa línea melódica se corta (como en el ejemplo de Bécquer «pálida / mujer»)."
+    },
+    {
+      "text": "La rima puede ser asonante o consonante según…",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "esté al final o en el interior del verso",
+          "correct": false
+        },
+        {
+          "text": "haya o no cesura",
+          "correct": false
+        },
+        {
+          "text": "se repitan, desde la última vocal acentuada, solo los fonemas vocálicos (asonante) o todos los fonemas (consonante)",
+          "correct": true
+        },
+        {
+          "text": "el verso sea de arte mayor o menor",
+          "correct": false
+        }
+      ],
+      "explanation": "Asonante (solo vocales) y consonante (todos los fonemas), a partir de la última vocal acentuada; por su disposición puede ser pareada, abrazada, cruzada, etc."
+    },
+    {
+      "text": "¿Qué esquema de rima corresponde a cada estrofa de cuatro versos? (varias respuestas)",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "redondilla: abba (arte menor)",
+          "correct": true
+        },
+        {
+          "text": "cuarteta: abab (arte menor)",
+          "correct": true
+        },
+        {
+          "text": "cuarteto: ABBA (arte mayor)",
+          "correct": true
+        },
+        {
+          "text": "terceto: ABA (arte mayor)",
+          "correct": false
+        }
+      ],
+      "explanation": "Redondilla (abba) y cuarteta (abab) en arte menor; cuarteto (ABBA) y serventesio (ABAB) en arte mayor; el terceto tiene tres versos."
+    },
+    {
+      "text": "Los poemas que no se dividen en estrofas, sino que están constituidos por una serie de versos (como el romance o las tiradas de versos blancos), se llaman…",
+      "category": "verso-estrofa",
+      "options": [
+        {
+          "text": "estróficos",
+          "correct": false
+        },
+        {
+          "text": "isosilábicos",
+          "correct": false
+        },
+        {
+          "text": "monódicos",
+          "correct": false
+        },
+        {
+          "text": "estíquicos",
+          "correct": true
+        }
+      ],
+      "explanation": "Estíquicos (serie de versos) frente a estróficos (divididos en estrofas según un esquema de rimas)."
+    },
+    {
+      "text": "Se llama «género métrico» a aquel en que la estructura métrica es el rasgo decisivo. ¿Qué ejemplos pone el tema?",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "el soneto y la serie de tercetos encadenados",
+          "correct": true
+        },
+        {
+          "text": "la elegía y el himno",
+          "correct": false
+        },
+        {
+          "text": "la oda y la égloga",
+          "correct": false
+        },
+        {
+          "text": "el romance y la balada",
+          "correct": false
+        }
+      ],
+      "explanation": "El soneto y los tercetos encadenados, entre otros, son géneros métricos; un género métrico generalmente sirve a un género poético."
+    },
+    {
+      "text": "La elegía, que en la Antigüedad fue un género métrico (por el dístico elegíaco), puede componerse luego en coplas de pie quebrado, soneto, etc.",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "Un género poético (la elegía) puede utilizar varios géneros métricos, y un género métrico puede servir a varios géneros poéticos."
+    },
+    {
+      "text": "Un conjunto de poemas concebido con cierta unidad por el autor constituye un «macrotexto poético». ¿Qué conjunto se identifica además como un género?",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "el soneto",
+          "correct": false
+        },
+        {
+          "text": "el cancionero",
+          "correct": true
+        },
+        {
+          "text": "la elegía",
+          "correct": false
+        },
+        {
+          "text": "el caligrama",
+          "correct": false
+        }
+      ],
+      "explanation": "El libro de poemas, las antologías y los cancioneros son macrotextos; el cancionero llega a identificarse como un género."
+    },
+    {
+      "text": "La forma más lograda y ejemplar de cancionero es, según el tema, el de…",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "Bécquer",
+          "correct": false
+        },
+        {
+          "text": "Garcilaso",
+          "correct": false
+        },
+        {
+          "text": "Petrarca (inicialmente «Vulgarium rerum fragmenta»)",
+          "correct": true
+        },
+        {
+          "text": "Lope de Vega",
+          "correct": false
+        }
+      ],
+      "explanation": "El Cancionero de Petrarca, dividido en poemas a Laura en vida y tras su muerte, es la forma más lograda; incluso añadió poemas «in vita» para equilibrarlo."
+    },
+    {
+      "text": "El texto en que su constituyente fundamental son poemas y a través de ellos se ejemplifica el proceso espiritual del autor, citado en el tema, es…",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "la «Divina Comedia» de Dante",
+          "correct": false
+        },
+        {
+          "text": "los «Pequeños poemas en prosa» de Baudelaire",
+          "correct": false
+        },
+        {
+          "text": "el «Diván del Tamarit» de Lorca",
+          "correct": false
+        },
+        {
+          "text": "la «Vita nuova» de Dante",
+          "correct": true
+        }
+      ],
+      "explanation": "La «Vita nuova» de Dante, en la línea de los cancioneros provenzales (con sus razós y vitas)."
+    },
+    {
+      "text": "Según el tema, «Diario de un poeta recién casado», de Juan Ramón Jiménez, presenta…",
+      "category": "generos-metricos",
+      "options": [
+        {
+          "text": "una organización compacta, con estructura de cancionero",
+          "correct": true
+        },
+        {
+          "text": "la estructura de un poema épico",
+          "correct": false
+        },
+        {
+          "text": "la forma del caligrama",
+          "correct": false
+        },
+        {
+          "text": "la forma de una égloga",
+          "correct": false
+        }
+      ],
+      "explanation": "El libro de Juan Ramón Jiménez presenta, en cierto modo, estructura de cancionero."
+    },
+    {
+      "text": "El himno es una composición lírica caracterizada por ser…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "un lamento melancólico de carácter biográfico",
+          "correct": false
+        },
+        {
+          "text": "casi siempre elevada y solemne, de sentimientos positivos, hecha para el canto público",
+          "correct": true
+        },
+        {
+          "text": "una composición breve, ingeniosa y de cierre sorprendente",
+          "correct": false
+        },
+        {
+          "text": "un diálogo entre pastores en ambiente campestre",
+          "correct": false
+        }
+      ],
+      "explanation": "El himno es elevado y solemne, de origen religioso (a una divinidad) y luego ampliado a héroes, reyes o ideales; mantiene un tono elevado."
+    },
+    {
+      "text": "Spang distingue tres tipos fundamentales de himno: (varias respuestas)",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "el himno lírico",
+          "correct": true
+        },
+        {
+          "text": "el himno litúrgico",
+          "correct": true
+        },
+        {
+          "text": "el himno nacional",
+          "correct": true
+        },
+        {
+          "text": "el himno elegíaco",
+          "correct": false
+        }
+      ],
+      "explanation": "Spang distingue himno lírico (Grecia, Píndaro, Calímaco), litúrgico (cristianismo, San Ambrosio) y nacional."
+    },
+    {
+      "text": "El himno litúrgico, según el tema, procede de la labor creativa de…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "Píndaro y Calímaco",
+          "correct": false
+        },
+        {
+          "text": "Horacio",
+          "correct": false
+        },
+        {
+          "text": "San Ambrosio, y de la posterior práctica del «Officium horarum»",
+          "correct": true
+        },
+        {
+          "text": "Orfeo",
+          "correct": false
+        }
+      ],
+      "explanation": "El himno litúrgico nace con el cristianismo (antecedente en Israel), procede de San Ambrosio y se desarrolla con el Officium horarum."
+    },
+    {
+      "text": "El «Carmen seculare» de Horacio, ejemplo de himno llevado a su perfección, fue compuesto por orden de Augusto y cantado por…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "un solista acompañado de lira",
+          "correct": false
+        },
+        {
+          "text": "los coros de la tragedia",
+          "correct": false
+        },
+        {
+          "text": "los poetas provenzales",
+          "correct": false
+        },
+        {
+          "text": "un coro de mancebos y doncellas, en alabanza a Apolo y Diana",
+          "correct": true
+        }
+      ],
+      "explanation": "Un coro de mancebos y doncellas cantaba alternativamente este himno de alabanza a Apolo y Diana."
+    },
+    {
+      "text": "La diferencia fundamental entre la oda y el himno es que la oda…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "trata realidades próximas al poeta, de forma personal, mientras que el himno se dirige a lo sobrenatural o inaccesible",
+          "correct": true
+        },
+        {
+          "text": "trata lo sobrenatural, y el himno lo cotidiano",
+          "correct": false
+        },
+        {
+          "text": "es siempre satírica",
+          "correct": false
+        },
+        {
+          "text": "no admite tono elevado",
+          "correct": false
+        }
+      ],
+      "explanation": "La oda (gr. ode, lat. carmen, «canto») trata realidades próximas al poeta de forma personal, aunque con tono elevado; el himno, lo sobrenatural."
+    },
+    {
+      "text": "Las famosas odas horacianas sobre el «carpe diem» y el «beatus ille» son ejemplos de oda…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "satírica",
+          "correct": false
+        },
+        {
+          "text": "como reflexión contemplativa sobre situaciones existenciales",
+          "correct": true
+        },
+        {
+          "text": "de tema bélico",
+          "correct": false
+        },
+        {
+          "text": "de alabanza a los dioses",
+          "correct": false
+        }
+      ],
+      "explanation": "El tema de la oda es variado; las horacianas del carpe diem y el beatus ille son reflexión contemplativa sobre situaciones existenciales."
+    },
+    {
+      "text": "La «Oda a Salinas», ejemplo de oda sobre el quehacer del poeta o del artista, es de…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "Garcilaso de la Vega",
+          "correct": false
+        },
+        {
+          "text": "Jorge Manrique",
+          "correct": false
+        },
+        {
+          "text": "Fray Luis de León",
+          "correct": true
+        },
+        {
+          "text": "Anacreonte",
+          "correct": false
+        }
+      ],
+      "explanation": "La «Oda a Salinas» de Fray Luis de León trata del quehacer del artista."
+    },
+    {
+      "text": "La elegía se caracteriza, más que por una temática fija, por…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "el ingenio y el cierre sorprendente",
+          "correct": false
+        },
+        {
+          "text": "la alabanza solemne a los dioses",
+          "correct": false
+        },
+        {
+          "text": "el ambiente pastoril",
+          "correct": false
+        },
+        {
+          "text": "el sentimiento y la melancolía (a menudo dolor por la muerte de un ser querido)",
+          "correct": true
+        }
+      ],
+      "explanation": "Lo que caracteriza a la elegía es el sentimiento y la melancolía; es común el dolor por la muerte o el amor dolorido."
+    },
+    {
+      "text": "En la literatura española, la elegía popular en versos cortos recibe el nombre de…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "endecha",
+          "correct": true
+        },
+        {
+          "text": "tornada",
+          "correct": false
+        },
+        {
+          "text": "jarcha",
+          "correct": false
+        },
+        {
+          "text": "tensón",
+          "correct": false
+        }
+      ],
+      "explanation": "La elegía adopta nombres como planto, llanto, lamentaciones o endecha (esta última, elegía popular en versos cortos)."
+    },
+    {
+      "text": "¿Cuáles de estas obras se citan en el tema como ejemplos de elegía? (varias respuestas)",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "«Coplas a la muerte de su padre», de Jorge Manrique",
+          "correct": true
+        },
+        {
+          "text": "«Canto a Teresa», de Espronceda",
+          "correct": true
+        },
+        {
+          "text": "«Llanto por la muerte de Ignacio Sánchez Mejías», de Lorca",
+          "correct": true
+        },
+        {
+          "text": "«Pequeños poemas en prosa», de Baudelaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Manrique, Espronceda y Lorca son los ejemplos de elegía citados; los «Pequeños poemas en prosa» son de Baudelaire."
+    },
+    {
+      "text": "El epigrama logró su más alta cima con el poeta romano de origen hispano…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "Horacio",
+          "correct": false
+        },
+        {
+          "text": "Valerio Marcial, que lo cultivó en exclusiva",
+          "correct": true
+        },
+        {
+          "text": "Lucilio",
+          "correct": false
+        },
+        {
+          "text": "Anacreonte",
+          "correct": false
+        }
+      ],
+      "explanation": "Marcial, de origen hispano, cultivó el epigrama en exclusiva y estableció las características que hoy lo definen."
+    },
+    {
+      "text": "El tono del epigrama tiende…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "a la solemnidad religiosa",
+          "correct": false
+        },
+        {
+          "text": "al lamento melancólico",
+          "correct": false
+        },
+        {
+          "text": "a lo sentencioso, con desenfado e ironía, buscando un cierre sorprendente",
+          "correct": true
+        },
+        {
+          "text": "a la narración extensa",
+          "correct": false
+        }
+      ],
+      "explanation": "El epigrama es breve y conciso, sentencioso y desenfadado, con elaboración ingeniosa y cierre sorprendente."
+    },
+    {
+      "text": "La égloga (y el idilio) presenta…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "un lamento fúnebre por la muerte de un héroe",
+          "correct": false
+        },
+        {
+          "text": "una crítica directa y agresiva de las costumbres",
+          "correct": false
+        },
+        {
+          "text": "una alabanza a los dioses",
+          "correct": false
+        },
+        {
+          "text": "un ambiente campestre y apacible con diálogo entre pastores sobre cuestiones amorosas o sapienciales",
+          "correct": true
+        }
+      ],
+      "explanation": "La égloga (gr. ekloge, «selección») tiene origen en Teócrito y luego en Virgilio; el idilio toca temas semejantes, centrado en el amor."
+    },
+    {
+      "text": "La anacreóntica consiste en…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "un canto a la vida sencilla y sus placeres (comida, bebida, conversación y amor)",
+          "correct": true
+        },
+        {
+          "text": "un lamento por la muerte de un ser querido",
+          "correct": false
+        },
+        {
+          "text": "un debate satírico entre dos poetas",
+          "correct": false
+        },
+        {
+          "text": "un himno a los dioses",
+          "correct": false
+        }
+      ],
+      "explanation": "Toma su nombre de Anacreonte; canta la vida sencilla y sus placeres, e influye desde el Renacimiento y en el siglo XVIII."
+    },
+    {
+      "text": "El creador del género de la epístola poética, de tono familiar y contenido satírico, cultural o filosófico, es…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "Lucilio",
+          "correct": false
+        },
+        {
+          "text": "Horacio, con sus «Epistulae»",
+          "correct": true
+        },
+        {
+          "text": "Marcial",
+          "correct": false
+        },
+        {
+          "text": "Teócrito",
+          "correct": false
+        }
+      ],
+      "explanation": "El creador de la epístola es Horacio (Epistulae); en el Renacimiento se recupera, en tercetos encadenados o endecasílabos sueltos."
+    },
+    {
+      "text": "La sátira, según el tema, es un género…",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "griego, creado por Anacreonte",
+          "correct": false
+        },
+        {
+          "text": "árabe, anterior al Islam",
+          "correct": false
+        },
+        {
+          "text": "propiamente romano, cuyo origen se atribuye a Lucilio, que criticaba de un modo directo y agresivo",
+          "correct": true
+        },
+        {
+          "text": "medieval, de los trovadores provenzales",
+          "correct": false
+        }
+      ],
+      "explanation": "La sátira es un género romano; su origen se atribuye a Lucilio, que criticaba de modo directo y agresivo, cosa que no ocurriría en Horacio."
+    },
+    {
+      "text": "La casida modélica, según los gramáticos árabes desde el siglo IX, se divide en tres partes:",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "estribillo, mudanza y vuelta",
+          "correct": false
+        },
+        {
+          "text": "coblas y tornada",
+          "correct": false
+        },
+        {
+          "text": "estrofa, antistrofa y epoda",
+          "correct": false
+        },
+        {
+          "text": "el prólogo (nasib), la descripción (rahil) y el panegírico (madih)",
+          "correct": true
+        }
+      ],
+      "explanation": "Nasib (prólogo, amoroso y nostálgico), rahil (descripción, viaje por el desierto) y madih (panegírico, la parte fundamental)."
+    },
+    {
+      "text": "¿Cuáles de estos géneros líricos tienen origen en la poesía árabe o andalusí? (varias respuestas)",
+      "category": "antiguedad",
+      "options": [
+        {
+          "text": "la casida",
+          "correct": true
+        },
+        {
+          "text": "la gacela",
+          "correct": true
+        },
+        {
+          "text": "la moaxaja y el zéjel",
+          "correct": true
+        },
+        {
+          "text": "el madrigal",
+          "correct": false
+        }
+      ],
+      "explanation": "Casida y gacela (árabe-persas) y moaxaja y zéjel (de Al-Ándalus); el madrigal es italiano. Lorca reunió casidas y gacelas en el «Diván del Tamarit»."
+    },
+    {
+      "text": "Según el tema, una diferencia visible entre la canción culta y la de la tradición folklórica medieval es que…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "en la culta se manifiesta una voz masculina y en la folklórica una voz femenina",
+          "correct": true
+        },
+        {
+          "text": "la culta es anónima y la folklórica firmada",
+          "correct": false
+        },
+        {
+          "text": "la culta carece de tema amoroso",
+          "correct": false
+        },
+        {
+          "text": "la folklórica está en latín",
+          "correct": false
+        }
+      ],
+      "explanation": "En la canción culta se manifiesta una voz masculina; en la folklórica, una voz femenina."
+    },
+    {
+      "text": "La jarcha es…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "un poema narrativo germánico",
+          "correct": false
+        },
+        {
+          "text": "una composición de unos tres versos, de voz femenina y tema amoroso, escrita como final de la moaxaja",
+          "correct": true
+        },
+        {
+          "text": "una canción provenzal de voz masculina",
+          "correct": false
+        },
+        {
+          "text": "un debate satírico entre trovadores",
+          "correct": false
+        }
+      ],
+      "explanation": "La jarcha, de voz femenina y tema amoroso, pasa a escribirse como remate de la moaxaja entre los siglos X y XI."
+    },
+    {
+      "text": "La cantiga de amigo es una composición de base tradicional propia de la lírica…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "provenzal, de voz masculina cortés",
+          "correct": false
+        },
+        {
+          "text": "latina, de tema religioso",
+          "correct": false
+        },
+        {
+          "text": "gallego-portuguesa, con estribillo y voz femenina",
+          "correct": true
+        },
+        {
+          "text": "germánica, de carácter narrativo",
+          "correct": false
+        }
+      ],
+      "explanation": "La cantiga de amigo, gallego-portuguesa y de base tradicional, suele terminar en estribillo y expresa los sentimientos amorosos de una voz femenina."
+    },
+    {
+      "text": "¿Cuáles son variedades de la cantiga de amigo? (varias respuestas)",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "la cantiga de romería",
+          "correct": true
+        },
+        {
+          "text": "la barcarola",
+          "correct": true
+        },
+        {
+          "text": "la alborada (sobre el encuentro al amanecer)",
+          "correct": true
+        },
+        {
+          "text": "la tensón",
+          "correct": false
+        }
+      ],
+      "explanation": "Cantiga de romería, barcarola, bailadas, alboradas y pastorela; la tensón es una composición provenzal de debate."
+    },
+    {
+      "text": "La canción culta provenzal (cançó, cantiga de amor) se organiza, según el modelo de los trovadores, en…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "estribillo, mudanza y vuelta",
+          "correct": false
+        },
+        {
+          "text": "dos cuartetos y dos tercetos",
+          "correct": false
+        },
+        {
+          "text": "tiradas de versos blancos",
+          "correct": false
+        },
+        {
+          "text": "una serie de estrofas llamadas «coblas» que termina con una más breve, la «tornada»",
+          "correct": true
+        }
+      ],
+      "explanation": "El modelo provenzal es una serie de coblas que termina en una estrofa más breve, la tornada; es el antecedente de la canción de Dante o Petrarca."
+    },
+    {
+      "text": "Las composiciones de fin satírico y burlesco, con métrica semejante a la canción, son…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "el sirventés y las cantigas de escarnio y maldecir",
+          "correct": true
+        },
+        {
+          "text": "el villancico y el madrigal",
+          "correct": false
+        },
+        {
+          "text": "la oda y el himno",
+          "correct": false
+        },
+        {
+          "text": "la égloga y el idilio",
+          "correct": false
+        }
+      ],
+      "explanation": "El sirventés y las cantigas de escarnio y maldecir tienen un fin satírico y burlesco."
+    },
+    {
+      "text": "El «decir», cultivado por los poetas del siglo XV, se caracteriza por…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "ser una composición de voz femenina",
+          "correct": false
+        },
+        {
+          "text": "tener estructura semejante a la canción, pero sin estribillo y de tema didáctico-moral o político",
+          "correct": true
+        },
+        {
+          "text": "ser un poema narrativo de tema artúrico",
+          "correct": false
+        },
+        {
+          "text": "estar siempre acompañado de baile",
+          "correct": false
+        }
+      ],
+      "explanation": "El decir tiene estructura semejante a la canción, pero nunca presenta estribillo y es de tema didáctico-moral o político."
+    },
+    {
+      "text": "La tensón (del latín «contentio», «debate») es…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "un himno litúrgico",
+          "correct": false
+        },
+        {
+          "text": "una elegía popular",
+          "correct": false
+        },
+        {
+          "text": "una composición provenzal en forma de controversia entre dos trovadores",
+          "correct": true
+        },
+        {
+          "text": "un poema en prosa",
+          "correct": false
+        }
+      ],
+      "explanation": "La tensón es una controversia entre dos trovadores (variante: el partiment; en relación con ella, la recuesta castellana)."
+    },
+    {
+      "text": "Según el tema, la balada presenta básicamente dos formas:",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "la balada culta y la balada litúrgica",
+          "correct": false
+        },
+        {
+          "text": "la balada monódica y la polifónica únicamente",
+          "correct": false
+        },
+        {
+          "text": "la balada amorosa y la satírica",
+          "correct": false
+        },
+        {
+          "text": "la balada como composición lírica y la balada como composición épico-lírica (narrativa)",
+          "correct": true
+        }
+      ],
+      "explanation": "Una forma lírica (francesa, con estribillo, Machault, Villon) y otra épico-lírica o narrativa (germánica, sobre personajes míticos)."
+    },
+    {
+      "text": "En los albores del Romanticismo, la balada narrativa de raíz germánica fue revitalizada por poetas como…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "Coleridge y Goethe (adoptando también el nombre de «romanza»)",
+          "correct": true
+        },
+        {
+          "text": "Petrarca y Dante",
+          "correct": false
+        },
+        {
+          "text": "Marcial y Horacio",
+          "correct": false
+        },
+        {
+          "text": "Garcilaso y Boscán",
+          "correct": false
+        }
+      ],
+      "explanation": "El interés romántico por lo popular lleva a Coleridge y Goethe a revitalizar la balada narrativa, que adopta también el nombre de romanza."
+    },
+    {
+      "text": "El romance está formado casi siempre por versos octosílabos con rima asonante en los versos pares y trata de hechos históricos o legendarios.",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "Verdadero",
+          "correct": true
+        },
+        {
+          "text": "Falso",
+          "correct": false
+        }
+      ],
+      "explanation": "El romance es una composición épico-lírica española; algunos resultan de la fragmentación de cantares de gesta, y en el siglo XVI se recuperan (romancero nuevo)."
+    },
+    {
+      "text": "Las «bylinas», composiciones de la cultura eslava medieval, narran las empresas de un protagonista llamado…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "el trovador",
+          "correct": false
+        },
+        {
+          "text": "el «bogatyr» (héroe)",
+          "correct": true
+        },
+        {
+          "text": "el escalda",
+          "correct": false
+        },
+        {
+          "text": "el juglar",
+          "correct": false
+        }
+      ],
+      "explanation": "Las bylinas («cantos de cosas pasadas») las interpretaban cantores ambulantes; su protagonista es el bogatyr («héroe»)."
+    },
+    {
+      "text": "Las composiciones narrativas de tema amoroso o fantástico llamadas «lais», difundidas a partir del siglo XII, destacan en la obra de…",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "Gutierre de Cetina",
+          "correct": false
+        },
+        {
+          "text": "Bernart de Ventadorn",
+          "correct": false
+        },
+        {
+          "text": "María de Francia",
+          "correct": true
+        },
+        {
+          "text": "Meendinho",
+          "correct": false
+        }
+      ],
+      "explanation": "El lai, al principio género musical de los bardos bretones, pasa a designar composiciones narrativas, entre las que destacan las de María de Francia."
+    },
+    {
+      "text": "Según Denizeau, ¿cómo se clasifican estos géneros poético-musicales medievales?",
+      "category": "edad-media",
+      "options": [
+        {
+          "text": "son monódicos la balada y el rondeau; polifónicos la canción y el lai",
+          "correct": false
+        },
+        {
+          "text": "todos son polifónicos",
+          "correct": false
+        },
+        {
+          "text": "todos son monódicos",
+          "correct": false
+        },
+        {
+          "text": "son monódicos la canción y el lai; son polifónicos la balada y el rondeau",
+          "correct": true
+        }
+      ],
+      "explanation": "Según Denizeau, son monódicas la canción y el lai, y polifónicas la balada y el rondeau."
+    },
+    {
+      "text": "Los géneros poéticos de la Edad Moderna (Renacimiento, Barroco, Neoclasicismo) se deben, en parte, a…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "la recuperación de modelos clásicos y tradicionales y al vigor de formas medievales como la canción y el soneto",
+          "correct": true
+        },
+        {
+          "text": "la invención de géneros completamente nuevos sin precedentes",
+          "correct": false
+        },
+        {
+          "text": "el abandono de la métrica",
+          "correct": false
+        },
+        {
+          "text": "la desaparición de la lírica",
+          "correct": false
+        }
+      ],
+      "explanation": "Se recuperan modelos clásicos (epístola) y tradicionales (villancico, romance), y cobran vigor formas medievales como la canción y el soneto."
+    },
+    {
+      "text": "El modelo fundamental de la epístola en verso es Horacio, cuya «Epístola a los Pisones»…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "es un poema épico",
+          "correct": false
+        },
+        {
+          "text": "es, a la vez que una epístola, un tratado de poética",
+          "correct": true
+        },
+        {
+          "text": "está escrita en prosa",
+          "correct": false
+        },
+        {
+          "text": "es una elegía fúnebre",
+          "correct": false
+        }
+      ],
+      "explanation": "La Epístola a los Pisones de Horacio es, siendo una epístola, a la vez un tratado de poética."
+    },
+    {
+      "text": "La «Epístola moral a Fabio», ejemplo de epístola en verso del Siglo de Oro, se atribuye a…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "Garcilaso de la Vega",
+          "correct": false
+        },
+        {
+          "text": "Francisco de Quevedo",
+          "correct": false
+        },
+        {
+          "text": "Andrés Fernández de Andrada",
+          "correct": true
+        },
+        {
+          "text": "Francisco de Aldana",
+          "correct": false
+        }
+      ],
+      "explanation": "La «Epístola moral a Fabio» es de Andrés Fernández de Andrada; otros ejemplos son la Epístola a Boscán (Garcilaso) o la satírica de Quevedo."
+    },
+    {
+      "text": "El villancico, como composición culta, se compone de…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "coblas y tornada",
+          "correct": false
+        },
+        {
+          "text": "dos cuartetos y dos tercetos",
+          "correct": false
+        },
+        {
+          "text": "un único pareado monorrimo",
+          "correct": false
+        },
+        {
+          "text": "estribillo, mudanza y vuelta, continuando la estructura del zéjel",
+          "correct": true
+        }
+      ],
+      "explanation": "El villancico (estribillo breve glosado en mudanzas) continúa la estructura del zéjel; se diferencia en la extensión del estribillo y en que la mudanza suele ser una redondilla."
+    },
+    {
+      "text": "El madrigal es un breve poema, originado en Italia en el siglo XIV, formado por…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "versos heptasílabos y endecasílabos combinados libremente y rimados en consonante, de tema amoroso",
+          "correct": true
+        },
+        {
+          "text": "octosílabos con rima asonante en los pares",
+          "correct": false
+        },
+        {
+          "text": "dos cuartetos y dos tercetos",
+          "correct": false
+        },
+        {
+          "text": "una serie de coblas y una tornada",
+          "correct": false
+        }
+      ],
+      "explanation": "El madrigal combina libremente heptasílabos y endecasílabos (entre ocho y quince versos), con rima consonante y tema amoroso; es poético-musical. Ejemplo: Gutierre de Cetina."
+    },
+    {
+      "text": "El soneto se estructura, en su forma clásica, en…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "tres estrofas de siete a diez versos",
+          "correct": false
+        },
+        {
+          "text": "dos cuartetos y dos tercetos, con un desarrollo progresivo (planteamiento en los cuartetos, solución en los tercetos)",
+          "correct": true
+        },
+        {
+          "text": "estribillo, mudanza y vuelta",
+          "correct": false
+        },
+        {
+          "text": "una serie indeterminada de octosílabos",
+          "correct": false
+        }
+      ],
+      "explanation": "El soneto, de origen italiano medieval, se estructura en dos cuartetos y dos tercetos; el verso habitual es el endecasílabo."
+    },
+    {
+      "text": "A partir del Modernismo, los sonetos escritos en versos de arte menor reciben el nombre de…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "madrigales",
+          "correct": false
+        },
+        {
+          "text": "endechas",
+          "correct": false
+        },
+        {
+          "text": "sonetillos",
+          "correct": true
+        },
+        {
+          "text": "caligramas",
+          "correct": false
+        }
+      ],
+      "explanation": "Desde el Modernismo se escriben sonetillos en versos de arte menor (por ejemplo, el de Machado en versos trisílabos)."
+    },
+    {
+      "text": "En la historia del poema en prosa, ¿qué afirmación es correcta?",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "lo crea Apollinaire con sus caligramas",
+          "correct": false
+        },
+        {
+          "text": "lo inventa Gutierre de Cetina en el Renacimiento",
+          "correct": false
+        },
+        {
+          "text": "es un género medieval gallego-portugués",
+          "correct": false
+        },
+        {
+          "text": "la primera muestra son los «Himnos a la noche» de Novalis, pero es Baudelaire quien le da estatuto definitivo",
+          "correct": true
+        }
+      ],
+      "explanation": "Novalis (Himnos a la noche) es la primera muestra; Baudelaire (Pequeños poemas en prosa) le da estatuto definitivo, ligado al mundo urbano."
+    },
+    {
+      "text": "El caligrama es un poema en el que…",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "la tipografía o la caligrafía se disponen de modo que creen una imagen visual relacionada con su tema",
+          "correct": true
+        },
+        {
+          "text": "se canta a la vida sencilla y sus placeres",
+          "correct": false
+        },
+        {
+          "text": "una voz femenina expresa su amor",
+          "correct": false
+        },
+        {
+          "text": "se debaten dos trovadores",
+          "correct": false
+        }
+      ],
+      "explanation": "El caligrama crea una imagen visual con la disposición del texto; se relaciona con el letrismo y las vanguardias (cubismo, creacionismo, ultraísmo). Apollinaire fue un famoso creador de caligramas."
+    },
+    {
+      "text": "¿Cuáles de estas obras se citan en el tema como ejemplos de poema en prosa? (varias respuestas)",
+      "category": "moderna-contemporanea",
+      "options": [
+        {
+          "text": "«Espacio», de Juan Ramón Jiménez",
+          "correct": true
+        },
+        {
+          "text": "«Ocnos», de Luis Cernuda",
+          "correct": true
+        },
+        {
+          "text": "los «Pequeños poemas en prosa», de Baudelaire",
+          "correct": true
+        },
+        {
+          "text": "el «Diván del Tamarit», de Federico García Lorca",
+          "correct": false
+        }
+      ],
+      "explanation": "Espacio (JRJ), Ocnos (Cernuda) y los Pequeños poemas en prosa (Baudelaire) son ejemplos de poema en prosa; el Diván del Tamarit reúne casidas y gacelas."
+    }
+  ]
+}

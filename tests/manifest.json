@@ -3,6 +3,12 @@
   "version": 1,
   "stacks": [
     {
+      "file": "tests_tema1_teoria_del_genero.json",
+      "title": "Teoría del género (tema 1)",
+      "description": "100 preguntas de repaso del tema 1: concepto de género, modelización, discurso y retórica, géneros artísticos, literarios y musicales, modos y tipos, comunicación masiva y transdiscursividad/transmedialidad.",
+      "count": 100
+    },
+    {
       "file": "tests_tema3_generos_liricos.json",
       "title": "Géneros literarios líricos (tema 3)",
       "description": "Test de repaso del tema 3: teoría del poema, métrica y panorama histórico de los géneros líricos.",

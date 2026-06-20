@@ -11,18 +11,20 @@ Pensada para alojarse tal cual en **GitHub Pages**. Todo se guarda en `localStor
 
 - **Importar** stacks pegando el JSON o subiendo un archivo `.json`.
 - **Guardar** varios stacks; listarlos, ver su detalle, exportarlos o borrarlos.
-- Al responder, marca **al instante** si la opción es correcta (verde) o incorrecta (rojo) y muestra la explicación.
-- Al terminar, **repite las preguntas falladas** en rondas de repaso hasta que las aciertas todas.
-- **Estadísticas**: % de acierto a la primera, aciertos/fallos, tiempo, rondas y desglose por categoría.
-- **Historial** de intentos por stack (con el mejor resultado).
+- Dos modos de test:
+  - **Práctica**: marca **al instante** si la opción es correcta (verde) o incorrecta (rojo), muestra la explicación y al terminar **repite las preguntas falladas** en rondas de repaso hasta que las aciertas todas.
+  - **Examen**: una sola vuelta, **sin correcciones hasta el final**; al acabar ves la nota y el repaso de fallos.
+- El **orden de las preguntas y de las opciones cambia en cada intento** (barajado aleatorio).
+- **Estadísticas**: % de acierto, aciertos/fallos, tiempo, rondas y desglose por categoría.
+- **Historial** de intentos por stack (indica el modo y el mejor resultado).
 
-> El **porcentaje** se mide solo con el **primer intento** de cada pregunta. El repaso sirve para aprender, no para inflar la nota.
+> En **práctica**, el porcentaje se mide solo con el **primer intento** de cada pregunta (el repaso sirve para aprender, no para inflar la nota). En **examen**, el porcentaje es la nota directa de esa única vuelta.
 
 ## Cómo usarla
 
 1. Abre la página (en GitHub Pages, o localmente abriendo `index.html`).
-2. Pulsa **+ Importar stack** y pega el JSON (o sube un `.json`). Puedes probar con `ejemplo.json`.
-3. Pulsa **Comenzar** y responde. Al final verás los resultados; desde ahí puedes **Repetir test**.
+2. Carga un test desde el **Catálogo** o pulsa **+ Importar stack** y pega el JSON (o sube un `.json`). Puedes probar con `ejemplo.json`.
+3. En el detalle del test elige **▶ Práctica** o **📝 Examen**. Al final verás los resultados; desde ahí puedes **Repetir test** en el mismo modo.
 
 ## Catálogo: tests dentro de la carpeta `tests/`
 

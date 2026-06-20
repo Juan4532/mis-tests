@@ -52,6 +52,7 @@ body {
 .view-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .view-head h2 { font-size: 22px; margin: 0; }
 .section-title { font-size: 16px; margin: 26px 0 12px; }
+.modes-help { font-size: 13px; margin: 8px 0 0; }
 .muted { color: var(--muted); }
 .meta { color: var(--muted); font-size: 14px; }
 code { background: #eef0f3; padding: 1px 5px; border-radius: 5px; font-size: 13px; }

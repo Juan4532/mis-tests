@@ -1,0 +1,1092 @@
+{
+  "format": "tests-stack",
+  "version": 1,
+  "title": "Teoría del género (tema 1)",
+  "description": "100 preguntas de repaso del tema 1: concepto de género, modelización, discurso y retórica, géneros artísticos, literarios y musicales, modos y tipos, comunicación masiva y transdiscursividad/transmedialidad.",
+  "questions": [
+    {
+      "text": "Según la acepción 5.ª de «género» de la RAE, la más útil para las artes, un género ordena las obras según…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "el prestigio que les otorga la crítica", "correct": false },
+        { "text": "rasgos comunes de forma y de contenido", "correct": true },
+        { "text": "su orden cronológico de aparición", "correct": false },
+        { "text": "la intención moral del autor", "correct": false }
+      ],
+      "explanation": "La acepción 5.ª define el género artístico por los rasgos comunes de forma y de contenido."
+    },
+    {
+      "text": "En lógica, frente a la especie, el género es una clase que tiene…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "menor extensión y mayor comprensión", "correct": false },
+        { "text": "igual extensión y mayor comprensión", "correct": false },
+        { "text": "mayor extensión y menor comprensión", "correct": true },
+        { "text": "mayor extensión y mayor comprensión", "correct": false }
+      ],
+      "explanation": "El género abarca más individuos (mayor extensión) pero con menos notas comunes (menor comprensión) que la especie."
+    },
+    {
+      "text": "En la cadena «seres vivientes > animales > humanos», si tomamos «animales» como género, la especie sería…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "seres vivientes", "correct": false },
+        { "text": "humanos", "correct": true },
+        { "text": "animales", "correct": false },
+        { "text": "no hay especie posible", "correct": false }
+      ],
+      "explanation": "La especie es la clase de menor extensión incluida en el género; respecto a «animales», es «humanos»."
+    },
+    {
+      "text": "En el tema, una «clase» se define como…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "un conjunto de obras de un mismo autor", "correct": false },
+        { "text": "un modelo perfecto que se debe imitar", "correct": false },
+        { "text": "un conjunto de entidades con al menos una característica en común", "correct": true },
+        { "text": "una jerarquía de valores estéticos", "correct": false }
+      ],
+      "explanation": "Clase = conjunto de entidades que tienen al menos una característica en común."
+    },
+    {
+      "text": "Según el texto, ¿por qué formamos clases y, por tanto, géneros?",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "por imitar a los clásicos", "correct": false },
+        { "text": "por exigencia de las instituciones académicas", "correct": false },
+        { "text": "porque responden a exigencias mentales: necesitamos simplificar y generalizar", "correct": true },
+        { "text": "para aumentar el valor económico de las obras", "correct": false }
+      ],
+      "explanation": "La mente no obtendría conocimientos operativos si no simplificara y generalizara."
+    },
+    {
+      "text": "Según el planteamiento del tema, los géneros funcionan a la vez como… (varias respuestas)",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "clases que agrupan obras", "correct": true },
+        { "text": "modelos o patrones que las obras siguen", "correct": true },
+        { "text": "juicios de valor sobre las obras", "correct": false },
+        { "text": "realizaciones únicas e irrepetibles", "correct": false }
+      ],
+      "explanation": "Los géneros son clases (clasifican) y a la vez modelos (las subclases e individuos obedecen sus patrones)."
+    },
+    {
+      "text": "El texto advierte expresamente de no confundir «modelo y modelización» con…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "clase y especie", "correct": false },
+        { "text": "código y mensaje", "correct": false },
+        { "text": "emic y etic", "correct": false },
+        { "text": "modo y modalización", "correct": true }
+      ],
+      "explanation": "Modelo/modelización no debe confundirse con modo/modalización, que se explica en otro lugar."
+    },
+    {
+      "text": "Según el texto, todas las clases y todos los modelos son géneros.",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "No todas las clases y modelos son géneros: el concepto de género tiene usos más particulares y circunscritos."
+    },
+    {
+      "text": "El texto concluye que para entender el género (a) no basta el concepto lógico y (b) hay que entenderlo en su sentido específico referido a…",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "la biología y la taxonomía", "correct": false },
+        { "text": "la comunicación y las artes", "correct": true },
+        { "text": "la lógica formal", "correct": false },
+        { "text": "la economía de mercado", "correct": false }
+      ],
+      "explanation": "Hay que entenderlo en su sentido referido a la comunicación y las artes (acepción 5.ª de la RAE)."
+    },
+    {
+      "text": "De la definición de «género» de la RAE, ¿qué acepciones dice el texto que interesan especialmente?",
+      "category": "concepto-genero",
+      "options": [
+        { "text": "solo la 5.ª", "correct": false },
+        { "text": "la 3.ª y la 4.ª", "correct": false },
+        { "text": "la 1.ª, la 2.ª y la 5.ª", "correct": true },
+        { "text": "todas por igual", "correct": false }
+      ],
+      "explanation": "Interesan la 1.ª (conjunto de seres con caracteres comunes), la 2.ª (clase o tipo) y la 5.ª (categorías en las artes)."
+    },
+    {
+      "text": "Según el texto, el modelo…",
+      "category": "modelo",
+      "options": [
+        { "text": "existe con independencia de sus realizaciones", "correct": false },
+        { "text": "no tiene existencia sino en función de sus realizaciones", "correct": true },
+        { "text": "es siempre explícito", "correct": false },
+        { "text": "solo existe en las bellas artes", "correct": false }
+      ],
+      "explanation": "El modelo no tiene existencia si no es en función de las realidades de las que es modelo; puede operar implícita o explícitamente."
+    },
+    {
+      "text": "El texto afirma que la cultura es…",
+      "category": "modelo",
+      "options": [
+        { "text": "una realización más entre otras", "correct": false },
+        { "text": "lo contrario de la modelización", "correct": false },
+        { "text": "el modelo que incluye a los demás modelos", "correct": true },
+        { "text": "un conjunto de obras sin modelo", "correct": false }
+      ],
+      "explanation": "La cultura, que hace posible el comportamiento humano con sentido, es el modelo que incluye a los demás modelos."
+    },
+    {
+      "text": "Según el texto, la idea de modelo es consustancial a la de cultura porque la cultura es…",
+      "category": "modelo",
+      "options": [
+        { "text": "memoria y saber sobre modelos de comportamiento", "correct": true },
+        { "text": "creación desde la nada", "correct": false },
+        { "text": "imitación servil del pasado", "correct": false },
+        { "text": "un esquema matemático", "correct": false }
+      ],
+      "explanation": "La cultura es memoria y saber sobre modelos de comportamiento; nada se hace con éxito sino conforme a lo probado como modélico."
+    },
+    {
+      "text": "Según el texto, los humanos podemos crear desde la nada, sin partir de modelos previos.",
+      "category": "modelo",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "Los humanos no creamos desde la nada: toda realización responde en alguna medida a modelos y a su vez es modelo."
+    },
+    {
+      "text": "Según el texto, son adecuadas para el género aquellas definiciones de «modelo» que suponen que las realizaciones humanas…",
+      "category": "modelo",
+      "options": [
+        { "text": "son siempre únicas e incomparables", "correct": false },
+        { "text": "pueden reproducir pautas comunes", "correct": true },
+        { "text": "carecen de toda regularidad", "correct": false },
+        { "text": "imitan la naturaleza", "correct": false }
+      ],
+      "explanation": "Determinadas realizaciones forman clases porque reproducen pautas comunes; el género es además el modelo de estas."
+    },
+    {
+      "text": "El modelo, según el texto, puede operar…",
+      "category": "modelo",
+      "options": [
+        { "text": "solo de modo explícito", "correct": false },
+        { "text": "solo de modo implícito", "correct": false },
+        { "text": "de modo implícito o hacerse explícito, pero siempre de realizaciones concretas", "correct": true },
+        { "text": "sin relación alguna con las realizaciones", "correct": false }
+      ],
+      "explanation": "El modelo puede operar implícita o explícitamente, pero en cualquier caso es modelo de realizaciones concretas."
+    },
+    {
+      "text": "El texto sostiene que la atención a la modelización es fundamental para entender…",
+      "category": "modelo",
+      "options": [
+        { "text": "las leyes de la física", "correct": false },
+        { "text": "la gramática normativa", "correct": false },
+        { "text": "los procesos culturales", "correct": true },
+        { "text": "la economía de mercado", "correct": false }
+      ],
+      "explanation": "La atención a la modelización es fundamental para entender los procesos culturales."
+    },
+    {
+      "text": "La palabra «discurso», relacionada con «discurrir», designa tanto el proceso de discurrir como…",
+      "category": "discurso",
+      "options": [
+        { "text": "el proceso por el cual los contenidos mentales se exteriorizan y comunican", "correct": true },
+        { "text": "la mera lista de palabras de un idioma", "correct": false },
+        { "text": "la inspiración de las musas", "correct": false },
+        { "text": "la valoración crítica de un texto", "correct": false }
+      ],
+      "explanation": "Discurso es a la vez el proceso de discurrir (pensamiento) y el de su exteriorización (texto)."
+    },
+    {
+      "text": "En lingüística, «discurso» es…",
+      "category": "discurso",
+      "options": [
+        { "text": "el sistema fonológico de una lengua", "correct": false },
+        { "text": "una secuencia de signos verbales con sentido, o texto", "correct": true },
+        { "text": "cualquier palabra aislada", "correct": false },
+        { "text": "un sinónimo de gramática", "correct": false }
+      ],
+      "explanation": "Discurso es una secuencia de signos verbales con sentido (texto), entendido como acto comunicativo verbal."
+    },
+    {
+      "text": "En el tema, los términos «discurso» y «texto» se consideran sinónimos.",
+      "category": "discurso",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Se consideran sinónimos, y la semiótica los aplica también a manifestaciones no verbales."
+    },
+    {
+      "text": "La semiótica tomó de la lingüística los términos discurso y texto y los aplicó también a…",
+      "category": "discurso",
+      "options": [
+        { "text": "exclusivamente la lengua escrita", "correct": false },
+        { "text": "únicamente la conversación oral", "correct": false },
+        { "text": "manifestaciones verbales solo en parte (publicidad) o no verbales (pintura)", "correct": true },
+        { "text": "solo los textos jurídicos", "correct": false }
+      ],
+      "explanation": "Se aplican a manifestaciones verbales solo en parte (texto publicitario) o no verbales (la pintura)."
+    },
+    {
+      "text": "Para ilustrar que una pintura es también un «texto», el tema cita el discurso pictórico de…",
+      "category": "discurso",
+      "options": [
+        { "text": "Picasso y el Guernica", "correct": false },
+        { "text": "Goya y los fusilamientos", "correct": false },
+        { "text": "Velázquez y «Las meninas»", "correct": true },
+        { "text": "El Greco y el entierro del conde", "correct": false }
+      ],
+      "explanation": "Se habla del discurso pictórico de Velázquez o de «Las meninas» como texto pictórico, por su organización, intención y contenidos."
+    },
+    {
+      "text": "Que el discurso sea «repetible e irrepetible» significa que…",
+      "category": "discurso",
+      "options": [
+        { "text": "es repetible solo en el arte", "correct": false },
+        { "text": "nunca puede repetirse", "correct": false },
+        { "text": "es repetible porque sigue un modelo e irrepetible porque cada acto es único", "correct": true },
+        { "text": "es irrepetible porque no sigue ningún modelo", "correct": false }
+      ],
+      "explanation": "Repetible porque sigue un modelo; irrepetible porque las circunstancias de cada acto discursivo son únicas."
+    },
+    {
+      "text": "Según la nota del tema, ¿qué distinguen los términos «emic» y «etic»?",
+      "category": "discurso",
+      "options": [
+        { "text": "lo emic son las actuaciones que observa el estudioso y lo etic los modelos mentales del que actúa", "correct": false },
+        { "text": "lo etic son las actuaciones que observa el estudioso y lo emic los modelos que operan en la mente del que actúa", "correct": true },
+        { "text": "son sinónimos de código y mensaje", "correct": false },
+        { "text": "son sinónimos de prosa y verso", "correct": false }
+      ],
+      "explanation": "Lo etic son las actuaciones que observa el estudioso; lo emic, los modelos que operan en la mente del que actúa."
+    },
+    {
+      "text": "El «discurso de uso repetido», término que el texto atribuye a Lausberg, designa los casos en que…",
+      "category": "discurso",
+      "options": [
+        { "text": "se parafrasea libremente un texto", "correct": false },
+        { "text": "se exige reproducir exactamente los términos de un discurso anterior", "correct": true },
+        { "text": "se inventa un texto nuevo", "correct": false },
+        { "text": "se traduce a otra lengua", "correct": false }
+      ],
+      "explanation": "Hay uso repetido cuando se exige reproducir exactamente un discurso anterior (la ley, las cartas de San Pablo, una obra de arte)."
+    },
+    {
+      "text": "El tema ejemplifica el «uso repetido» con el Quijote: darlo a conocer exige decir literalmente…",
+      "category": "discurso",
+      "options": [
+        { "text": "«En un lugar de la Mancha de cuyo nombre no quiero acordarme…»", "correct": true },
+        { "text": "un resumen del argumento", "correct": false },
+        { "text": "una paráfrasis del primer capítulo", "correct": false },
+        { "text": "el nombre del autor y la fecha", "correct": false }
+      ],
+      "explanation": "Si resumimos o parafraseamos también lo damos a conocer, pero faltando a la regla del uso repetido."
+    },
+    {
+      "text": "Los «géneros del discurso» son…",
+      "category": "discurso",
+      "options": [
+        { "text": "exclusivamente los géneros literarios", "correct": false },
+        { "text": "los estilos retóricos", "correct": false },
+        { "text": "las figuras de la elocutio", "correct": false },
+        { "text": "tipos, clases o modelos de discursos reconocidos como tales géneros", "correct": true }
+      ],
+      "explanation": "Gracias a las constantes del discurso podemos hablar de tipos, clases, modelos —es decir, géneros— de discursos."
+    },
+    {
+      "text": "El factor «finalidad» y el ejemplo del «consejo» como tipo de texto proceden, en el tema, de…",
+      "category": "fuentes",
+      "options": [
+        { "text": "Óscar Loureda Lamas, «Introducción a la tipología textual»", "correct": true },
+        { "text": "Brioschi y Di Girolamo, «Introducción al estudio de la literatura»", "correct": false },
+        { "text": "W. Raible, «Qué son los géneros»", "correct": false },
+        { "text": "R. Ceserani, «Introducción a los estudios literarios»", "correct": false }
+      ],
+      "explanation": "Loureda enumera emisor, receptor, contexto, medio, constitución del texto y finalidad, y pone el ejemplo del consejo."
+    },
+    {
+      "text": "Según Loureda, ¿qué factores hay que tener en cuenta para conocer el texto? (varias respuestas)",
+      "category": "fuentes",
+      "options": [
+        { "text": "el emisor y el receptor", "correct": true },
+        { "text": "el contexto y el medio de comunicación", "correct": true },
+        { "text": "la finalidad del texto", "correct": true },
+        { "text": "el precio de venta del libro", "correct": false }
+      ],
+      "explanation": "Loureda señala emisor, receptor, contexto, medio de comunicación, constitución del texto y finalidad."
+    },
+    {
+      "text": "Según Loureda, la finalidad del «consejo» es…",
+      "category": "fuentes",
+      "options": [
+        { "text": "entretener al oyente", "correct": false },
+        { "text": "comunicar lo que conviene hacer, ayudando a alguien a alcanzar un bien", "correct": true },
+        { "text": "demostrar la erudición del hablante", "correct": false },
+        { "text": "imponer una orden", "correct": false }
+      ],
+      "explanation": "El consejo sirve para comunicar lo que conviene hacer; de ahí que el hablante tenga cierta autoridad moral y el receptor no haya decidido aún."
+    },
+    {
+      "text": "Para Brioschi y Di Girolamo, los géneros del discurso verbal resultan de la combinación de…",
+      "category": "fuentes",
+      "options": [
+        { "text": "épica, lírica y drama", "correct": false },
+        { "text": "registros, estilos y, en ciertos casos, variedades y subcódigos", "correct": true },
+        { "text": "inventio, dispositio y elocutio", "correct": false },
+        { "text": "sintaxis, semántica y pragmática", "correct": false }
+      ],
+      "explanation": "Registros y estilos, y a veces variedades y subcódigos, forman en combinaciones diversas los géneros del discurso."
+    },
+    {
+      "text": "En el texto de Brioschi y Di Girolamo, la idea de que los géneros tienen «características formales reconocidas tradicionalmente» se atribuye a…",
+      "category": "fuentes",
+      "options": [
+        { "text": "Lausberg", "correct": false },
+        { "text": "Morris", "correct": false },
+        { "text": "Hymes", "correct": true },
+        { "text": "Bajtin", "correct": false }
+      ],
+      "explanation": "La fórmula «características formales reconocidas tradicionalmente» se atribuye a Hymes."
+    },
+    {
+      "text": "Según Brioschi y Di Girolamo, ¿qué género admite una amplia gama de registros, estilos, variedades y subcódigos?",
+      "category": "fuentes",
+      "options": [
+        { "text": "la conferencia", "correct": false },
+        { "text": "la conversación", "correct": true },
+        { "text": "las instrucciones de uso de una medicina", "correct": false },
+        { "text": "el tratado científico", "correct": false }
+      ],
+      "explanation": "La conversación admite una amplia gama; la conferencia comporta como norma un registro, un estilo y una variedad determinados."
+    },
+    {
+      "text": "El texto de W. Raible que se sigue en el tema 1 se titula…",
+      "category": "fuentes",
+      "options": [
+        { "text": "«Teoría de los géneros literarios»", "correct": false },
+        { "text": "«Los géneros musicales»", "correct": false },
+        { "text": "«Qué son los géneros»", "correct": true },
+        { "text": "«Introducción a la tipología textual»", "correct": false }
+      ],
+      "explanation": "Es «Qué son los géneros», recogido en la antología de Garrido Gallardo, «Teoría de los géneros literarios»."
+    },
+    {
+      "text": "El «Diccionario de la música» que el tema cita como ejemplo de uso del término «forma» en ausencia de «género» es de…",
+      "category": "fuentes",
+      "options": [
+        { "text": "Gerard Denizeau", "correct": false },
+        { "text": "Cesare Segre", "correct": false },
+        { "text": "Manuel Valls Gorina (Alianza, 1971)", "correct": true },
+        { "text": "Heinrich Lausberg", "correct": false }
+      ],
+      "explanation": "Valls Gorina define «forma» como manifestación externa de una idea musical sujeta a una ordenación."
+    },
+    {
+      "text": "La distinción entre género (objeto musical) y forma (lo que lo organiza) se expone en el libro…",
+      "category": "fuentes",
+      "options": [
+        { "text": "«Los géneros musicales», de Gerard Denizeau", "correct": true },
+        { "text": "«Diccionario de la música», de Valls Gorina", "correct": false },
+        { "text": "«Introducción a la tipología textual», de Loureda", "correct": false },
+        { "text": "«Entre lo uno y lo diverso», de Claudio Guillén", "correct": false }
+      ],
+      "explanation": "En «Los géneros musicales», Denizeau distingue el género (objeto musical) de la forma (lo que lo organiza)."
+    },
+    {
+      "text": "La retórica nació en la Grecia antigua como disciplina para…",
+      "category": "retorica",
+      "options": [
+        { "text": "componer poemas líricos", "correct": false },
+        { "text": "hacer discursos efectivos en pleitos, debates políticos, etc.", "correct": true },
+        { "text": "clasificar las plantas", "correct": false },
+        { "text": "estudiar la música", "correct": false }
+      ],
+      "explanation": "Estudiaba cómo hacer discursos efectivos en circunstancias que lo requerían: pleitos, debates políticos, etc."
+    },
+    {
+      "text": "La distinción de las siete artes liberales se atribuye en el tema a…",
+      "category": "retorica",
+      "options": [
+        { "text": "Aristóteles, en el siglo IV a. C.", "correct": false },
+        { "text": "Lausberg, en el siglo XX", "correct": false },
+        { "text": "Quintiliano, en el siglo I", "correct": false },
+        { "text": "Marciano Capella, entre los siglos IV y V", "correct": true }
+      ],
+      "explanation": "Marciano Capella, entre el siglo IV y el V, estableció la distinción de las siete artes liberales."
+    },
+    {
+      "text": "¿Cuáles de estas artes forman el trivium? (varias respuestas)",
+      "category": "retorica",
+      "options": [
+        { "text": "gramática", "correct": true },
+        { "text": "retórica", "correct": true },
+        { "text": "dialéctica", "correct": true },
+        { "text": "música", "correct": false }
+      ],
+      "explanation": "El trivium lo forman gramática, retórica y dialéctica; la música pertenece al cuadrivium."
+    },
+    {
+      "text": "Según el tema, en la Edad Media la medicina se contaba entre las artes liberales, más nobles que la música.",
+      "category": "retorica",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "La medicina y otras ocupaciones eran consideradas entonces artes mecánicas, menos nobles que, por ejemplo, la música."
+    },
+    {
+      "text": "A lo largo de la historia, el cometido de la retórica se fue reduciendo a…",
+      "category": "retorica",
+      "options": [
+        { "text": "la inventio", "correct": false },
+        { "text": "las figuras retóricas de la elocutio", "correct": true },
+        { "text": "la memoria", "correct": false },
+        { "text": "la actio", "correct": false }
+      ],
+      "explanation": "Se redujo a las figuras de la elocutio; en el siglo XX la neorretórica recuperó ideas de las partes más relegadas."
+    },
+    {
+      "text": "¿Cuáles son los tres géneros retóricos? (varias respuestas)",
+      "category": "retorica",
+      "options": [
+        { "text": "deliberativo", "correct": true },
+        { "text": "judicial", "correct": true },
+        { "text": "epidíctico", "correct": true },
+        { "text": "dramático", "correct": false }
+      ],
+      "explanation": "Género deliberativo, judicial (asuntos comprometedores) y epidíctico (asuntos que no comportan decisiones)."
+    },
+    {
+      "text": "A los estilos retóricos alto, medio y bajo les corresponden, respectivamente, los fines de…",
+      "category": "retorica",
+      "options": [
+        { "text": "enseñar, conmover y entretener", "correct": false },
+        { "text": "conmover, entretener y enseñar", "correct": true },
+        { "text": "persuadir, narrar y describir", "correct": false },
+        { "text": "alabar, juzgar y deliberar", "correct": false }
+      ],
+      "explanation": "Estilo alto, medio y bajo, adecuados para conmover, entretener y enseñar."
+    },
+    {
+      "text": "El género retórico que el tema relaciona con prácticas equivalentes a la literatura (el relato encomiástico) es el…",
+      "category": "retorica",
+      "options": [
+        { "text": "judicial", "correct": false },
+        { "text": "deliberativo", "correct": false },
+        { "text": "epidíctico", "correct": true },
+        { "text": "forense", "correct": false }
+      ],
+      "explanation": "El género epidíctico contemplaba prácticas como el relato encomiástico, equivalentes a lo que consideramos literatura."
+    },
+    {
+      "text": "Los «géneros artísticos», en sentido contemporáneo, son los géneros de los discursos que tienen además…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "una finalidad práctica", "correct": false },
+        { "text": "una reconocida dimensión estética", "correct": true },
+        { "text": "uso exclusivamente oral", "correct": false },
+        { "text": "un autor anónimo", "correct": false }
+      ],
+      "explanation": "Son los géneros de discursos con reconocida dimensión estética: literatura, pintura, música, danza y algunos de la comunicación de masas."
+    },
+    {
+      "text": "¿Qué rasgos son propios (más acentuadamente) de los discursos estéticos? (varias respuestas)",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "una cierta elaboración formal", "correct": true },
+        { "text": "unas particulares condiciones de veracidad (suelen ser ficticios)", "correct": true },
+        { "text": "unas determinadas condiciones pragmáticas (como el uso repetido)", "correct": true },
+        { "text": "la ausencia total de convenciones", "correct": false }
+      ],
+      "explanation": "Elaboración formal (a), condiciones de veracidad (b) y condiciones pragmáticas (c)."
+    },
+    {
+      "text": "Que la obra de arte responda a una «comunicación en dos tiempos» significa que…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "se emite dos veces seguidas", "correct": false },
+        { "text": "tiene dos autores", "correct": false },
+        { "text": "primero el autor compone la obra y después el receptor la interpreta", "correct": true },
+        { "text": "se publica en dos formatos", "correct": false }
+      ],
+      "explanation": "Autor-obra en un primer momento (sin interferencia del receptor) y obra-destinatario en un segundo momento."
+    },
+    {
+      "text": "El tema sintetiza que en el arte hay necesidad de géneros porque la ruptura de la continuidad del contexto (distinto espacio-tiempo de emisión y de recepción) se suple con…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "la presencia física del autor", "correct": false },
+        { "text": "una compenetración de códigos mayor que en el discurso no artístico", "correct": true },
+        { "text": "la eliminación de toda convención", "correct": false },
+        { "text": "un único código universal", "correct": false }
+      ],
+      "explanation": "Al no haber contacto inmediato entre emisor y receptor, se necesita una convencionalidad y compenetración de códigos mayor, incluida la convención de género."
+    },
+    {
+      "text": "El tema distingue varios enfoques sobre el género artístico. ¿Cuáles de estos menciona? (varias respuestas)",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "ontológico (qué es el género)", "correct": true },
+        { "text": "clasificador (cuáles son)", "correct": true },
+        { "text": "histórico (cuándo, cómo y dónde)", "correct": true },
+        { "text": "económico (cuánto valen)", "correct": false }
+      ],
+      "explanation": "Enfoques ontológico, clasificador, histórico y funcional; además, sistemático/histórico y descriptivo/prescriptivo."
+    },
+    {
+      "text": "El enfoque clasificador sistemático, frente al histórico, se caracteriza por…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "atenerse a los géneros tal como se dan en la historia", "correct": false },
+        { "text": "ser más abstracto y ahistórico, con un número de géneros muy reducido", "correct": true },
+        { "text": "producir un número amplio y abierto de géneros", "correct": false },
+        { "text": "defender la primacía de unos géneros sobre otros", "correct": false }
+      ],
+      "explanation": "El sistemático es abstracto y ahistórico (pocos géneros); el histórico se atiene a la historia (muchos géneros)."
+    },
+    {
+      "text": "El enfoque descriptivo, hoy dominante en la academia, se limita a…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "imponer reglas a las obras según el género", "correct": false },
+        { "text": "constatar la existencia de los géneros y la jerarquía de valor en que el público los sitúa", "correct": true },
+        { "text": "defender la primacía de unos géneros sobre otros", "correct": false },
+        { "text": "negar la existencia de los géneros", "correct": false }
+      ],
+      "explanation": "El descriptivo constata; el prescriptivo defiende la primacía de unos géneros e impone reglas."
+    },
+    {
+      "text": "Según el tema, el estudioso conserva siempre una neutralidad total al pasar de hablar de valores estéticos a defenderlos.",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "La pretensión de neutralidad se pierde cuando se pasa de hablar de valores estéticos a defenderlos."
+    },
+    {
+      "text": "El tema dice que la concepción de la creación que resalta solo lo nuevo de cada obra, llevada al extremo, supone…",
+      "category": "generos-artisticos",
+      "options": [
+        { "text": "el triunfo del enfoque prescriptivo", "correct": false },
+        { "text": "la afirmación absoluta del género", "correct": false },
+        { "text": "una negación teórica y práctica del género", "correct": true },
+        { "text": "la desaparición de la originalidad", "correct": false }
+      ],
+      "explanation": "Resaltar solo lo totalmente nuevo, en su extremo, niega el género; pero para percibir lo original hay que contar con lo común."
+    },
+    {
+      "text": "Según el tema, la literatura es una variante del discurso verbal sobre la que convenimos (pragmática) que, además de trabajarse la lengua de manera especial (formal), adquiere…",
+      "category": "generos-literarios",
+      "options": [
+        { "text": "un valor económico mayor", "correct": false },
+        { "text": "propiedades simbólicas o una significación especial (condición de veracidad)", "correct": true },
+        { "text": "carácter exclusivamente oral", "correct": false },
+        { "text": "independencia de todo género", "correct": false }
+      ],
+      "explanation": "Las tres condiciones son pragmática (convención), formal (trabajo de la lengua) y de veracidad (resonancias simbólicas)."
+    },
+    {
+      "text": "Según el tema, para que un texto sea literario es imprescindible que sea inicialmente un discurso ficticio.",
+      "category": "generos-literarios",
+      "options": [
+        { "text": "Verdadero", "correct": false },
+        { "text": "Falso", "correct": true }
+      ],
+      "explanation": "No es necesario que sea inicialmente ficticio, porque en cualquier caso el texto alcanza resonancias simbólicas."
+    },
+    {
+      "text": "Para que un género literario exista no basta con que lo delimite el estudioso; hace falta además…",
+      "category": "generos-literarios",
+      "options": [
+        { "text": "una ley que lo regule", "correct": false },
+        { "text": "que lo apruebe un premio literario", "correct": false },
+        { "text": "una sanción de la institución literaria (consenso entre creadores, público y especialistas)", "correct": true },
+        { "text": "que tenga al menos un siglo de antigüedad", "correct": false }
+      ],
+      "explanation": "Debe darse una sanción de la institución literaria, con cierto consenso entre creadores, público y especialistas, apoyada en una tradición."
+    },
+    {
+      "text": "Según el tema, para tipificar la multiplicidad histórica de géneros no basta con categorías abstractas como épica, lírica y drama, sino que hace falta…",
+      "category": "generos-literarios",
+      "options": [
+        { "text": "una consideración más empírica y analítica de los rasgos que comparten las obras", "correct": true },
+        { "text": "renunciar a todo análisis de rasgos", "correct": false },
+        { "text": "limitarse al enfoque prescriptivo", "correct": false },
+        { "text": "atender solo a la biografía del autor", "correct": false }
+      ],
+      "explanation": "Hay que atender a la variedad de rasgos que comparten las obras y a cómo se combinan históricamente."
+    },
+    {
+      "text": "Las tres dimensiones semióticas de Morris con que se reconocen los rasgos del género son… (varias respuestas)",
+      "category": "generos-literarios",
+      "options": [
+        { "text": "la sintáctica (rasgos formales)", "correct": true },
+        { "text": "la semántica (rasgos de veracidad o relación con la realidad)", "correct": true },
+        { "text": "la pragmática (convenciones sociales comunicativas)", "correct": true },
+        { "text": "la retórica (figuras del discurso)", "correct": false }
+      ],
+      "explanation": "Dimensión sintáctica (formal), semántica (veracidad) y pragmática (convenciones comunicativas)."
+    },
+    {
+      "text": "W. Raible adscribe los rasgos del género a…",
+      "category": "raible",
+      "options": [
+        { "text": "exactamente tres dimensiones inamovibles", "correct": false },
+        { "text": "seis dimensiones, reducibles a tres o ampliables", "correct": true },
+        { "text": "una sola dimensión", "correct": false },
+        { "text": "nueve dimensiones", "correct": false }
+      ],
+      "explanation": "Raible propone seis dimensiones, que podrían reducirse a las tres de Morris o ampliarse."
+    },
+    {
+      "text": "La primera dimensión de Raible se refiere a…",
+      "category": "raible",
+      "options": [
+        { "text": "el ámbito del objeto", "correct": false },
+        { "text": "la situación comunicativa entre emisor y receptor", "correct": true },
+        { "text": "el medio", "correct": false },
+        { "text": "el modo de presentación", "correct": false }
+      ],
+      "explanation": "La primera dimensión es la situación comunicativa: intención del autor, actitud y destinatario."
+    },
+    {
+      "text": "¿Qué denominaciones genéricas destacan rasgos de la primera dimensión (situación comunicativa) según Raible? (varias respuestas)",
+      "category": "raible",
+      "options": [
+        { "text": "informe", "correct": true },
+        { "text": "sátira (en el sentido de Juvenal)", "correct": true },
+        { "text": "libro infantil", "correct": true },
+        { "text": "novela picaresca", "correct": false }
+      ],
+      "explanation": "Informe (intención), sátira y encomio (actitud), epitalamio y libro infantil (destinatario); la novela picaresca pertenece al ámbito del objeto."
+    },
+    {
+      "text": "Las denominaciones «tragedia burguesa» o «novela picaresca», que atienden al estamento social de los personajes, proceden de la dimensión raibliana del…",
+      "category": "raible",
+      "options": [
+        { "text": "medio", "correct": false },
+        { "text": "modo de presentación", "correct": false },
+        { "text": "ámbito del objeto", "correct": true },
+        { "text": "relación texto-realidad", "correct": false }
+      ],
+      "explanation": "El ámbito del objeto (personas/cosas, individuos/tipos, estamento social, materia) da términos como manual, tragedia burguesa o novela picaresca."
+    },
+    {
+      "text": "La caracterización del chiste como «espectación de lo inesperado» ilustra, en Raible, la dimensión de…",
+      "category": "raible",
+      "options": [
+        { "text": "la estructura de ordenación superior del signo", "correct": true },
+        { "text": "el ámbito del objeto", "correct": false },
+        { "text": "el medio", "correct": false },
+        { "text": "la relación texto-realidad", "correct": false }
+      ],
+      "explanation": "La tercera dimensión es la estructura de ordenación; Kuhn habla de tipos de agudeza (Pointe-Typen) como el chiste."
+    },
+    {
+      "text": "La definición «composición que empieza bien y termina mal» (carmen quod incipit a gaudio et terminat in luctu), citada por Raible, define la…",
+      "category": "raible",
+      "options": [
+        { "text": "comedia, según Aristóteles", "correct": false },
+        { "text": "tragedia, según Juan de Garlandia", "correct": true },
+        { "text": "epopeya, según Goethe", "correct": false },
+        { "text": "elegía, según Horacio", "correct": false }
+      ],
+      "explanation": "Es la definición de la tragedia en la «Poetria» de Juan de Garlandia, ejemplo de la estructura de ordenación."
+    },
+    {
+      "text": "La distinción entre «res gesta» (historia), «res ficta» (fábula) y «res futura» (textos proféticos) corresponde a la dimensión de Raible llamada…",
+      "category": "raible",
+      "options": [
+        { "text": "ámbito del objeto", "correct": false },
+        { "text": "modo de presentación", "correct": false },
+        { "text": "relación entre texto y realidad", "correct": true },
+        { "text": "situación comunicativa", "correct": false }
+      ],
+      "explanation": "La cuarta dimensión es la relación texto-realidad; con Juan de Garlandia se distingue res gesta, res ficta y res ficta quae tamen fieri potuit, más la res futura."
+    },
+    {
+      "text": "¿Qué denominaciones destacan rasgos de la cuarta dimensión (relación texto-realidad) según Raible? (varias respuestas)",
+      "category": "raible",
+      "options": [
+        { "text": "chanson de geste", "correct": true },
+        { "text": "reportaje", "correct": true },
+        { "text": "soneto", "correct": false },
+        { "text": "fable", "correct": true }
+      ],
+      "explanation": "Chanson de geste, estoire/histoire, fable, «textos ficcionales» o «reportaje»; el soneto pertenece a la dimensión del medio."
+    },
+    {
+      "text": "Las denominaciones «novela epistolar», «drama radiofónico» o «drama televisivo» destacan rasgos de la dimensión de Raible llamada…",
+      "category": "raible",
+      "options": [
+        { "text": "el modo de presentación", "correct": false },
+        { "text": "la estructura de ordenación", "correct": false },
+        { "text": "el medio", "correct": true },
+        { "text": "el ámbito del objeto", "correct": false }
+      ],
+      "explanation": "La quinta dimensión es el medio (lengua combinada con música, ritmo, etc., y soportes mediales como libro, radio, cine, TV)."
+    },
+    {
+      "text": "Las «formas naturales goethianas» epopeya y drama, y la «Kurzgeschichte» (short story), ilustran la dimensión de Raible llamada…",
+      "category": "raible",
+      "options": [
+        { "text": "los modos de presentación lingüística", "correct": true },
+        { "text": "el medio", "correct": false },
+        { "text": "la situación comunicativa", "correct": false },
+        { "text": "la relación texto-realidad", "correct": false }
+      ],
+      "explanation": "La sexta dimensión es el modo de presentación (narrativa/dramática; extensa/corta)."
+    },
+    {
+      "text": "Según Raible, una denominación muy abstracta como «lo épico»…",
+      "category": "raible",
+      "options": [
+        { "text": "es el género más perfecto", "correct": false },
+        { "text": "es la encarnación pura del género", "correct": false },
+        { "text": "no es un género, sino la denominación de un grupo de géneros (los de predominio narrativo)", "correct": true },
+        { "text": "carece de toda legitimidad", "correct": false }
+      ],
+      "explanation": "«Lo épico» nombra un grupo de géneros (predomina la narración); no existe «la encarnación de lo épico», como no existe la forma pura de «mamífero»."
+    },
+    {
+      "text": "Cuando algunos especialistas prescinden del concepto de «género musical», suelen hablar de…",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "«modos musicales»", "correct": false },
+        { "text": "«formas musicales» o, en menor medida, «estilos musicales»", "correct": true },
+        { "text": "«discursos musicales»", "correct": false },
+        { "text": "«tipos rítmicos»", "correct": false }
+      ],
+      "explanation": "En ausencia del término género se habla de formas musicales o, en menor medida, de estilos musicales."
+    },
+    {
+      "text": "Para Gerard Denizeau, el «género» musical designa…",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "lo que organiza y da coherencia a la obra", "correct": false },
+        { "text": "la manifestación externa de una idea musical", "correct": false },
+        { "text": "el objeto musical, lo diferente al oído del oyente", "correct": true },
+        { "text": "el estilo de una escuela", "correct": false }
+      ],
+      "explanation": "Para Denizeau, género = objeto musical (lo diferente al oído); la forma es lo que lo organiza y le da coherencia."
+    },
+    {
+      "text": "Para Denizeau, ¿qué hace la «forma» musical?",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "organiza el discurso musical y le da coherencia", "correct": true },
+        { "text": "designa lo diferente al oído", "correct": false },
+        { "text": "se limita a la música popular", "correct": false },
+        { "text": "es lo mismo que el género", "correct": false }
+      ],
+      "explanation": "La forma organiza y da coherencia; el género es el objeto musical."
+    },
+    {
+      "text": "Denizeau ilustra la diferencia género/forma con dos obras del mismo género (la sinfonía) pero de formas distintas:",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "dos sonatas de Mozart", "correct": false },
+        { "text": "la «Heroica» de Beethoven y la «Española» de Lalo", "correct": true },
+        { "text": "la «Heroica» de Lalo y la «Española» de Beethoven", "correct": false },
+        { "text": "dos fugas de Bach", "correct": false }
+      ],
+      "explanation": "Ambas son sinfonías (mismo género), pero con movimientos regidos por formas distintas (sonata, scherzo, rondó…)."
+    },
+    {
+      "text": "Según Denizeau, la «sonata» es reveladora porque en la música europea es a la vez…",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "un estilo y una escuela", "correct": false },
+        { "text": "un modo y un medio", "correct": false },
+        { "text": "un género (reservado a los instrumentos) y una forma", "correct": true },
+        { "text": "un registro y un subcódigo", "correct": false }
+      ],
+      "explanation": "La sonata es a la vez un género (instrumental) y una forma de organizar el discurso musical."
+    },
+    {
+      "text": "Según el tema, el género musical debe definirse por la confluencia de rasgos de varias dimensiones, y no solo por rasgos…",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "formales", "correct": true },
+        { "text": "temáticos", "correct": false },
+        { "text": "pragmáticos", "correct": false },
+        { "text": "rítmicos", "correct": false }
+      ],
+      "explanation": "El género musical resulta de rasgos de lenguaje, estética, estructura, uso de la voz, instrumentación, relación con el público… y no solo formales."
+    },
+    {
+      "text": "Al aplicar las seis dimensiones de Raible a la música, el mayor escollo señalado es…",
+      "category": "generos-musicales",
+      "options": [
+        { "text": "describir la sintaxis musical", "correct": false },
+        { "text": "establecer la pragmática musical", "correct": false },
+        { "text": "reconocer el medio", "correct": false },
+        { "text": "identificar rasgos temáticos (del «objeto») y referenciales", "correct": true }
+      ],
+      "explanation": "El problema está en los rasgos temáticos y referenciales (semántica musical); sintaxis y pragmática no plantean tantos problemas."
+    },
+    {
+      "text": "En la discusión terminológica del 1.6, ¿qué términos corresponden al nivel más abstracto, frente a los «géneros literarios» (concreto e histórico)?",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "subgéneros y macrogéneros", "correct": false },
+        { "text": "formas básicas de presentación literaria, tipos y modos", "correct": true },
+        { "text": "registros y estilos", "correct": false },
+        { "text": "figuras y tropos", "correct": false }
+      ],
+      "explanation": "En el nivel abstracto se habla de formas básicas, tipos y modos; en el concreto-histórico, de géneros literarios."
+    },
+    {
+      "text": "Según el tema (siguiendo a Genette), las «Dichtweisen» de Goethe (opciones básicas de narrar y dramatizar) equivalen a…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "los tipos", "correct": false },
+        { "text": "los géneros históricos", "correct": false },
+        { "text": "los modos", "correct": true },
+        { "text": "las categorías estéticas", "correct": false }
+      ],
+      "explanation": "Las Dichtweisen son los modos; las Dichtarten son los géneros históricos, y las Naturformen (épica, lírica, drama) serían los tipos."
+    },
+    {
+      "text": "Las «Naturformen» de Goethe (épica, lírica y drama), según la propuesta de Genette, deberían llamarse…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "modos", "correct": false },
+        { "text": "tipos", "correct": true },
+        { "text": "géneros históricos", "correct": false },
+        { "text": "subgéneros", "correct": false }
+      ],
+      "explanation": "Genette propone llamar «tipos» a las Naturformen, frente a los modos (Dichtweisen)."
+    },
+    {
+      "text": "Para E. Staiger, lo lírico, lo épico y lo dramático son «conceptos fundamentales de poética» equiparables a…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "géneros históricos concretos", "correct": false },
+        { "text": "figuras retóricas", "correct": false },
+        { "text": "medios de comunicación", "correct": false },
+        { "text": "disposiciones antropológicas, anteriores a la literatura", "correct": true }
+      ],
+      "explanation": "Para Staiger son disposiciones antropológicas, anteriores a la literatura, que se reflejan en rasgos estilísticos (recuerdo, tensión, representación)."
+    },
+    {
+      "text": "W. Kaiser denomina a lo épico, lo lírico y lo dramático…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "«actitudes fundamentales»", "correct": true },
+        { "text": "«géneros fundamentales»", "correct": false },
+        { "text": "«formas naturales»", "correct": false },
+        { "text": "«conceptos fundamentales de poética»", "correct": false }
+      ],
+      "explanation": "W. Kaiser habla de «actitudes fundamentales», que pueden combinarse con la poesía, la narración o el teatro."
+    },
+    {
+      "text": "Wellek y Warren llaman a lo épico, lo lírico y lo dramático…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "«actitudes fundamentales»", "correct": false },
+        { "text": "«géneros fundamentales»", "correct": true },
+        { "text": "«modos»", "correct": false },
+        { "text": "«tipos»", "correct": false }
+      ],
+      "explanation": "Wellek y Warren los llaman «géneros fundamentales»: el épico, el lírico y el dramático."
+    },
+    {
+      "text": "Para Genette, los modos son…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "épico, lírico y dramático", "correct": false },
+        { "text": "los dos que ya señaló Aristóteles: narrativo y dramático", "correct": true },
+        { "text": "los diez modos provisionales de Ceserani", "correct": false },
+        { "text": "deliberativo, judicial y epidíctico", "correct": false }
+      ],
+      "explanation": "Genette reduce los modos a los dos aristotélicos: narrativo y dramático; Frye, en cambio, los basa en estrategias de representación de contenidos."
+    },
+    {
+      "text": "¿Cuáles figuran en la clasificación provisional de los modos de Ceserani? (varias respuestas)",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "épico-trágico", "correct": true },
+        { "text": "fantástico", "correct": true },
+        { "text": "picaresco", "correct": true },
+        { "text": "epidíctico", "correct": false }
+      ],
+      "explanation": "Ceserani propone modos como épico-trágico, fabulístico, romancesco, fantástico, picaresco, cómico-carnavalesco, etc.; «epidíctico» es un género retórico."
+    },
+    {
+      "text": "Para Ceserani, los modos son…",
+      "category": "modos-tipos",
+      "options": [
+        { "text": "estructuras métricas", "correct": false },
+        { "text": "soportes mediales", "correct": false },
+        { "text": "formas de organización del imaginario", "correct": true },
+        { "text": "géneros históricos concretos", "correct": false }
+      ],
+      "explanation": "Ceserani: los modos son formas de organización del imaginario con que representamos nuestras experiencias y el mundo."
+    },
+    {
+      "text": "Según el tema, desde el Romanticismo la obra de arte busca…",
+      "category": "comunicacion-masiva",
+      "options": [
+        { "text": "someterse a las convenciones de género", "correct": false },
+        { "text": "imitar fielmente a los clásicos", "correct": false },
+        { "text": "zafarse de los modelos y normas y romper con los códigos establecidos, cifrando en ello su originalidad", "correct": true },
+        { "text": "renunciar a toda comunicación", "correct": false }
+      ],
+      "explanation": "Busca romper con los códigos para demostrar su condición artístico-estética; pero sin rebasar ciertos límites, so pena de incomunicación."
+    },
+    {
+      "text": "Las obras sometidas a la comunicación masiva, según el tema…",
+      "category": "comunicacion-masiva",
+      "options": [
+        { "text": "explotan las convenciones (entre ellas las de género) para ganar receptores y dinero", "correct": true },
+        { "text": "rechazan toda convención de género", "correct": false },
+        { "text": "carecen de éxito de público", "correct": false },
+        { "text": "no tienen componente estético alguno", "correct": false }
+      ],
+      "explanation": "Al someterse a códigos consolidados y a las expectativas del público, el éxito es más fácil; por eso explotan las convenciones de género."
+    },
+    {
+      "text": "Según el tema, el fenómeno del género se da de manera más acusada e influyente en la comunicación de masas.",
+      "category": "comunicacion-masiva",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Aunque los géneros siempre son necesarios, en la comunicación de masas se observa más claramente su presencia y funcionamiento."
+    },
+    {
+      "text": "Según el tema, en el periodismo, la radio o la televisión no es concebible hablar de «obras», sino de…",
+      "category": "comunicacion-masiva",
+      "options": [
+        { "text": "obras maestras", "correct": false },
+        { "text": "textos canónicos", "correct": false },
+        { "text": "géneros de autor", "correct": false },
+        { "text": "productos efímeros", "correct": true }
+      ],
+      "explanation": "Estos mensajes de consumo masivo son productos efímeros, no «obras» en sentido estético."
+    },
+    {
+      "text": "El tema señala como paradoja que incluso manifestaciones que se pretenden libres de la producción en serie pueden constituir género, como…",
+      "category": "comunicacion-masiva",
+      "options": [
+        { "text": "la radionovela o el telefilme", "correct": false },
+        { "text": "el cine de autor o la canción de autor", "correct": true },
+        { "text": "el videoclip musical", "correct": false },
+        { "text": "el reportaje periodístico", "correct": false }
+      ],
+      "explanation": "Paradójicamente, algunos géneros se singularizan por ser «de autor»: el cine de autor, la canción de autor."
+    },
+    {
+      "text": "La «transdiscursividad» (o transtextualidad) se define en el tema como…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "la traslación o conjunción de medios materiales", "correct": false },
+        { "text": "la condición híbrida de los discursos y la posibilidad de que se traduzcan", "correct": true },
+        { "text": "la repetición exacta de un texto anterior", "correct": false },
+        { "text": "la jerarquía de valor de los géneros", "correct": false }
+      ],
+      "explanation": "Transdiscursividad = condición híbrida de los discursos más la posibilidad de que los discursos se traduzcan."
+    },
+    {
+      "text": "La «transmedialidad» tiene que ver con…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "la mezcla de discursos de distinta naturaleza", "correct": false },
+        { "text": "la sanción de la institución literaria", "correct": false },
+        { "text": "el medio (palabras, pigmentos, sonidos, cuerpo, aparatos…) y la conjunción o traslación de un medio a otro", "correct": true },
+        { "text": "la finalidad pragmática del consejo", "correct": false }
+      ],
+      "explanation": "Transmedialidad = conjunción de medios o traslación de un medio a otro; afecta a los discursos y sus géneros."
+    },
+    {
+      "text": "La diferencia clave entre transdiscursividad y transmedialidad es que la primera afecta a los DISCURSOS y la segunda a…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "los géneros literarios", "correct": false },
+        { "text": "los estilos retóricos", "correct": false },
+        { "text": "las categorías estéticas", "correct": false },
+        { "text": "los MEDIOS", "correct": true }
+      ],
+      "explanation": "Por eso en teoría se diferencia el discurso del medio: la transdiscursividad atañe a los discursos; la transmedialidad, a los medios."
+    },
+    {
+      "text": "El tema usa el «paisaje» para mostrar que un mismo género puede cambiar de discurso y de medio, porque el paisaje es género de…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "la música y la danza", "correct": false },
+        { "text": "la pintura y también de la fotografía", "correct": true },
+        { "text": "la literatura y el teatro", "correct": false },
+        { "text": "la escultura y la arquitectura", "correct": false }
+      ],
+      "explanation": "El paisaje es un género de la pintura y también de la fotografía: mismo género, pero distinto discurso y medio."
+    },
+    {
+      "text": "El retrato que Picasso hizo de Celestina ilustra que un género (el retrato pictórico)…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "repite exactamente la obra de teatro", "correct": false },
+        { "text": "es un caso de uso repetido", "correct": false },
+        { "text": "traduce parte de otro discurso, el literario, con cambio de medio", "correct": true },
+        { "text": "carece de relación con la literatura", "correct": false }
+      ],
+      "explanation": "El retrato pictórico de Picasso traduce parte del discurso literario (el personaje de La Celestina), con cambio de medio al pasar a la pintura."
+    },
+    {
+      "text": "Según el tema, la concepción aristotélica del medio es «logocéntrica»: entiende que la tragedia puede prescindir de la escena, la música y la danza sin verse afectada.",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "Verdadero", "correct": true },
+        { "text": "Falso", "correct": false }
+      ],
+      "explanation": "Aristóteles es logocéntrico: cree que la tragedia conserva su condición aun sin escena, música ni danza."
+    },
+    {
+      "text": "Según el tema, Bajtin definió la novela como…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "el género más puro y autónomo", "correct": false },
+        { "text": "un tipo de discurso que se hace eco de otros discursos y géneros", "correct": true },
+        { "text": "una forma musical", "correct": false },
+        { "text": "un género sin relación con otros", "correct": false }
+      ],
+      "explanation": "Bajtin definió la novela como un discurso que se hace eco de otros discursos y géneros (p. ej., la novela epistolar)."
+    },
+    {
+      "text": "Cuando rasgos relevantes de un género se traducen de un lenguaje artístico a otro (el idilio en literatura, música o pintura; el cine negro a partir de la novela negra), el tema habla de…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "uso repetido", "correct": false },
+        { "text": "modalización", "correct": false },
+        { "text": "migración genérica", "correct": true },
+        { "text": "sanción institucional", "correct": false }
+      ],
+      "explanation": "Se habla de migración genérica: rasgos de un género se trasladan de un lenguaje artístico a otro (idilio, melodrama, cine negro, el musical…)."
+    },
+    {
+      "text": "Según el tema, el género «el musical»…",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "se traslada del cine al teatro", "correct": false },
+        { "text": "nace en la radio", "correct": false },
+        { "text": "se traslada del teatro al cine", "correct": true },
+        { "text": "es exclusivamente literario", "correct": false }
+      ],
+      "explanation": "«El musical» se traslada del teatro al cine; el documental, en cambio, va del cine al teatro documental."
+    },
+    {
+      "text": "En el caso del «teatro documental», según el tema, ocurre algo especial:",
+      "category": "transmedialidad",
+      "options": [
+        { "text": "el documental pierde toda imagen", "correct": false },
+        { "text": "con el género se traslada también el medio cinematográfico, que pasa a formar parte del teatro", "correct": true },
+        { "text": "no hay traslado de discurso", "correct": false },
+        { "text": "se elimina la palabra", "correct": false }
+      ],
+      "explanation": "El documental se traspone al teatro documental incorporando la filmación: con el género se traslada también el medio cinematográfico."
+    }
+  ]
+}

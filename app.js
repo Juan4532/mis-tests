@@ -414,10 +414,14 @@ function showStackDetail(id) {
   html += '<p class="meta">' + s.questionCount + ' preguntas' +
           (attempts.length ? ' · ' + attempts.length + ' intento(s) · mejor ' + best + '%' : '') + '</p>';
   html += '<div class="card-actions">' +
-    '<button class="btn primary" id="btn-start" type="button">Comenzar test</button>' +
+    '<button class="btn primary" id="btn-practica" type="button">▶ Práctica</button>' +
+    '<button class="btn primary" id="btn-examen" type="button">📝 Examen</button>' +
     '<button class="btn ghost" id="btn-export" type="button">Exportar JSON</button>' +
     (attempts.length ? '<button class="btn danger" id="btn-clear-hist" type="button">Vaciar historial</button>' : '') +
   '</div>';
+  html += '<p class="muted modes-help"><strong>Práctica</strong>: corrige al instante y repite las falladas hasta acertarlas. · ' +
+          '<strong>Examen</strong>: una sola vuelta, sin correcciones hasta el final. ' +
+          'El orden de preguntas y respuestas cambia en cada intento.</p>';
 
   html += '<h3 class="section-title">Historial</h3>';
   if (!attempts.length) {
@@ -425,11 +429,13 @@ function showStackDetail(id) {
   } else {
     html += '<div class="history">';
     attempts.forEach((a, idx) => {
+      const examen = a.mode === 'examen';
       html += '<div class="hist-row">' +
         '<span class="hist-pct ' + pctClass(a.pct || 0) + '">' + (a.pct != null ? a.pct : '-') + '%</span>' +
         '<span class="hist-info">' + escapeHtml(formatDateTime(a.date)) +
-          ' · ' + (a.correct || 0) + '/' + (a.total || 0) + ' a la 1ª' +
-          ' · ' + (a.rounds || 1) + ' ronda(s)' +
+          ' · ' + (examen ? 'Examen' : 'Práctica') +
+          ' · ' + (a.correct || 0) + '/' + (a.total || 0) +
+          (examen ? '' : ' a la 1ª · ' + (a.rounds || 1) + ' ronda(s)') +
           ' · ' + formatDuration(a.seconds || 0) +
           (a.incomplete ? ' · (incompleto)' : '') + '</span>' +
         '<button class="btn danger small" data-del-att="' + idx + '" type="button" title="Borrar intento">×</button>' +
@@ -441,7 +447,8 @@ function showStackDetail(id) {
   app.innerHTML = html;
 
   document.getElementById('btn-back').onclick = showHome;
-  document.getElementById('btn-start').onclick = () => startQuiz(id);
+  document.getElementById('btn-practica').onclick = () => startQuiz(id, 'practica');
+  document.getElementById('btn-examen').onclick = () => startQuiz(id, 'examen');
   document.getElementById('btn-export').onclick = () => exportStack(id);
   const clr = document.getElementById('btn-clear-hist');
   if (clr) clr.onclick = () => {
@@ -489,7 +496,8 @@ function deleteStack(id) {
 /* ---------- Motor del quiz ---------- */
 let session = null;
 
-function startQuiz(stackId) {
+// mode: 'practica' (corrección al instante + repaso de falladas) | 'examen' (corrección al final, una vuelta)
+function startQuiz(stackId, mode) {
   const s = getStacks()[stackId];
   if (!s) { showHome(); return; }
   const qById = {};
@@ -498,8 +506,9 @@ function startQuiz(stackId) {
     stackId: stackId,
     stack: s,
     qById: qById,
+    mode: mode === 'examen' ? 'examen' : 'practica',
     total: s.questions.length,
-    queue: shuffle(s.questions.map(q => q.id)), // ronda actual
+    queue: shuffle(s.questions.map(q => q.id)), // orden barajado en cada intento
     round: 1,
     wrongThisRound: [],
     firstTryCorrect: new Set(),
@@ -513,13 +522,18 @@ function startQuiz(stackId) {
 
 function renderQuestion() {
   if (!session) { showHome(); return; }
-  if (session.queue.length === 0) { advanceRoundOrFinish(); return; }
+  if (session.queue.length === 0) {
+    if (session.mode === 'examen') { finishQuiz(false); return; } // examen: una sola vuelta, sin repaso
+    advanceRoundOrFinish();
+    return;
+  }
 
+  const exam = session.mode === 'examen';
   const qid = session.queue[0];
   const q = session.qById[qid];
   const multi = q.options.filter(o => o.correct).length > 1;
   const display = shuffle(q.options.map(o => ({ text: o.text, correct: o.correct })));
-  session.current = { qid: qid, q: q, display: display, multi: multi, answered: false, wasCorrect: null };
+  session.current = { qid: qid, q: q, display: display, multi: multi, answered: false, wasCorrect: null, selected: null };
 
   let header;
   if (session.round === 1) {
@@ -528,17 +542,23 @@ function renderQuestion() {
   } else {
     header = 'Repaso · ronda ' + session.round + ' · quedan ' + session.queue.length;
   }
-  const remainingUnique = new Set(session.queue.concat(session.wrongThisRound)).size;
-  const masteredPct = Math.round(((session.total - remainingUnique) / session.total) * 100);
+  header += exam ? ' · Examen' : '';
+  let progressPct;
+  if (exam) {
+    progressPct = Math.round((session.answeredEver.size / session.total) * 100);
+  } else {
+    const remainingUnique = new Set(session.queue.concat(session.wrongThisRound)).size;
+    progressPct = Math.round(((session.total - remainingUnique) / session.total) * 100);
+  }
 
   let html = '<section class="view quiz">';
   html += '<div class="quiz-head"><span class="badge">' + escapeHtml(header) + '</span>' +
           '<button class="btn ghost small" id="btn-quit" type="button">Abandonar</button></div>';
-  html += '<div class="progress"><div class="progress-bar" style="width:' + masteredPct + '%"></div></div>';
+  html += '<div class="progress"><div class="progress-bar" style="width:' + progressPct + '%"></div></div>';
   html += '<div class="question">';
   if (q.category) html += '<span class="chip cat"></span>';
   html += '<h3 class="q-text"></h3>';
-  if (multi) html += '<p class="multi-hint">Varias respuestas correctas. Marca todas las que creas y pulsa <strong>Comprobar</strong>.</p>';
+  if (multi) html += '<p class="multi-hint">Varias respuestas correctas. Márcalas todas y pulsa <strong>' + (exam ? 'Siguiente' : 'Comprobar') + '</strong>.</p>';
   html += '<div class="options" id="options"></div>';
   html += '<div id="feedback"></div>';
   html += '<div class="quiz-actions" id="quiz-actions"></div>';
@@ -568,13 +588,19 @@ function renderQuestion() {
       btn.className = 'option';
       btn.setAttribute('data-idx', idx);
       btn.textContent = o.text;
-      btn.onclick = () => answerSingle(idx);
+      btn.onclick = exam ? (() => examPickSingle(idx)) : (() => answerSingle(idx));
       optionsEl.appendChild(btn);
     }
   });
 
   const actions = document.getElementById('quiz-actions');
-  if (multi) {
+  if (exam) {
+    const adv = document.createElement('button');
+    adv.type = 'button'; adv.className = 'btn primary';
+    adv.textContent = session.queue.length > 1 ? 'Siguiente' : 'Finalizar examen';
+    adv.onclick = examAdvance;
+    actions.appendChild(adv);
+  } else if (multi) {
     const check = document.createElement('button');
     check.type = 'button'; check.className = 'btn primary'; check.id = 'btn-check';
     check.textContent = 'Comprobar';
@@ -673,6 +699,34 @@ function nextQuestion() {
   renderQuestion();
 }
 
+/* --- Modo examen: seleccionar sin corregir, avanzar puntuando en silencio --- */
+function examPickSingle(idx) {
+  if (!session || !session.current) return;
+  session.current.selected = idx;
+  document.querySelectorAll('#options .option').forEach(el => {
+    el.classList.toggle('checked', parseInt(el.getAttribute('data-idx'), 10) === idx);
+  });
+}
+
+function examAdvance() {
+  const cur = session && session.current;
+  if (!cur) return;
+  const correctIdxs = cur.display.map((o, i) => o.correct ? i : -1).filter(i => i >= 0);
+  const correctSet = new Set(correctIdxs);
+  let selected;
+  if (cur.multi) {
+    const checks = Array.from(document.querySelectorAll('#options input[type=checkbox]'));
+    selected = new Set(checks.filter(c => c.checked).map(c => parseInt(c.value, 10)));
+  } else {
+    selected = new Set(cur.selected != null ? [cur.selected] : []);
+  }
+  let isCorrect = selected.size === correctSet.size && selected.size > 0;
+  if (isCorrect) { for (const i of selected) { if (!correctSet.has(i)) { isCorrect = false; break; } } }
+  recordAnswer(cur.qid, isCorrect); // puntúa pero NO revela
+  session.queue.shift();
+  renderQuestion();
+}
+
 function advanceRoundOrFinish() {
   if (session.wrongThisRound.length > 0 && session.round < MAX_ROUNDS) {
     session.round += 1;
@@ -701,7 +755,7 @@ function finishQuiz(incomplete) {
   });
 
   const attempt = {
-    date: endedAt, stackTitle: session.stack.title,
+    date: endedAt, stackTitle: session.stack.title, mode: session.mode,
     total, correct, wrong, pct, seconds, rounds: session.round,
     incomplete: !!incomplete, perCategory
   };
@@ -723,14 +777,16 @@ function statBox(label, value) {
 function showResults(attempt, sess) {
   const failed = sess.stack.questions.filter(q => sess.everWrong.has(q.id));
   const stackId = sess.stackId;
+  const mode = sess.mode;
   session = null;
 
   let html = '<section class="view results">';
-  html += '<div class="view-head"><h2>Resultados</h2>' +
+  html += '<div class="view-head"><h2>Resultados <span class="chip">' +
+          (mode === 'examen' ? 'Examen' : 'Práctica') + '</span></h2>' +
           '<button class="btn" id="btn-home" type="button">← Mis tests</button></div>';
   html += '<div class="score ' + pctClass(attempt.pct) + '">' +
           '<span class="score-num">' + attempt.pct + '%</span>' +
-          '<span class="score-sub">acierto a la primera</span></div>';
+          '<span class="score-sub">' + (mode === 'examen' ? 'nota del examen' : 'acierto a la primera') + '</span></div>';
   if (attempt.incomplete) {
     html += '<div class="alert warn">Se alcanzó el límite de ' + MAX_ROUNDS +
             ' rondas de repaso; quedaron preguntas sin dominar.</div>';
@@ -741,7 +797,7 @@ function showResults(attempt, sess) {
   html += statBox('Fallos', String(attempt.wrong));
   html += statBox('Tiempo', formatDuration(attempt.seconds));
   html += statBox('Por pregunta', formatDuration(attempt.total ? attempt.seconds / attempt.total : 0));
-  html += statBox('Rondas', String(attempt.rounds));
+  if (mode !== 'examen') html += statBox('Rondas', String(attempt.rounds));
   html += '</div>';
 
   const cats = Object.keys(attempt.perCategory);
@@ -781,7 +837,7 @@ function showResults(attempt, sess) {
 
   document.getElementById('btn-home').onclick = showHome;
   document.getElementById('btn-home2').onclick = showHome;
-  document.getElementById('btn-retry').onclick = () => startQuiz(stackId);
+  document.getElementById('btn-retry').onclick = () => startQuiz(stackId, mode);
   document.getElementById('btn-detail').onclick = () => showStackDetail(stackId);
 }
 

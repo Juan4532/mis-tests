@@ -240,22 +240,31 @@ function loadCatalogStack(file, then) {
     const stacks = getStacks();
     stacks[stack.id] = stack;
     if (!setStacks(stacks)) return;
-    if (then === 'start') startQuiz(stack.id); else showHome();
+    if (then === 'start') startQuiz(stack.id); else showHome('mis');
   }).catch(e => alert('No se pudo cargar del catálogo: ' + e.message));
 }
 
-// Rellena (async) la sección de catálogo en el inicio. Si no hay manifest (p.ej. abierto
-// con file://) simplemente no se muestra nada: el resto de la app funciona igual.
+// Rellena (async) la pestaña Catálogo. Si no hay manifest (p.ej. abierto con file://)
+// muestra una nota: el resto de la app funciona igual con Importar stack.
+const CATALOG_UNAVAILABLE = '<div class="empty">El catálogo no está disponible aquí. ' +
+  'Se ve cuando la app está en la web (GitHub Pages) o servida con un servidor local. ' +
+  'Si abriste el archivo directamente, usa <strong>+ Importar stack</strong>.</div>';
+
 function renderCatalog() {
   const sec = document.getElementById('catalog-section');
   if (!sec) return;
-  if (typeof fetch === 'undefined') { sec.innerHTML = ''; return; }
+  if (typeof fetch === 'undefined') { sec.innerHTML = CATALOG_UNAVAILABLE; return; }
   fetch(CATALOG_MANIFEST, { cache: 'no-store' })
     .then(r => (r.ok ? r.json() : null))
     .then(man => {
-      if (!man || !Array.isArray(man.stacks) || man.stacks.length === 0) { sec.innerHTML = ''; return; }
+      if (!man || !Array.isArray(man.stacks) || man.stacks.length === 0) {
+        sec.innerHTML = '<div class="empty">No hay tests en el catálogo todavía. ' +
+          'Añade archivos <code>.json</code> a la carpeta <code>tests/</code> del repositorio.</div>';
+        return;
+      }
       const stacks = getStacks();
-      let html = '<h3 class="section-title">Catálogo <span class="muted" style="font-weight:400">· carpeta tests/</span></h3><div class="cards">';
+      let html = '<p class="muted modes-help">Tests incluidos en el repositorio (carpeta <code>tests/</code>). ' +
+                 'Al cargar uno, pasa a <strong>Mis tests</strong> y guarda su propio historial.</p><div class="cards">';
       man.stacks.forEach(s => {
         const loaded = !!stacks[catalogId(s.file)];
         html += '<div class="card">' +
@@ -274,55 +283,74 @@ function renderCatalog() {
       sec.querySelectorAll('[data-cat-load]').forEach(b => b.onclick = () => loadCatalogStack(b.getAttribute('data-cat-load'), 'home'));
       sec.querySelectorAll('[data-cat-start]').forEach(b => b.onclick = () => startQuiz(catalogId(b.getAttribute('data-cat-start'))));
     })
-    .catch(() => { sec.innerHTML = ''; });
+    .catch(() => { sec.innerHTML = CATALOG_UNAVAILABLE; });
 }
 
-/* ---------- Vista: Inicio (lista de stacks) ---------- */
-function showHome() {
+/* ---------- Vista: Inicio (pestañas Mis tests / Catálogo) ---------- */
+let homeTab = 'mis'; // 'mis' | 'catalogo' — se recuerda entre navegaciones
+
+function showHome(tab) {
   session = null;
+  if (tab === 'mis' || tab === 'catalogo') homeTab = tab;
   const stacks = getStacks();
   const history = getHistory();
   const ids = Object.keys(stacks).sort((a, b) => (stacks[b].importedAt || 0) - (stacks[a].importedAt || 0));
+  const onMis = homeTab !== 'catalogo';
 
   let html = '<section class="view">';
   html += '<div class="view-head"><h2>Inicio</h2>' +
           '<button class="btn primary" id="btn-import" type="button">+ Importar stack</button></div>';
-  html += '<div id="catalog-section"></div>';
-  html += '<h3 class="section-title">Mis tests</h3>';
+  html += '<div class="tabs" role="tablist">' +
+    '<button class="tab' + (onMis ? ' active' : '') + '" id="tab-mis" type="button" role="tab">Mis tests' +
+      (ids.length ? ' <span class="count">' + ids.length + '</span>' : '') + '</button>' +
+    '<button class="tab' + (onMis ? '' : ' active') + '" id="tab-catalogo" type="button" role="tab">Catálogo</button>' +
+  '</div>';
 
-  if (ids.length === 0) {
-    html += '<div class="empty">Aún no has guardado ningún test aquí. Cárgalos desde el <strong>Catálogo</strong>, ' +
-            'pulsa <strong>Importar stack</strong>, o prueba con <code>ejemplo.json</code>.</div>';
-  } else {
-    html += '<div class="cards">';
-    ids.forEach(id => {
-      const s = stacks[id];
-      const attempts = history[id] || [];
-      const best = attempts.reduce((m, a) => Math.max(m, a.pct || 0), 0);
-      html += '<div class="card">' +
-        '<h3>' + escapeHtml(s.title) + (s.source === 'catalog' ? ' <span class="chip">catálogo</span>' : '') + '</h3>' +
-        (s.description ? '<p class="muted">' + escapeHtml(s.description) + '</p>' : '') +
-        '<p class="meta">' + s.questionCount + ' preguntas · ' + attempts.length + ' intento(s)' +
-          (attempts.length ? ' · mejor ' + best + '%' : '') + '</p>' +
-        '<div class="card-actions">' +
-          '<button class="btn primary" data-start="' + escapeHtml(id) + '" type="button">Comenzar</button>' +
-          '<button class="btn" data-detail="' + escapeHtml(id) + '" type="button">Detalle</button>' +
-          '<button class="btn ghost" data-export="' + escapeHtml(id) + '" type="button">Exportar</button>' +
-          '<button class="btn danger" data-delete="' + escapeHtml(id) + '" type="button">Borrar</button>' +
-        '</div></div>';
-    });
+  if (onMis) {
+    html += '<div class="tabpanel" id="panel-mis">';
+    if (ids.length === 0) {
+      html += '<div class="empty">Aún no has guardado ningún test aquí. Cárgalos desde el <strong>Catálogo</strong>, ' +
+              'pulsa <strong>Importar stack</strong>, o prueba con <code>ejemplo.json</code>.</div>';
+    } else {
+      html += '<div class="cards">';
+      ids.forEach(id => {
+        const s = stacks[id];
+        const attempts = history[id] || [];
+        const best = attempts.reduce((m, a) => Math.max(m, a.pct || 0), 0);
+        html += '<div class="card">' +
+          '<h3>' + escapeHtml(s.title) + (s.source === 'catalog' ? ' <span class="chip">catálogo</span>' : '') + '</h3>' +
+          (s.description ? '<p class="muted">' + escapeHtml(s.description) + '</p>' : '') +
+          '<p class="meta">' + s.questionCount + ' preguntas · ' + attempts.length + ' intento(s)' +
+            (attempts.length ? ' · mejor ' + best + '%' : '') + '</p>' +
+          '<div class="card-actions">' +
+            '<button class="btn primary" data-start="' + escapeHtml(id) + '" type="button">Comenzar</button>' +
+            '<button class="btn" data-detail="' + escapeHtml(id) + '" type="button">Detalle</button>' +
+            '<button class="btn ghost" data-export="' + escapeHtml(id) + '" type="button">Exportar</button>' +
+            '<button class="btn danger" data-delete="' + escapeHtml(id) + '" type="button">Borrar</button>' +
+          '</div></div>';
+      });
+      html += '</div>';
+    }
     html += '</div>';
+  } else {
+    html += '<div class="tabpanel" id="panel-catalogo">' +
+            '<div id="catalog-section"><p class="muted">Cargando catálogo…</p></div></div>';
   }
   html += '</section>';
   app.innerHTML = html;
 
   document.getElementById('btn-import').onclick = showImport;
-  app.querySelectorAll('[data-start]').forEach(b => b.onclick = () => startQuiz(b.getAttribute('data-start')));
-  app.querySelectorAll('[data-detail]').forEach(b => b.onclick = () => showStackDetail(b.getAttribute('data-detail')));
-  app.querySelectorAll('[data-export]').forEach(b => b.onclick = () => exportStack(b.getAttribute('data-export')));
-  app.querySelectorAll('[data-delete]').forEach(b => b.onclick = () => deleteStack(b.getAttribute('data-delete')));
+  document.getElementById('tab-mis').onclick = () => showHome('mis');
+  document.getElementById('tab-catalogo').onclick = () => showHome('catalogo');
 
-  renderCatalog();
+  if (onMis) {
+    app.querySelectorAll('[data-start]').forEach(b => b.onclick = () => startQuiz(b.getAttribute('data-start')));
+    app.querySelectorAll('[data-detail]').forEach(b => b.onclick = () => showStackDetail(b.getAttribute('data-detail')));
+    app.querySelectorAll('[data-export]').forEach(b => b.onclick = () => exportStack(b.getAttribute('data-export')));
+    app.querySelectorAll('[data-delete]').forEach(b => b.onclick = () => deleteStack(b.getAttribute('data-delete')));
+  } else {
+    renderCatalog();
+  }
 }
 
 /* ---------- Vista: Importar ---------- */
